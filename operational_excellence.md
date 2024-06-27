@@ -43,11 +43,11 @@ Developing a quality management system (QMS) for ZeroW is a great initiative. St
 
 ### 11. Maintain Documentation and Records
 - Ensure all quality-related documentation and records are controlled and maintained.
-- Implement version control and secure storage systems.
+- Implement version control and secure storage systems
 
 ### 12. Foster a Culture of Quality
-- Encourage a culture where quality is everyone’s responsibility.
-- Recognize and reward contributions to quality improvement.
+- Encourage a culture where quality is everyone’s responsibility
+- Recognize and reward contributions to quality improvement
 
 ### 13. Continuous Improvement
 - Regularly review and improve the QMS based on feedback and performance data.
