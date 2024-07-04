@@ -17,6 +17,7 @@ analysis and business optimisation
 It seems to be pretty much agreed that we need to grow revenue. While there 
 is a lot of analysis we can still do, there is also no reason why we can't 
 get on with the task of getting more members/customers
+
 # Marketing
 - how do we generate leads?
 - how do we do most of our marketing?
@@ -27,7 +28,7 @@ get on with the task of getting more members/customers
 - what is a reasonable goal for lead generation each month? how can we measure that?
 - what is a reasonable goal for new members each month? how can we measure that?
 - how many new customers do i need to bring on to cover my costs?
-- 
+
 
 # Membership data
 
