@@ -41,3 +41,20 @@ So customer service is the best way to reduce churn.
 - can we predict which customers are at risk? How?
 - what specific actions can we take to reduce churn?
 - check accounts vs paperplane just ot be sure it reconciles
+
+# OG members
+1. illguth
+2. jamie
+3. kris
+4. rachelle
+5. rebecca@zerowmackay.com
+6. daniel carpenter
+7. thomas lilley
+8. sue harris
+9. jordan Helyer
+10. Kahn Stephenson
+11. Maddy Stenzel
+12. Matt Stenzel
+13. Rhys Kingsford
+14. Chloe
+15. 
