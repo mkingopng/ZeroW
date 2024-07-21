@@ -1,22 +1,23 @@
 # Paypa Plane Logins
 
-## Gold Coast
+## Gold Coast Paypa Plane
+- URL: 
 - Username: zerowarundel
 - password: purple77
 
+## Gold Coast My Strength Book
+- URL: https://app.mystrengthbook.com/login
+- Username: thomas+coach@zerow.com.au
+- password: ZeroW2019
+
 ## South Brisbane
+- URL: 
 - Username: zerow
 - password: ZeroW2019
-- is this correct? looks like there is no data?
 
 ## Brisbane
 - Username: zerowbrisbane
 - password: ZeroW2019
-
-## MSB (what is this?)
-- Username: thomas+coach@zerow.com.au
-- password: ZeroW2019
-- doesn't seem to work?
 
 ## Cairns
 - URL: https://mybusiness.billycart.com/
@@ -28,6 +29,11 @@
 - Username: jordan@zeroweakness.co.uk
 - Password: ZeroW123
 
-## 
-- 
-- 
+## Sunshine Coast
+- URL: https://mybusiness.billycart.com/
+- Username: Sunshinecoast@zerow.com.au
+- Password: ZeroWSC2024$
+
+## APL
+
+## Zero Equipment

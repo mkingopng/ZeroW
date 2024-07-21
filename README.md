@@ -43,18 +43,23 @@ So customer service is the best way to reduce churn.
 - check accounts vs paperplane just ot be sure it reconciles
 
 # OG members
-1. illguth
-2. jamie
-3. kris
-4. rachelle
-5. rebecca@zerowmackay.com
-6. daniel carpenter
-7. thomas lilley
-8. sue harris
-9. jordan Helyer
-10. Kahn Stephenson
-11. Maddy Stenzel
-12. Matt Stenzel
-13. Rhys Kingsford
-14. Chloe
-15. 
+
+| Name             | Email                             | Phone        | Gym            |
+|------------------|-----------------------------------|--------------|----------------|  
+| Dean Illguth     | illguth@gmail.com                 |              | Mackay         |
+| Carly Illguth    | carl.illguth@gmail.com            |              | Mackay         |
+| Jamie            | jamie@zerow.co.nz                 |              | New Zealand    |
+| Kris             | kris@zerow.co.nz                  |              | New Zealand    |
+| Rachelle         | rachelle@zerow.com.au             | 0401 598 612 | South Side     |
+| Rebecca          | rebecca@zerowmackay.com           |              | Mackay         |
+| Daniel Carpenter | daniel@aplpowerlifting.com        | 0423 807 809 | South Side     |
+| Thomas Lilley    | thomas@zerow.com.au               | 0434 431 495 | Gold Coast     |
+| Sue Harris       | fitfuncpersonaltraining@gmail.com | 0419 846 725 | Brisbane       |
+| Jordan Helyer    | jordan@zeroweakness.co.uk         |              | Wales          |
+| Kahn Stephenson  | kahn@zerow.com.au                 | 0423 302 912 | Mackay         |
+| Maddy Stenzel    | maddy_stenzel@outlook.com         |              | Brisbane       |
+| Matt Stenzel     | matt_stenzel@hotmail.com          | 0466 273 466 | Brisbane       |
+| Rhys Kingsford   | rhys@strengthcity.com.au          |              | Sunshine Coast |
+| Chloe Kingsford  | sunshinecoast@zerow.com.au        | 0401 587 303 | Sunshine Coast |
+| Wes              | cairns@zerow.com.au               |              | Cairns         |
+| Brooke           | cairns@zerow.com.au               |              | Cairns         |
