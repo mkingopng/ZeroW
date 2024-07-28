@@ -6,7 +6,7 @@ authors = ["Michael Kingston <mkingo@mac.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
 jupyter = "^1.0.0"
 pandas = "^2.2.2"
 matplotlib = "^3.9.0"
