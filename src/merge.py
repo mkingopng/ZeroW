@@ -25,8 +25,13 @@ locations = {
     "sunshine_coast": "Sunshine Coast"
 }
 
-# Function to read CSV files with error handling and add 'Location' column
 def read_csv_with_error_handling(file_path, location):
+    """
+    Read a CSV file with error handling and add a 'Location' column
+    :param file_path:
+    :param location:
+    :return:
+    """
     if not os.path.exists(file_path):
         print(f"Error: File not found - {file_path}")
         return pd.DataFrame()  # Return an empty DataFrame if the file is not found
@@ -41,8 +46,13 @@ def read_csv_with_error_handling(file_path, location):
 # Read the CSV files into DataFrames with location information
 dfs = {name: read_csv_with_error_handling(path, locations[name]) for name, path in file_paths.items()}
 
-# Function to standardize column names
 def standardize_column_names(df, new_columns):
+    """
+    Standardize column names of a DataFrame
+    :param df:
+    :param new_columns:
+    :return:
+    """
     if not df.empty and len(df.columns) == len(new_columns):
         df.columns = new_columns
     else:
@@ -51,10 +61,10 @@ def standardize_column_names(df, new_columns):
 
 # Standardize column names using partial
 standardize_columns = {
-    "wales": ["CUSTOMER", "EMAIL", "PHONE", "INTERVAL", "AGREED_DATE", "START_DATE", "STATUS", "Location"],
-    "gc": ["CUSTOMER", "EMAIL", "PHONE", "INTERVAL", "AGREED_DATE", "START_DATE", "STATUS", "Location"],
-    "cairns": ["EMAIL", "FIRST_NAME", "LAST_NAME", "CITY", "STATE", "COUNTRY", "POSTCODE", "PHONE", "MOBILE", "REFERENCE", "STATUS", "Location"],
-    "sunshine_coast": ["EMAIL", "FIRST_NAME", "LAST_NAME", "CITY", "STATE", "COUNTRY", "POSTCODE", "PHONE", "MOBILE", "REFERENCE", "STATUS", "Location"]
+    "wales": ["CUSTOMER_NAME", "EMAIL", "PHONE", "INTERVAL", "AGREED_DATE", "START_DATE", "STATUS", "Location"],
+    "gc": ["CUSTOMER_NAME", "EMAIL", "PHONE", "INTERVAL", "AGREED_DATE", "START_DATE", "STATUS", "Location"],
+    "cairns": ["AGREED_DATE", "START_DATE", "TYPE", "STATUS", "METHOD", "MERCHANT", "CUSTOMER_NAME", "REFERENCE", "PAYMENT_REQUEST", "NEXT_PAYMENT", "NEXT_PAYMENT_ON", "PRICE", "LAST_PAYMENT_ON", "CANCEL_DATE", "COMMENCEMENT_DATE", "COMPLETION_DATE", "TOTAL_VALUE", "PAID", "REMAINING", "AGREEMENT_ID", "Location"],
+    "sunshine_coast": ["AGREED_DATE", "START_DATE", "TYPE", "STATUS", "METHOD", "MERCHANT", "CUSTOMER_NAME", "REFERENCE", "PAYMENT_REQUEST", "NEXT_PAYMENT", "NEXT_PAYMENT_ON", "PRICE", "LAST_PAYMENT_ON", "CANCEL_DATE", "COMMENCEMENT_DATE", "COMPLETION_DATE", "TOTAL_VALUE", "PAID", "REMAINING", "AGREEMENT_ID", "Location"]
 }
 
 # Debugging: Print initial columns
@@ -68,72 +78,121 @@ for key, new_columns in standardize_columns.items():
 for key, df in dfs.items():
     print(f"Columns after standardization for {key}: {df.columns.tolist()}")
 
-# Rename 'LAST_PAYMENT' to 'PRICE' in all DataFrames
+# rename 'LAST_PAYMENT' to 'PRICE' in all DataFrames
 for df in dfs.values():
     if 'LAST_PAYMENT' in df.columns:
         df.rename(columns={'LAST_PAYMENT': 'PRICE'}, inplace=True)
 
-# Function to convert date columns to datetime objects
 def convert_date_columns(df, date_columns):
+    """
+    Convert date columns to datetime objects
+    :param df:
+    :param date_columns:
+    :return:
+    """
     for col in date_columns:
         if col in df.columns:
             df[col] = pd.to_datetime(df[col], errors='coerce')
     return df
 
-# Convert date columns using partial
+# convert date columns using partial
 date_columns = ["AGREED_DATE", "START_DATE", "NEXT_PAYMENT_ON", "created", "current_period_start"]
 convert_date_columns_partial = functools.partial(convert_date_columns, date_columns=date_columns)
 dfs = {name: convert_date_columns_partial(df) for name, df in dfs.items()}
 
-# Concatenate DataFrames
+# concatenate DataFrames
 merged_df = pd.concat(dfs.values(), ignore_index=True)
 
-# Remove any duplicate columns
-merged_df = merged_df.loc[:, ~merged_df.columns.duplicated()]
+# drop unnecessary columns
+columns_to_drop = ["EMAIL", "PHONE", "CITY", "STATE", "COUNTRY", "POSTCODE", "MOBILE", "AGREEMENT_ID"]
+merged_df.drop(columns=columns_to_drop, errors='ignore', inplace=True)
 
-# Debugging: Print merged_df columns
-print(f"Merged DataFrame columns: {merged_df.columns.tolist()}")
+# merge INTERVAL and REFERENCE into MEMBERSHIP_TYPE
+if 'MEMBERSHIP_TYPE' not in merged_df.columns:
+    merged_df['MEMBERSHIP_TYPE'] = pd.NA
+merged_df['MEMBERSHIP_TYPE'] = merged_df['INTERVAL'].combine_first(merged_df['REFERENCE'].combine_first(merged_df['MEMBERSHIP_TYPE']))
 
-# Ensure MEMBERSHIP_TYPE exists and initialize it with NaN
+# create a single CUSTOMER_NAME column
+if 'FIRST_NAME' in merged_df.columns and 'LAST_NAME' in merged_df.columns:
+    merged_df['CUSTOMER_NAME'] = merged_df[['FIRST_NAME', 'LAST_NAME']].fillna('').agg(' '.join, axis=1).str.strip().replace('', pd.NA)
+else:
+    merged_df['CUSTOMER_NAME'] = merged_df['CUSTOMER_NAME']
+
+# ensure MEMBERSHIP_TYPE exists and initialise it with NaN
 if 'MEMBERSHIP_TYPE' not in merged_df.columns:
     merged_df['MEMBERSHIP_TYPE'] = pd.NA
 
-# Count empty cells in the MEMBERSHIP_TYPE column
+# remove any duplicate columns
+merged_df = merged_df.loc[:, ~merged_df.columns.duplicated()]
+
+# debugging: Print merged_df columns
+print(f"Merged DataFrame columns: {merged_df.columns.tolist()}")
+
+# count empty cells in the MEMBERSHIP_TYPE column
 empty_cells_count = merged_df['MEMBERSHIP_TYPE'].isna().sum()
 print(f"Number of empty cells in MEMBERSHIP_TYPE: {empty_cells_count}")
 
-# Debugging: Print the first few rows of merged_df before imputation
+# debugging: Print the first few rows of merged_df before imputation
 print("First few rows of merged_df before imputation:")
 print(merged_df.head())
 
-# Mapping of PRICE to MEMBERSHIP_TYPE
+# mapping of PRICE to MEMBERSHIP_TYPE
 price_to_membership = {
     35: "Standard",
     50: "Silver",
-    99: "GOLD",
-    179: "PLATINUM",
+    99: "Gold",
+    179: "Platinum",
     70: "Standard Plus Nutrition",
     85: "Silver Plus Nutrition",
     134: "Gold Plus Nutrition",
     214: "Platinum Plus Nutrition"
 }
 
-# Impute missing MEMBERSHIP_TYPE values using partial
 def impute_membership_type(row, price_to_membership):
-    # Debugging: Print row to check for MEMBERSHIP_TYPE
-    print(f"Processing row: {row}")
+    """
+    Impute missing MEMBERSHIP_TYPE values based on PRICE
+    :param row:
+    :param price_to_membership:
+    :return:
+    """
     if pd.isna(row['MEMBERSHIP_TYPE']):
         price = row['PRICE'] if 'PRICE' in row else None
         return price_to_membership.get(price, "Other")
     return row['MEMBERSHIP_TYPE']
 
-impute_membership_type_partial = functools.partial(impute_membership_type, price_to_membership=price_to_membership)
-merged_df['MEMBERSHIP_TYPE'] = merged_df.apply(impute_membership_type_partial, axis=1)
+impute_membership_type_partial = functools.partial(
+    impute_membership_type,
+    price_to_membership=price_to_membership
+)
 
-# Save the concatenated and imputed DataFrame to a new CSV file
+merged_df['MEMBERSHIP_TYPE'] = merged_df.apply(
+    impute_membership_type_partial,
+    axis=1
+)
+
+# normalize MEMBERSHIP_TYPE values
+membership_type_mapping = {
+    "Gold": ["Gold", "GOLD", "Gold Membership", "ZeroW Gold"],
+    "Platinum": ["PLATINUM", "Platinum", "Platinum Membership"],
+    "Standard": ["STANDARD membership", "Standard ZeroW Membe", "Standard", "Standard Memberhip", "ZeroW Standard"],
+    # Add other mappings as needed
+}
+
+def normalize_membership_type(membership_type, mapping):
+    membership_type = membership_type.strip()
+    for standard, variants in mapping.items():
+        if membership_type in variants:
+            return standard
+    return membership_type
+
+normalize_membership_type_partial = functools.partial(normalize_membership_type, mapping=membership_type_mapping)
+merged_df['MEMBERSHIP_TYPE'] = merged_df['MEMBERSHIP_TYPE'].apply(normalize_membership_type_partial)
+
+# normalize STATUS values
+merged_df['STATUS'] = merged_df['STATUS'].str.strip().str.capitalize()
+
+# save the concatenated and imputed DataFrame to a new CSV file
 merged_df.to_csv("merged_data.csv", index=False)
 
-# Display the concatenated DataFrame
+# display the concatenated DataFrame
 print(merged_df.head())
-
-# fix_me, something wrong with cairns and sunshine coast data
