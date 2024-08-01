@@ -2,10 +2,10 @@ import pandas as pd
 import functools
 import os
 
-# Get the directory of the current script
+# get the directory of the current script
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Define file paths relative to the script directory
+# define file paths relative to the script directory
 file_paths = {
     "brisbane": os.path.join(script_dir, "brisbane.csv"),
     "southside": os.path.join(script_dir, "southside.csv"),
@@ -15,7 +15,7 @@ file_paths = {
     "sunshine_coast": os.path.join(script_dir, "sunshine_coast.csv")
 }
 
-# Define locations corresponding to the file paths
+# define locations corresponding to the file paths
 locations = {
     "brisbane": "Brisbane",
     "southside": "South Side",
@@ -25,16 +25,17 @@ locations = {
     "sunshine_coast": "Sunshine Coast"
 }
 
+
 def read_csv_with_error_handling(file_path, location):
     """
-    Read a CSV file with error handling and add a 'Location' column
+    read a CSV file with error handling and add a 'Location' column
     :param file_path:
     :param location:
-    :return:
+    :return: df or error message
     """
     if not os.path.exists(file_path):
         print(f"Error: File not found - {file_path}")
-        return pd.DataFrame()  # Return an empty DataFrame if the file is not found
+        return pd.DataFrame()  # return an empty df if the file is not found
     try:
         df = pd.read_csv(file_path)
         df['Location'] = location
@@ -43,8 +44,10 @@ def read_csv_with_error_handling(file_path, location):
         print(f"Error reading {file_path}: {e}")
         return pd.DataFrame()
 
-# Read the CSV files into DataFrames with location information
+
+# read the CSV files into DataFrames with location information
 dfs = {name: read_csv_with_error_handling(path, locations[name]) for name, path in file_paths.items()}
+
 
 def standardize_column_names(df, new_columns):
     """
@@ -59,6 +62,7 @@ def standardize_column_names(df, new_columns):
         print(f"Warning: Column length mismatch. Expected {len(new_columns)} columns but got {len(df.columns)}. Skipping renaming.")
     return df
 
+
 # Standardize column names using partial
 standardize_columns = {
     "wales": ["CUSTOMER_NAME", "EMAIL", "PHONE", "INTERVAL", "AGREED_DATE", "START_DATE", "STATUS", "Location"],
@@ -67,14 +71,14 @@ standardize_columns = {
     "sunshine_coast": ["AGREED_DATE", "START_DATE", "TYPE", "STATUS", "METHOD", "MERCHANT", "CUSTOMER_NAME", "REFERENCE", "PAYMENT_REQUEST", "NEXT_PAYMENT", "NEXT_PAYMENT_ON", "PRICE", "LAST_PAYMENT_ON", "CANCEL_DATE", "COMMENCEMENT_DATE", "COMPLETION_DATE", "TOTAL_VALUE", "PAID", "REMAINING", "AGREEMENT_ID", "Location"]
 }
 
-# Debugging: Print initial columns
+# debugging: print initial columns
 for key, df in dfs.items():
     print(f"Initial columns for {key}: {df.columns.tolist()}")
 
 for key, new_columns in standardize_columns.items():
     dfs[key] = standardize_column_names(dfs[key], new_columns)
 
-# Debugging: Print columns after standardization
+# debugging: print columns after standardization
 for key, df in dfs.items():
     print(f"Columns after standardization for {key}: {df.columns.tolist()}")
 
@@ -83,28 +87,40 @@ for df in dfs.values():
     if 'LAST_PAYMENT' in df.columns:
         df.rename(columns={'LAST_PAYMENT': 'PRICE'}, inplace=True)
 
+
 def convert_date_columns(df, date_columns):
     """
-    Convert date columns to datetime objects
+    convert date columns to datetime objects
     :param df:
     :param date_columns:
-    :return:
+    :return: df with correct datetime dtype
     """
     for col in date_columns:
         if col in df.columns:
             df[col] = pd.to_datetime(df[col], errors='coerce')
     return df
 
-# convert date columns using partial
-date_columns = ["AGREED_DATE", "START_DATE", "NEXT_PAYMENT_ON", "created", "current_period_start"]
-convert_date_columns_partial = functools.partial(convert_date_columns, date_columns=date_columns)
+
+date_columns = [
+    "AGREED_DATE", "START_DATE", "NEXT_PAYMENT_ON", "created",
+    "current_period_start"
+]
+
+convert_date_columns_partial = functools.partial(
+    convert_date_columns,
+    date_columns=date_columns
+)
+
 dfs = {name: convert_date_columns_partial(df) for name, df in dfs.items()}
 
 # concatenate DataFrames
 merged_df = pd.concat(dfs.values(), ignore_index=True)
 
 # drop unnecessary columns
-columns_to_drop = ["EMAIL", "PHONE", "CITY", "STATE", "COUNTRY", "POSTCODE", "MOBILE", "AGREEMENT_ID"]
+columns_to_drop = [
+    "EMAIL", "PHONE", "CITY", "STATE", "COUNTRY", "POSTCODE", "MOBILE",
+    "AGREEMENT_ID"
+]
 merged_df.drop(columns=columns_to_drop, errors='ignore', inplace=True)
 
 # merge INTERVAL and REFERENCE into MEMBERSHIP_TYPE
@@ -148,18 +164,21 @@ price_to_membership = {
     214: "Platinum Plus Nutrition"
 }
 
+
 def impute_membership_type(row, price_to_membership):
     """
-    Impute missing MEMBERSHIP_TYPE values based on PRICE
+    impute missing MEMBERSHIP_TYPE values based on PRICE
     :param row:
     :param price_to_membership:
-    :return:
+    :return: membership_type
     """
     if pd.isna(row['MEMBERSHIP_TYPE']):
         price = row['PRICE'] if 'PRICE' in row else None
         return price_to_membership.get(price, "Other")
     return row['MEMBERSHIP_TYPE']
 
+
+# impute missing MEMBERSHIP_TYPE
 impute_membership_type_partial = functools.partial(
     impute_membership_type,
     price_to_membership=price_to_membership
@@ -178,12 +197,20 @@ membership_type_mapping = {
     # Add other mappings as needed
 }
 
+
 def normalize_membership_type(membership_type, mapping):
+    """
+    clean up MEMBERSHIP_TYPE values
+    :param membership_type:
+    :param mapping:
+    :return: membership_type
+    """
     membership_type = membership_type.strip()
     for standard, variants in mapping.items():
         if membership_type in variants:
             return standard
     return membership_type
+
 
 normalize_membership_type_partial = functools.partial(normalize_membership_type, mapping=membership_type_mapping)
 merged_df['MEMBERSHIP_TYPE'] = merged_df['MEMBERSHIP_TYPE'].apply(normalize_membership_type_partial)
