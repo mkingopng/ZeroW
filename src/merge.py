@@ -59,7 +59,10 @@ def standardize_column_names(df, new_columns):
     if not df.empty and len(df.columns) == len(new_columns):
         df.columns = new_columns
     else:
-        print(f"Warning: Column length mismatch. Expected {len(new_columns)} columns but got {len(df.columns)}. Skipping renaming.")
+        print(f"""
+        Warning: Column length mismatch. Expected {len(new_columns)} columns 
+        but got {len(df.columns)}. Skipping renaming.
+        """)
     return df
 
 
@@ -71,16 +74,8 @@ standardize_columns = {
     "sunshine_coast": ["AGREED_DATE", "START_DATE", "TYPE", "STATUS", "METHOD", "MERCHANT", "CUSTOMER_NAME", "REFERENCE", "PAYMENT_REQUEST", "NEXT_PAYMENT", "NEXT_PAYMENT_ON", "PRICE", "LAST_PAYMENT_ON", "CANCEL_DATE", "COMMENCEMENT_DATE", "COMPLETION_DATE", "TOTAL_VALUE", "PAID", "REMAINING", "AGREEMENT_ID", "Location"]
 }
 
-# debugging: print initial columns
-for key, df in dfs.items():
-    print(f"Initial columns for {key}: {df.columns.tolist()}")
-
 for key, new_columns in standardize_columns.items():
     dfs[key] = standardize_column_names(dfs[key], new_columns)
-
-# debugging: print columns after standardization
-for key, df in dfs.items():
-    print(f"Columns after standardization for {key}: {df.columns.tolist()}")
 
 # rename 'LAST_PAYMENT' to 'PRICE' in all DataFrames
 for df in dfs.values():
@@ -112,16 +107,18 @@ convert_date_columns_partial = functools.partial(
 )
 
 dfs = {name: convert_date_columns_partial(df) for name, df in dfs.items()}
-
-# concatenate DataFrames
-merged_df = pd.concat(dfs.values(), ignore_index=True)
+merged_df = pd.concat(dfs.values(), ignore_index=True)  # concatenate dfs
 
 # drop unnecessary columns
 columns_to_drop = [
     "EMAIL", "PHONE", "CITY", "STATE", "COUNTRY", "POSTCODE", "MOBILE",
     "AGREEMENT_ID"
 ]
-merged_df.drop(columns=columns_to_drop, errors='ignore', inplace=True)
+merged_df.drop(
+    columns=columns_to_drop,
+    errors='ignore',
+    inplace=True
+)
 
 # merge INTERVAL and REFERENCE into MEMBERSHIP_TYPE
 if 'MEMBERSHIP_TYPE' not in merged_df.columns:
@@ -141,16 +138,8 @@ if 'MEMBERSHIP_TYPE' not in merged_df.columns:
 # remove any duplicate columns
 merged_df = merged_df.loc[:, ~merged_df.columns.duplicated()]
 
-# debugging: Print merged_df columns
-print(f"Merged DataFrame columns: {merged_df.columns.tolist()}")
-
 # count empty cells in the MEMBERSHIP_TYPE column
 empty_cells_count = merged_df['MEMBERSHIP_TYPE'].isna().sum()
-print(f"Number of empty cells in MEMBERSHIP_TYPE: {empty_cells_count}")
-
-# debugging: Print the first few rows of merged_df before imputation
-print("First few rows of merged_df before imputation:")
-print(merged_df.head())
 
 # mapping of PRICE to MEMBERSHIP_TYPE
 price_to_membership = {
@@ -223,3 +212,6 @@ merged_df.to_csv("merged_data.csv", index=False)
 
 # display the concatenated DataFrame
 print(merged_df.head())
+
+
+# todo: upgrade to database to store data rather than csv

@@ -117,7 +117,6 @@ def update_dashboard(selected_location):
                   'type': 'bar'}],
         'layout': {'title': 'Current Status of Members'}
     }
-
     new_members_text = f"New members: {new_members}"
     cancelled_members_text = f"Cancelled members: {cancelled_members}"
     net_movement_text = f"Net movement: {net_movement}"
@@ -144,9 +143,12 @@ def update_dashboard(selected_location):
         hover_data=['Count'],
         labels={'Percentage': 'Percentage', 'Count': 'Count'}
     )
-    membership_type_distribution_figure.update_traces(textinfo='none', hoverinfo='label+percent+value')
-    membership_type_distribution_figure.update_layout(margin=dict(t=50, b=50, l=50, r=50))
-
+    membership_type_distribution_figure.update_traces(
+        textinfo='none', hoverinfo='label+percent+value'
+    )
+    membership_type_distribution_figure.update_layout(
+        margin=dict(t=50, b=50, l=50, r=50)
+    )
     return (number_of_members_figure,
             new_members_text,
             cancelled_members_text,
@@ -160,7 +162,7 @@ if __name__ == '__main__':
     app.run_server(debug=True)
 
 
-# TODO: add totol members count to top right quadrant
+# todo: add totol members count to top right quadrant
 # todo: mix of membership type for each location
 # todo: distribution of membership type for each location
 # todo: dict of locations and colours

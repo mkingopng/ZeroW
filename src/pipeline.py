@@ -39,3 +39,8 @@ if __name__ == '__main__':
         filename = f'{account}.csv'
         data.to_csv(filename, index=False)
         print(f'Saved data to {filename}')
+
+
+# todo: get this to work for my strength book
+# todo: then paypa plane
+# todo: then Billy Cart
