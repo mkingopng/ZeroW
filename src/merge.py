@@ -207,6 +207,8 @@ merged_df['MEMBERSHIP_TYPE'] = merged_df['MEMBERSHIP_TYPE'].apply(normalize_memb
 # normalize STATUS values
 merged_df['STATUS'] = merged_df['STATUS'].str.strip().str.capitalize()
 
+merged_df.drop(columns=['CUSTOMER_NAME', 'INTERVAL', 'MERCHANT', 'REFERENCE'], inplace=True)
+
 # save the concatenated and imputed DataFrame to a new CSV file
 merged_df.to_csv("merged_data.csv", index=False)
 

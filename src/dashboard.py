@@ -9,38 +9,43 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 import plotly.express as px
 
-# load the pre-processed merged DataFrame
+# Load the pre-processed merged DataFrame
 merged_df = pd.read_csv("merged_data.csv")
 
-# normalize STATUS values
+# Normalize STATUS values
 merged_df['STATUS'] = merged_df['STATUS'].str.strip().str.capitalize()
 
-# filter out the records where STATUS is 'Cancelled' or 'Canceled'
+# Filter out the records where STATUS is 'Cancelled' or 'Canceled'
 merged_df = merged_df[~merged_df['STATUS'].isin(['Cancelled', 'Canceled'])]
 
-# convert date columns to datetime
+# Convert date columns to datetime
 merged_df['AGREED_DATE'] = pd.to_datetime(merged_df['AGREED_DATE'], errors='coerce')
 merged_df['CANCEL_DATE'] = pd.to_datetime(merged_df['CANCEL_DATE'], errors='coerce')
 
-# calculate net movement in the last week
-one_week_ago = datetime.now() - timedelta(weeks=1)
 
+def filter_data(location, days):
+    """
+    Filter the DataFrame based on the selected location and date range.
+    Exclude paused memberships from the total members count.
+    :param location: Selected location
+    :param days: Number of days for the date range filter
+    :return: filtered_df, new_members, cancelled_members, net_movement, total_members
+    """
+    one_week_ago = datetime.now() - timedelta(days=days)
 
-def filter_data(location):
-    """
-    filter the DataFrame based on the selected location
-    :param location:
-    :return: filtered_df, new_members, cancelled_members, net_movement,
-    total_members
-    """
     if location == 'All':
         filtered_df = merged_df
     else:
         filtered_df = merged_df[merged_df['Location'] == location]
+
     new_members = filtered_df[filtered_df['AGREED_DATE'] >= one_week_ago].shape[0]
     cancelled_members = filtered_df[filtered_df['CANCEL_DATE'] >= one_week_ago].shape[0]
     net_movement = new_members - cancelled_members
-    total_members = filtered_df.shape[0]
+
+    # Exclude paused memberships from the total members count
+    active_members_df = filtered_df[filtered_df['STATUS'] != 'Paused']
+    total_members = active_members_df.shape[0]
+
     return filtered_df, new_members, cancelled_members, net_movement, total_members
 
 
@@ -52,6 +57,16 @@ app.layout = html.Div([
         id='location-dropdown',
         options=[{'label': loc, 'value': loc} for loc in ['All'] + list(merged_df['Location'].unique())],
         value='All'
+    ),
+    dcc.Dropdown(
+        id='date-range-dropdown',
+        options=[
+            {'label': '7 Days', 'value': 7},
+            {'label': '14 Days', 'value': 14},
+            {'label': '21 Days', 'value': 21},
+            {'label': '28 Days', 'value': 28}
+        ],
+        value=7  # Default value
     ),
     html.Div([
         html.Div([
@@ -97,19 +112,21 @@ app.layout = html.Div([
      Output('total-members', 'children'),
      Output('membership-type-mix', 'figure'),
      Output('membership-type-distribution', 'figure')],
-    [Input('location-dropdown', 'value')]
+    [Input('location-dropdown', 'value'),
+     Input('date-range-dropdown', 'value')]
 )
-def update_dashboard(selected_location):
+def update_dashboard(selected_location, selected_days):
     """
-    update the dashboard based on the selected location
-    :param selected_location:
+    Update the dashboard based on the selected location and date range.
+    :param selected_location: Selected location
+    :param selected_days: Number of days for the date range filter
     :return: number_of_members_figure, new_members_text, cancelled_members_text,
     net_movement_text, total_members_text, membership_type_mix_figure,
     membership_type_distribution_figure
     """
-    filtered_df, new_members, cancelled_members, net_movement, total_members = filter_data(selected_location)
+    filtered_df, new_members, cancelled_members, net_movement, total_members = filter_data(selected_location, selected_days)
 
-    # number of members figure
+    # Number of members figure
     status_count = filtered_df['STATUS'].value_counts()
     number_of_members_figure = {
         'data': [{'x': status_count.index,
@@ -122,7 +139,7 @@ def update_dashboard(selected_location):
     net_movement_text = f"Net movement: {net_movement}"
     total_members_text = f"Total members: {total_members}"
 
-    # mix of membership types by location
+    # Mix of membership types by location
     membership_type_mix = filtered_df.groupby('Location')['MEMBERSHIP_TYPE'].value_counts().unstack().fillna(0)
     membership_type_mix_figure = px.bar(
         membership_type_mix,
@@ -131,7 +148,7 @@ def update_dashboard(selected_location):
         barmode='stack'
     )
 
-    # distribution of membership types by location
+    # Distribution of membership types by location
     membership_type_distribution = filtered_df['MEMBERSHIP_TYPE'].value_counts(normalize=True).reset_index()
     membership_type_distribution.columns = ['MEMBERSHIP_TYPE', 'Percentage']
     membership_type_distribution['Count'] = filtered_df['MEMBERSHIP_TYPE'].value_counts().values
@@ -162,7 +179,6 @@ if __name__ == '__main__':
     app.run_server(debug=True)
 
 
-# todo: add totol members count to top right quadrant
-# todo: mix of membership type for each location
-# todo: distribution of membership type for each location
+# todo: whats wrong with the cairns data?
 # todo: dict of locations and colours
+# todo: update data
