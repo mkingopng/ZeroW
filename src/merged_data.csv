@@ -12,10 +12,10 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2022-04-21,2022-04-22,Recurring,Cancelled,Visa,Jonathan McAllister,nq78spkhqcha,0.0,,28.0,2022-07-29,2022-07-30,2022-04-22,2022-07-29,420.0,420.0,0.0,Brisbane,Other
 2022-04-21,2022-04-21,Recurring,Cancelled,Visa,Kobe Lyne,vmxdkv16rmgf,0.0,,28.0,2022-07-28,2022-07-29,2022-04-21,2022-07-28,420.0,392.0,28.0,Brisbane,Other
 2022-04-27,2022-05-02,Recurring,Cancelled,Mastercard,Stephanie Catalucci,x94kcqgt10q8,0.0,,35.0,2024-07-08,2024-07-09,2022-05-02,2024-07-08,4025.0,4025.0,0.0,Brisbane,Standard
-2022-05-03,2022-05-03,Recurring,Active,Visa,Layne Hall,mrea1xj51a5v,35.0,2024-08-06,35.0,2024-07-30,,2022-05-03,2024-10-15,4515.0,4130.0,385.0,Brisbane,Standard
+2022-05-03,2022-05-03,Recurring,Active,Visa,Layne Hall,mrea1xj51a5v,35.0,2024-08-13,35.0,2024-08-06,,2022-05-03,2024-10-22,4550.0,4165.0,385.0,Brisbane,Standard
 2022-05-06,2022-05-06,Recurring,Paused,Visa,Ben Fiechtner,kvzy2hkeay5c,35.0,2023-11-29,35.0,2023-11-22,,2022-05-06,2024-03-06,2695.0,2170.0,525.0,Brisbane,Standard
 2022-05-08,2022-05-09,Recurring,Cancelled,Mastercard,Racquel Barnett,1a7f7ilds573,0.0,,83.0,2022-12-22,2022-12-28,2022-05-12,2022-12-22,2739.0,2739.0,0.0,Brisbane,Other
-2022-05-08,2022-05-09,Recurring,Active,Mastercard,Sophia Fisher,o7dg6wa81ur6,166.0,2024-08-07,166.0,2024-07-24,,2022-05-11,2024-12-25,11537.0,9711.0,1826.0,Brisbane,Other
+2022-05-08,2022-05-09,Recurring,Active,Mastercard,Sophia Fisher,o7dg6wa81ur6,166.0,2024-08-21,166.0,2024-08-07,,2022-05-11,2025-01-08,11703.0,9877.0,1826.0,Brisbane,Other
 2022-05-08,2022-05-12,Recurring,Cancelled,Visa,Robert Streeting,mreacvh3k7zk,0.0,,83.0,2024-05-16,2024-05-17,2022-05-12,2024-05-16,8798.0,8798.0,0.0,Brisbane,Other
 2022-05-08,2022-05-09,Recurring,Active,Mastercard,Kurt McCormick,kftz3frjatxm,35.0,2024-08-12,35.0,2024-08-05,,2022-05-09,2024-10-21,4340.0,3955.0,385.0,Brisbane,Standard
 2022-05-10,2022-05-09,Recurring,Cancelled,Mastercard,Kelly Raffin,732n3kq59i09,0.0,,57.7,2022-12-07,2022-12-14,2022-05-09,2022-12-07,2446.5,2446.5,0.0,Brisbane,Other
@@ -43,10 +43,10 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2022-06-07,2022-06-11,Recurring,Cancelled,Mastercard,Alex Rodriguez,d73mnqd5pw2y,0.0,,35.0,2022-07-26,2022-07-28,2022-06-11,2022-07-23,245.0,210.0,35.0,Brisbane,Standard
 2022-06-08,2022-06-15,Recurring,Cancelled,Mastercard,Flavio De Piano,bw32tf52y8zz,0.0,,35.0,2022-07-20,2022-07-24,2022-06-15,2022-07-20,175.0,175.0,0.0,Brisbane,Standard
 2022-06-10,2022-06-12,Recurring,Cancelled,Visa,Josh Mowat,jd6iffg17znv,0.0,,40.0,2022-07-10,2022-07-14,2022-06-12,2022-07-10,200.0,200.0,0.0,Brisbane,Other
-2022-06-15,2022-06-14,Recurring,Active,Visa,Josh Mowat,bpp8l1mrw8bv,35.0,2024-08-06,35.0,2024-07-30,,2022-06-14,2024-10-15,4235.0,3850.0,385.0,Brisbane,Standard
-2022-06-15,2022-06-15,Recurring,Active,Visa,Lara Waghorn,22m4jdkz6ssg,35.0,2024-08-07,35.0,2024-07-31,,2022-06-15,2024-10-16,4305.0,3920.0,385.0,Brisbane,Standard
+2022-06-15,2022-06-14,Recurring,Active,Visa,Josh Mowat,bpp8l1mrw8bv,35.0,2024-08-13,35.0,2024-08-06,,2022-06-14,2024-10-22,4270.0,3885.0,385.0,Brisbane,Standard
+2022-06-15,2022-06-15,Recurring,Active,Visa,Lara Waghorn,22m4jdkz6ssg,35.0,2024-08-14,35.0,2024-08-07,,2022-06-15,2024-10-23,4340.0,3955.0,385.0,Brisbane,Standard
 2022-06-16,2022-06-14,Recurring,Cancelled,Visa,Tyler  Small,9u59syijbkqo,0.0,,35.0,2023-10-17,2023-10-17,2022-06-14,2023-10-17,2415.0,2415.0,0.0,Brisbane,Standard
-2022-06-16,2022-06-20,Recurring,Active,Visa,Matthew Foley-Lewis,sgh5ovf897v8,35.0,2024-08-06,35.0,2024-07-30,,2022-06-20,2024-10-15,4270.0,3885.0,385.0,Brisbane,Standard
+2022-06-16,2022-06-20,Recurring,Active,Visa,Matthew Foley-Lewis,sgh5ovf897v8,35.0,2024-08-13,35.0,2024-08-06,,2022-06-20,2024-10-22,4305.0,3920.0,385.0,Brisbane,Standard
 2022-06-24,2022-06-25,Recurring,Cancelled,Visa,Tom McArthur,e2t2rp22hxr8,0.0,,35.0,2022-07-30,2022-08-04,2022-06-25,2022-07-30,210.0,210.0,0.0,Brisbane,Standard
 2022-07-01,2022-07-01,Recurring,Cancelled,Visa,Kevin Whelan,iy38rumibzh4,0.0,,35.0,2023-10-20,2023-10-23,2022-07-01,2023-10-20,2415.0,2415.0,0.0,Brisbane,Standard
 2022-07-13,2022-07-13,Recurring,Cancelled,Visa,Brandon Grimshaw,nykjmpjf2wxa,0.0,,35.0,2023-10-18,2023-10-19,2022-07-13,2023-10-18,2170.0,2170.0,0.0,Brisbane,Standard
@@ -76,7 +76,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2022-08-24,2022-08-24,Recurring,Cancelled,Mastercard,Joel Bourchier,vqxpjp1395qp,0.0,,35.0,2023-07-26,2023-07-26,2022-08-24,2023-07-26,1715.0,1715.0,0.0,Brisbane,Standard
 2022-09-01,2022-09-05,Recurring,Cancelled,Mastercard,Dean Schache,714od6olxwj0,0.0,,35.0,2024-02-19,2024-02-21,2022-09-06,2024-02-19,1820.0,1820.0,0.0,Brisbane,Standard
 2022-09-07,2022-09-07,Recurring,Cancelled,Visa,Wilson Gabbett,trf5hwy0osmk,0.0,,35.0,2023-03-01,2023-03-02,2022-09-07,2023-03-01,910.0,910.0,0.0,Brisbane,Standard
-2022-09-07,2022-09-07,Recurring,Active,Amex,Brett  Young,g5whej783adk,99.0,2024-08-07,99.0,2024-07-31,,2022-09-07,2024-10-16,10529.0,9440.0,1089.0,Brisbane,Gold
+2022-09-07,2022-09-07,Recurring,Active,Amex,Brett  Young,g5whej783adk,99.0,2024-08-14,99.0,2024-08-07,,2022-09-07,2024-10-23,10628.0,9539.0,1089.0,Brisbane,Gold
 2022-09-07,2022-09-07,Recurring,Cancelled,Visa,Max Anderson,hv7kpes0360s,0.0,,35.0,2022-12-21,2022-12-22,2022-09-07,2022-12-21,560.0,560.0,0.0,Brisbane,Standard
 2022-09-15,2022-09-19,Recurring,Active,Visa,Kathy Grant,psnrq859hjcu,35.0,2024-08-09,35.0,2024-08-02,,2022-09-19,2024-10-18,3815.0,3430.0,385.0,Brisbane,Standard
 2022-09-16,2022-09-13,Recurring,Active,Mastercard,Erica Patane,y1frbzoi9jpu,35.0,2024-08-08,35.0,2024-08-01,,2022-09-13,2024-10-17,3815.0,3430.0,385.0,Brisbane,Standard
@@ -84,7 +84,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2022-09-19,2022-09-26,Recurring,Cancelled,Mastercard,Larissa Mitchell,za6i4xheym4s,0.0,,35.0,2023-09-11,2023-09-15,2022-09-26,2023-09-11,1785.0,1785.0,0.0,Brisbane,Standard
 2022-09-28,2022-09-28,Recurring,Cancelled,Visa,Daniel Chapman,nteyc05gcw28,0.0,,35.0,2022-12-21,2022-12-24,2022-09-28,2022-12-21,455.0,455.0,0.0,Brisbane,Standard
 2022-09-30,2022-10-03,Recurring,Paused,Amex,Jade Vidler,r6yv4v4hij2u,57.0,2023-06-26,57.0,2023-06-19,,2022-10-03,2023-09-04,2622.0,1995.0,627.0,Brisbane,Other
-2022-10-03,2022-09-09,Recurring,In care,Mastercard,William  Bennet,b9j77auik76g,35.0,2024-08-12,35.0,2024-08-05,,2022-09-09,2024-10-21,3920.0,3395.0,525.0,Brisbane,Standard
+2022-10-03,2022-09-09,Recurring,In care,Mastercard,William  Bennet,b9j77auik76g,35.0,2024-08-08,35.0,2024-08-05,,2022-09-09,2024-10-21,3920.0,3395.0,525.0,Brisbane,Standard
 2022-10-05,2022-10-07,Recurring,Active,Mastercard,Kayler Marshall,kgljfq54wtqc,35.0,2024-08-09,35.0,2024-08-02,,2022-10-07,2024-10-18,3745.0,3360.0,385.0,Brisbane,Standard
 2022-10-05,2022-10-10,Recurring,Cancelled,Visa,Leigh Woodford,qglvzl7l08hy,0.0,,35.0,2023-04-03,2023-04-04,2022-10-10,2023-04-03,910.0,910.0,0.0,Brisbane,Standard
 2022-10-05,2022-10-07,Recurring,Cancelled,Ach credit,Adam Strohfeldt,d2azdavmpewe,0.0,,35.0,2024-01-12,2024-01-14,2022-10-07,2024-01-12,2345.0,2345.0,0.0,Brisbane,Standard
@@ -94,14 +94,14 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2022-10-30,2022-10-31,Recurring,Cancelled,Visa,Brad Kent,sn3khela6bhk,0.0,,35.0,2022-12-05,2022-12-09,2022-10-31,2022-12-05,210.0,210.0,0.0,Brisbane,Standard
 2022-11-05,2022-11-04,Recurring,Cancelled,Visa,Jake Thomas,3slxd8yrldh5,0.0,,35.0,2023-10-13,2023-10-13,2022-11-04,2023-10-13,1505.0,1505.0,0.0,Brisbane,Standard
 2022-11-07,2022-11-04,Recurring,Cancelled,Visa,Jordenn Jopling,es8e083i9hj5,0.0,,35.0,2023-10-13,2023-10-13,2022-11-04,2023-10-13,2011.0,2011.0,0.0,Brisbane,Standard
-2022-11-07,2022-11-07,Recurring,In care,Visa,Adelaide Walker,halala03v9wv,30.0,2024-08-12,30.0,2024-08-05,,2022-11-07,2024-10-21,3090.0,2730.0,360.0,Brisbane,Other
+2022-11-07,2022-11-07,Recurring,In care,Visa,Adelaide Walker,halala03v9wv,30.0,2024-08-08,30.0,2024-08-05,,2022-11-07,2024-10-21,3090.0,2730.0,360.0,Brisbane,Other
 2022-11-07,2022-11-17,Recurring,Active,Mastercard,Melanie Blackmore,vaucuq5fynuq,17.5,2024-08-08,17.5,2024-08-01,,2022-11-17,2024-10-17,2030.0,1837.5,192.5,Brisbane,Other
 2022-11-07,2022-11-18,Recurring,Active,Visa,Stasi Knight,rxso8t1mrhoj,30.0,2024-08-09,30.0,2024-08-02,,2022-11-18,2024-10-18,3030.0,2700.0,330.0,Brisbane,Other
 2022-11-07,2022-11-07,Recurring,Cancelled,Mastercard,Lauren Costanzo,q9qogm85yzkq,0.0,,239.0,2023-06-05,2023-06-08,2022-11-07,2023-06-05,5975.0,5975.0,0.0,Brisbane,Other
 2022-11-08,2022-11-23,Recurring,Active,Visa,Vanessa Wadsworth,5g1m1h10o5x8,198.0,2024-08-14,198.0,2024-07-31,,2022-11-23,2025-01-01,11088.0,8910.0,2178.0,Brisbane,Other
-2022-11-09,2022-11-10,Recurring,Active,Visa,Riccardo Mazzocchi,grqeufyt2ou7,35.0,2024-08-07,35.0,2024-07-31,,2022-11-10,2024-10-16,3395.0,3010.0,385.0,Brisbane,Standard
+2022-11-09,2022-11-10,Recurring,Active,Visa,Riccardo Mazzocchi,grqeufyt2ou7,35.0,2024-08-14,35.0,2024-08-07,,2022-11-10,2024-10-23,3430.0,3045.0,385.0,Brisbane,Standard
 2022-11-11,2022-11-11,Recurring,Cancelled,Mastercard,Zachary Murphy,1btonv0gt4qm,0.0,,35.0,2023-08-11,2023-08-12,2022-11-11,2023-07-17,1400.0,1085.0,315.0,Brisbane,Standard
-2022-11-12,2022-11-10,Recurring,Active,Mastercard,Jim Payne,3ufny03rcos3,35.0,2024-08-08,35.0,2024-08-01,,2022-11-10,2024-10-17,3570.0,3185.0,385.0,Brisbane,Standard
+2022-11-12,2022-11-10,Recurring,Active,Mastercard,Jim Payne,3ufny03rcos3,35.0,2024-08-29,35.0,2024-08-22,,2022-11-10,2024-10-24,3605.0,3290.0,315.0,Brisbane,Standard
 2022-11-14,2022-11-17,Recurring,Active,Mastercard,Jack Wilkie,nxt1grg3yj64,35.0,2024-08-08,35.0,2024-08-01,,2022-11-17,2024-10-17,3465.0,3080.0,385.0,Brisbane,Standard
 2022-11-14,2022-11-14,Recurring,Active,Visa,Joshua Hussey,mekpv6ca5axw,35.0,2024-08-12,35.0,2024-08-05,,2022-11-14,2024-10-21,3500.0,3115.0,385.0,Brisbane,Standard
 2022-11-14,2022-11-17,Recurring,Cancelled,Visa,Jayne Coppins,2000x9r02zt6,0.0,,99.0,2023-01-05,2023-01-05,2022-11-17,2023-01-05,792.0,792.0,0.0,Brisbane,Gold
@@ -109,7 +109,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2022-11-27,2022-11-27,Recurring,Cancelled,Mastercard,Nino Miguel,47cro7ocbk0t,0.0,,35.0,2024-08-03,2024-08-01,2022-11-27,2024-08-01,3080.0,3080.0,0.0,Brisbane,Standard
 2022-11-28,2022-11-25,Recurring,Active,Mastercard,De Wet Van Der Merwe,vlauralhc093,35.0,2024-08-09,35.0,2024-08-02,,2022-11-25,2024-10-18,3500.0,3115.0,385.0,Brisbane,Standard
 2022-11-29,2022-12-05,Recurring,Active,Visa,Chloe Harward,l8zmnatv0d04,35.0,2024-08-12,35.0,2024-08-05,,2022-12-05,2024-10-21,3465.0,3080.0,385.0,Brisbane,Standard
-2022-12-07,2022-12-07,Recurring,Active,Visa,Anna Goodman,n7a84828de3x,35.0,2024-08-07,35.0,2024-07-31,,2022-12-07,2024-10-16,6694.0,6309.0,385.0,Brisbane,Standard
+2022-12-07,2022-12-07,Recurring,Active,Visa,Anna Goodman,n7a84828de3x,35.0,2024-08-14,35.0,2024-08-07,,2022-12-07,2024-10-23,6729.0,6344.0,385.0,Brisbane,Standard
 2022-12-07,2022-12-13,Recurring,Cancelled,Mastercard,Sonit  singh ,c0jkswt7p2ef,0.0,,35.0,2023-01-17,2023-01-18,2022-12-13,2023-01-17,210.0,210.0,0.0,Brisbane,Standard
 2022-12-08,2022-12-08,Recurring,Paused,Mastercard,Oliver Aldridge,7p61lprwr6cq,35.0,2023-03-23,35.0,2023-03-16,,2022-12-08,2023-06-01,910.0,525.0,385.0,Brisbane,Standard
 2022-12-09,2022-12-12,Recurring,Cancelled,Visa,Brad Kent,o5q3k9tua8jy,0.0,,35.0,2024-01-15,2024-01-19,2022-12-12,2024-01-15,3500.0,3500.0,0.0,Brisbane,Standard
@@ -128,7 +128,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-01-05,2023-01-12,Recurring,Paused,Mastercard,Jayne Coppins,yxf9k0n0bknn,35.0,2024-03-07,35.0,2024-02-29,,2023-01-12,2024-05-16,7376.0,6991.0,385.0,Brisbane,Standard
 2023-01-06,2023-01-06,Recurring,Cancelled,Mastercard,Lachlan Smith,lbutb2vzpojj,0.0,,0.0,2023-04-21,2023-04-22,2023-01-06,2023-04-21,560.0,560.0,0.0,Brisbane,Other
 2023-01-09,2023-01-09,Recurring,Cancelled,Mastercard,Sami Carberry,wtrfzupvtjye,0.0,,35.0,2023-01-23,2023-01-24,2023-01-09,2023-01-23,105.0,105.0,0.0,Brisbane,Standard
-2023-01-10,2023-01-25,Recurring,Active,Visa,Rebecca Bartlett,m2pvramlgofp,124.0,2024-08-07,124.0,2024-07-31,,2023-01-25,2024-10-16,11284.0,9920.0,1364.0,Brisbane,Other
+2023-01-10,2023-01-25,Recurring,Active,Visa,Rebecca Bartlett,m2pvramlgofp,124.0,2024-08-14,124.0,2024-08-07,,2023-01-25,2024-10-23,11408.0,10044.0,1364.0,Brisbane,Other
 2023-01-10,2023-01-10,Recurring,Cancelled,Visa,Michael Bates,tebrqn59fgv6,0.0,,35.0,2023-08-15,2023-08-20,2023-01-10,2023-08-15,1120.0,1120.0,0.0,Brisbane,Standard
 2023-01-10,2023-01-09,Recurring,Cancelled,Visa,Izzie Hartley,bgrmiwmivlbx,0.0,,35.0,2023-04-03,2023-04-06,2023-01-09,2023-03-09,455.0,175.0,280.0,Brisbane,Standard
 2023-01-10,2023-01-16,Recurring,Active,Visa,Emily Killoran,ix23vlqiswcg,99.0,2024-08-11,99.0,2024-08-04,,2023-01-16,2024-10-20,7839.0,6750.0,1089.0,Brisbane,Gold
@@ -136,16 +136,16 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-01-11,2023-01-11,Recurring,Active,Visa,Brendan Coombs,df8nxvluiak8,35.0,2024-08-09,35.0,2024-08-02,,2023-01-11,2024-10-18,3255.0,2870.0,385.0,Brisbane,Standard
 2023-01-11,2023-01-10,Recurring,Cancelled,Amex,Shin Sakata,1jqfb9rvveg4,0.0,,35.0,2023-02-07,2023-02-09,2023-01-10,2023-02-07,175.0,175.0,0.0,Brisbane,Standard
 2023-01-11,2023-01-18,Recurring,Cancelled,Visa,Vanessa Wadsworth,kig29oame5sa,0.0,,50.0,2023-04-26,2023-04-26,2023-01-18,2023-04-26,400.0,400.0,0.0,Brisbane,Silver
-2023-01-13,2023-01-18,Recurring,Active,Visa,Callum Eldar,mai1t2ve1wyc,35.0,2024-08-07,35.0,2024-07-31,,2023-01-18,2024-10-16,3220.0,2835.0,385.0,Brisbane,Standard
+2023-01-13,2023-01-18,Recurring,Active,Visa,Callum Eldar,mai1t2ve1wyc,35.0,2024-08-14,35.0,2024-08-07,,2023-01-18,2024-10-23,3255.0,2870.0,385.0,Brisbane,Standard
 2023-01-15,2023-01-14,Recurring,Active,Visa,Erin McCabe,tmhrywbxpwcr,35.0,2024-08-12,35.0,2024-08-05,,2023-01-14,2024-10-21,3150.0,2765.0,385.0,Brisbane,Standard
 2023-01-16,2023-01-14,Recurring,Active,Mastercard,Elizabeth Browne,xvn539127m59,35.0,2024-08-12,35.0,2024-08-05,,2023-01-14,2024-10-21,3150.0,2765.0,385.0,Brisbane,Standard
-2023-01-17,2023-01-14,Recurring,Active,Mastercard,Luke King,xkeocls5xb9o,35.0,2024-08-07,35.0,2024-07-31,,2023-01-14,2024-10-16,5318.0,4933.0,385.0,Brisbane,Standard
+2023-01-17,2023-01-14,Recurring,Active,Mastercard,Luke King,xkeocls5xb9o,35.0,2024-08-14,35.0,2024-08-07,,2023-01-14,2024-10-23,5353.0,4968.0,385.0,Brisbane,Standard
 2023-01-18,2023-01-23,Recurring,Cancelled,Visa,Skylar Donaldson,yasuzetv7hnl,0.0,,35.0,2023-09-12,2023-09-13,2023-01-23,2023-09-12,910.0,910.0,0.0,Brisbane,Standard
 2023-01-18,2023-01-17,Recurring,Active,Mastercard,Abby  Burnett,7ovxxdb9j29h,35.0,2024-08-08,35.0,2024-08-01,,2023-01-17,2024-10-17,3185.0,2800.0,385.0,Brisbane,Standard
 2023-01-19,2023-01-19,Recurring,Paused,Visa,Rin Dwyer,a9ep5nnocpqr,25.0,2023-02-23,25.0,2023-02-16,,2023-01-19,2023-05-04,400.0,125.0,275.0,Brisbane,Other
 2023-01-22,2023-01-23,Recurring,Cancelled,Visa,Sam Yousef,s0lpz7iw0zh2,0.0,,35.0,2024-01-15,2024-01-16,2023-01-23,2024-01-15,1540.0,1540.0,0.0,Brisbane,Standard
 2023-01-24,2023-01-24,Recurring,Cancelled,Visa,Jessie Jones,9o55o2xlgysc,0.0,,25.0,2023-07-18,2023-07-21,2023-01-24,2023-07-18,650.0,650.0,0.0,Brisbane,Other
-2023-01-24,2023-01-24,Recurring,Active,Visa,Matt Theobald,0xo6j2amvw8u,166.0,2024-08-06,166.0,2024-07-23,,2023-01-24,2024-12-24,8466.0,6640.0,1826.0,Brisbane,Other
+2023-01-24,2023-01-24,Recurring,Active,Visa,Matt Theobald,0xo6j2amvw8u,166.0,2024-08-20,166.0,2024-08-06,,2023-01-24,2025-01-07,8632.0,6806.0,1826.0,Brisbane,Other
 2023-01-24,2023-01-25,Recurring,Cancelled,Visa,Shal Maddox,zdn5feezibjb,0.0,,35.0,2024-04-03,2024-04-09,2023-01-25,2024-04-03,2205.0,2205.0,0.0,Brisbane,Standard
 2023-01-24,2023-01-25,Recurring,Cancelled,Mastercard,Kurt  Croft,6334emnea8qt,0.0,,35.0,2024-04-10,2024-04-11,2023-01-25,2024-04-10,2240.0,2240.0,0.0,Brisbane,Standard
 2023-01-24,2023-01-30,Recurring,Cancelled,Visa,Sami Carberry,pl73c259hhko,0.0,,35.0,2024-05-26,2024-05-31,2023-01-30,2024-05-26,2240.0,2240.0,0.0,Brisbane,Standard
@@ -164,7 +164,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-02-15,2023-02-22,Recurring,Cancelled,Mastercard,Benjamin Brewster,g08vv3webvlr,0.0,,35.0,2023-06-04,2023-06-05,2023-02-22,2023-06-04,350.0,350.0,0.0,Brisbane,Standard
 2023-02-16,2023-02-16,Recurring,Cancelled,Visa,Llyn-Eidwen Whippy,lzwfmrb77t6d,0.0,,35.0,2023-05-07,2023-05-08,2023-02-16,2023-05-07,420.0,315.0,105.0,Brisbane,Standard
 2023-02-28,2023-02-28,Recurring,Cancelled,Ach credit,Juntao Li,utibi6086c0z,0.0,,35.0,2023-04-25,2023-04-28,2023-02-28,2023-04-25,315.0,315.0,0.0,Brisbane,Standard
-2023-03-07,2023-03-07,Recurring,Active,Mastercard,Henry Davis,7483chopk0ay,35.0,2024-08-06,35.0,2024-07-30,,2023-03-07,2024-10-15,2660.0,2275.0,385.0,Brisbane,Standard
+2023-03-07,2023-03-07,Recurring,Active,Mastercard,Henry Davis,7483chopk0ay,35.0,2024-08-13,35.0,2024-08-06,,2023-03-07,2024-10-22,2695.0,2310.0,385.0,Brisbane,Standard
 2023-03-10,2023-03-10,Recurring,Cancelled,Visa,Cory Price,fbjnba0fzzog,0.0,,35.0,2023-06-22,2023-08-01,2023-03-10,2023-06-22,385.0,385.0,0.0,Brisbane,Standard
 2023-03-13,2023-03-13,Recurring,Cancelled,Visa,Bree Watson,mz15wtn3jqhh,0.0,,35.0,2023-06-19,2023-06-23,2023-03-13,2023-06-19,525.0,525.0,0.0,Brisbane,Standard
 2023-03-21,2023-03-21,Recurring,Cancelled,Visa,David Clarke,6bc2jw4aagwx,0.0,,99.0,2023-05-17,2023-05-18,2023-03-21,2023-05-17,1051.0,952.0,99.0,Brisbane,Gold
@@ -175,12 +175,12 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-03-28,2023-03-28,Recurring,Paused,Visa,Brad Kent,cxrn4uuhwbss,35.0,2023-10-03,35.0,2023-09-26,,2023-03-28,2023-12-12,1330.0,945.0,385.0,Brisbane,Standard
 2023-03-28,2023-04-03,Recurring,Cancelled,Mastercard,Hannah Altman,o2rpggw6lx11,0.0,,35.0,2023-11-20,2023-11-25,2023-04-03,2023-11-20,1155.0,1155.0,0.0,Brisbane,Standard
 2023-04-01,2023-04-03,Recurring,Active,Visa,Lachlan Inch,ytxe260ckxag,225.0,2024-08-12,225.0,2024-08-05,,2023-04-03,2024-10-21,18110.0,15635.0,2475.0,Brisbane,Other
-2023-04-02,2023-03-27,Recurring,In care,Visa,James Hughes,n6r2kuto0zcf,35.0,2024-08-12,35.0,2024-08-05,,2023-03-27,2024-10-21,2905.0,2485.0,420.0,Brisbane,Standard
+2023-04-02,2023-03-27,Recurring,In care,Visa,James Hughes,n6r2kuto0zcf,35.0,2024-08-08,35.0,2024-08-05,,2023-03-27,2024-10-21,2905.0,2485.0,420.0,Brisbane,Standard
 2023-04-05,2023-04-07,Recurring,Active,Mastercard,Lachlan O'Donnell,2fnub6eyupxj,35.0,2024-08-09,35.0,2024-08-02,,2023-04-07,2024-10-18,2835.0,2450.0,385.0,Brisbane,Standard
 2023-04-05,2023-04-03,Recurring,Cancelled,Visa,Alexandra Samios,a0ngaymvndqk,0.0,,70.0,2023-11-23,2023-11-25,2023-04-03,2023-11-23,3076.0,3076.0,0.0,Brisbane,Standard Plus Nutrition
 2023-04-05,2023-04-06,Recurring,Active,Mastercard,Jared Hunt,lnb8mq2tculm,35.0,2024-08-08,35.0,2024-08-01,,2023-04-06,2024-10-17,2835.0,2450.0,385.0,Brisbane,Standard
 2023-04-11,2023-04-11,Recurring,Paused,Visa,Karo Tegelberg,cehk44ktls97,35.0,2023-04-18,35.0,2023-04-11,,2023-04-11,2023-06-27,420.0,35.0,385.0,Brisbane,Standard
-2023-04-13,2023-04-12,Recurring,Active,Mastercard,Tyler Killalea,bd0xf8svlon3,35.0,2024-08-06,35.0,2024-07-30,,2023-04-12,2024-10-15,2555.0,2170.0,385.0,Brisbane,Standard
+2023-04-13,2023-04-12,Recurring,Active,Mastercard,Tyler Killalea,bd0xf8svlon3,35.0,2024-08-13,35.0,2024-08-06,,2023-04-12,2024-10-22,2590.0,2205.0,385.0,Brisbane,Standard
 2023-04-13,2023-04-23,Recurring,Cancelled,Visa,Slaine Marshall,1efxcb0hp7jd,0.0,,35.0,2023-09-10,2023-09-13,2023-04-23,2023-09-10,735.0,735.0,0.0,Brisbane,Standard
 2023-04-14,2023-04-15,Recurring,Cancelled,Visa,Nathan Liebke,mxq2egciconp,0.0,,35.0,2024-03-30,2024-04-04,2023-04-15,2024-03-30,1785.0,1785.0,0.0,Brisbane,Standard
 2023-04-14,2023-04-14,Recurring,Paused,Visa,Isabelle Kelly,1vtylid272cz,17.5,2023-07-07,17.5,2023-06-30,,2023-04-14,2023-09-15,402.5,210.0,192.5,Brisbane,Other
@@ -196,7 +196,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-05-05,2023-05-04,Recurring,Cancelled,Visa,Patrick Carroll,z1by9xptlqb9,0.0,,35.0,2024-01-04,2024-01-05,2023-05-04,2024-01-04,1260.0,1260.0,0.0,Brisbane,Standard
 2023-05-10,2023-05-10,Recurring,Paused,Mastercard,Elizabeth Browne,jn7x7fa2jxnq,35.0,2024-04-24,35.0,2024-04-17,,2023-05-10,2024-07-03,2135.0,1750.0,385.0,Brisbane,Standard
 2023-05-12,2023-05-10,Recurring,Cancelled,Visa,Paul  Thavung,d4p5plsyaoyz,0.0,,70.0,2023-08-23,2023-08-24,2023-05-10,2023-08-23,595.0,385.0,210.0,Brisbane,Standard Plus Nutrition
-2023-05-17,2023-05-17,Recurring,Active,Visa,Dean Pagulayan,3s1srap6g7on,35.0,2024-08-07,35.0,2024-07-31,,2023-05-17,2024-10-16,2625.0,2240.0,385.0,Brisbane,Standard
+2023-05-17,2023-05-17,Recurring,Active,Visa,Dean Pagulayan,3s1srap6g7on,35.0,2024-08-14,35.0,2024-08-07,,2023-05-17,2024-10-23,2660.0,2275.0,385.0,Brisbane,Standard
 2023-05-18,2023-05-29,Recurring,Cancelled,Mastercard,Alexander Taylor-Girdler,tnrl7bhw1bfe,0.0,,35.0,2023-07-10,2023-07-11,2023-05-29,2023-07-10,245.0,70.0,175.0,Brisbane,Standard
 2023-05-25,2023-05-26,Recurring,Active,Visa,Bill Morrissey,wms2c64samom,179.0,2024-08-09,99.0,2024-08-02,,2023-05-26,2024-10-18,10452.0,8483.0,1969.0,Brisbane,Gold
 2023-05-29,2023-05-26,Recurring,Cancelled,Mastercard,Usukhbayar  Od-Erdene,wkzhzf434lsg,0.0,,35.0,2024-05-31,2024-06-03,2023-05-26,2024-05-31,770.0,770.0,0.0,Brisbane,Standard
@@ -207,11 +207,11 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-06-25,2023-07-03,Recurring,Active,Mastercard,Danielle Armstrong,08krzn8c71f9,99.0,2024-08-08,99.0,2024-08-01,,2023-07-03,2024-10-17,6416.0,5327.0,1089.0,Brisbane,Gold
 2023-07-04,2023-07-04,Recurring,Cancelled,Visa,Zeke  Ponting,ia9plo191los,0.0,,35.0,2024-06-20,2024-06-21,2023-07-04,2024-06-20,1575.0,1575.0,0.0,Brisbane,Standard
 2023-07-04,2023-07-04,Recurring,Paused,Mastercard,Jordan Fabris,irans0zgl7uy,35.0,2023-11-07,35.0,2023-10-31,,2023-07-04,2024-01-16,1015.0,630.0,385.0,Brisbane,Standard
-2023-07-10,2023-07-11,Recurring,Active,Mastercard,Marc Carino,2k5flc8bzu7k,35.0,2024-08-06,35.0,2024-07-30,,2023-07-11,2024-10-15,2345.0,1960.0,385.0,Brisbane,Standard
-2023-07-10,2023-07-11,Recurring,Active,Mastercard,Thomas Barney,qktcz19n607o,35.0,2024-08-06,35.0,2024-07-30,,2023-07-11,2024-10-15,2275.0,1890.0,385.0,Brisbane,Standard
+2023-07-10,2023-07-11,Recurring,Active,Mastercard,Marc Carino,2k5flc8bzu7k,35.0,2024-08-13,35.0,2024-08-06,,2023-07-11,2024-10-22,2380.0,1995.0,385.0,Brisbane,Standard
+2023-07-10,2023-07-11,Recurring,Active,Mastercard,Thomas Barney,qktcz19n607o,35.0,2024-08-13,35.0,2024-08-06,,2023-07-11,2024-10-22,2310.0,1925.0,385.0,Brisbane,Standard
 2023-07-13,2023-07-13,Recurring,Paused,Visa,Maureen Wicks,8v8l9tozuci4,57.0,2023-10-19,57.0,2023-10-12,,2023-07-13,2023-12-28,1425.0,798.0,627.0,Brisbane,Other
 2023-07-18,2023-07-18,Recurring,Cancelled,Visa,Christine Nicodova,hxo1n6p79c03,0.0,,35.0,2023-08-22,2023-08-23,2023-07-18,2023-08-22,210.0,210.0,0.0,Brisbane,Standard
-2023-07-18,2023-07-18,Recurring,Active,Mastercard,Willis Goodwin,pr4cc27f3lxj,35.0,2024-08-06,35.0,2024-07-30,,2023-07-18,2024-10-15,2310.0,1925.0,385.0,Brisbane,Standard
+2023-07-18,2023-07-18,Recurring,Active,Mastercard,Willis Goodwin,pr4cc27f3lxj,35.0,2024-08-13,35.0,2024-08-06,,2023-07-18,2024-10-22,2345.0,1960.0,385.0,Brisbane,Standard
 2023-07-19,2023-07-20,Recurring,Cancelled,Mastercard,Bong Jun Kim,il52hbzl0277,0.0,,35.0,2023-11-02,2023-11-03,2023-07-20,2023-11-02,560.0,560.0,0.0,Brisbane,Standard
 2023-07-19,2023-07-18,Recurring,Cancelled,Visa,Desmond Tayler,uie0v1i4i02v,0.0,,35.0,2023-09-19,2023-09-26,2023-07-18,2023-09-20,350.0,350.0,0.0,Brisbane,Standard
 2023-07-24,2023-07-25,Recurring,Cancelled,Mastercard,Paula Vico,y0zcrapuedus,0.0,,35.0,2023-10-03,2023-10-09,2023-07-25,2023-10-03,385.0,385.0,0.0,Brisbane,Standard
@@ -225,10 +225,10 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-08-04,2023-08-04,Recurring,Cancelled,Visa,Ryan Russell,w5wub2g7iq4w,0.0,,35.0,2023-10-19,2023-10-24,2023-08-04,2023-10-19,420.0,420.0,0.0,Brisbane,Standard
 2023-08-04,2023-08-04,Recurring,Cancelled,Mastercard,Renee Chen,g9uinqbq0tsa,0.0,,35.0,2023-11-24,2024-01-17,2023-08-04,2023-11-24,560.0,560.0,0.0,Brisbane,Standard
 2023-08-10,2023-08-14,Recurring,Cancelled,Visa,Charlene Lee,ka6o5j2hy9cu,0.0,,35.0,2023-10-09,2023-10-09,2023-08-14,2023-10-09,315.0,315.0,0.0,Brisbane,Standard
-2023-08-12,2023-08-12,Recurring,Active,Visa,Tan Hojnik,342vtsurc9ex,35.0,2024-08-06,35.0,2024-07-30,,2023-08-12,2024-10-15,2205.0,1820.0,385.0,Brisbane,Standard
+2023-08-12,2023-08-12,Recurring,Active,Visa,Tan Hojnik,342vtsurc9ex,35.0,2024-08-13,35.0,2024-08-06,,2023-08-12,2024-10-22,2240.0,1855.0,385.0,Brisbane,Standard
 2023-08-13,2023-08-11,Recurring,Cancelled,Visa,Rohan Anderson,2f6vz8c2zr2j,0.0,,35.0,2023-09-01,2023-09-06,2023-08-11,2023-09-01,140.0,140.0,0.0,Brisbane,Standard
-2023-08-17,2023-08-17,Recurring,Suspended,Mastercard,Caleb Pearce,i7q90sivw0mk,35.0,2024-08-08,35.0,2024-08-04,,2023-08-17,2024-10-17,2170.0,1750.0,420.0,Brisbane,Standard
-2023-08-27,2023-08-22,Recurring,Active,Amex,Chris Buckley,pz2n98k5m44e,99.0,2024-08-13,99.0,2024-07-30,,2023-08-22,2024-10-29,4822.0,3634.0,1188.0,Brisbane,Gold
+2023-08-17,2023-08-17,Recurring,In recovery,Mastercard,Caleb Pearce,i7q90sivw0mk,35.0,2024-08-08,35.0,2024-08-04,,2023-08-17,2024-10-24,2205.0,1750.0,455.0,Brisbane,Standard
+2023-08-27,2023-08-22,Recurring,Active,Amex,Chris Buckley,pz2n98k5m44e,99.0,2024-08-13,99.0,2024-08-06,,2023-08-22,2024-10-29,4822.0,3634.0,1188.0,Brisbane,Gold
 2023-08-27,2023-08-28,Recurring,Cancelled,Ach credit,Dillon Hirani,tbu5gequjjkk,0.0,,35.0,2023-11-27,2023-12-01,2023-08-28,2023-11-27,490.0,490.0,0.0,Brisbane,Standard
 2023-08-29,2023-08-29,Recurring,Active,Amex,Emma James,h4lfaxz45f3e,35.0,2024-08-11,35.0,2024-08-04,,2023-08-29,2024-10-20,2030.0,1645.0,385.0,Brisbane,Standard
 2023-08-30,2023-08-29,Recurring,Cancelled,Visa,Maddison Davies,cmh3vzzxvvbt,0.0,,35.0,2024-03-19,2024-03-21,2023-08-29,2024-03-19,1050.0,1050.0,0.0,Brisbane,Standard
@@ -259,10 +259,10 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-11-27,2023-11-28,Recurring,Cancelled,Mastercard,Sarah Insenser,tz2x24k4p230,0.0,,35.0,2024-07-09,2024-07-10,2023-11-28,2024-07-09,1085.0,1085.0,0.0,Brisbane,Standard
 2023-12-02,2023-12-01,Recurring,Active,Visa,Tyler  Small,jogxchg0lgyl,240.0,2024-08-09,240.0,2024-08-02,,2023-12-01,2024-10-18,11395.0,8755.0,2640.0,Brisbane,Other
 2023-12-04,2023-12-18,Recurring,Active,Mastercard,Patrick Hein Htun,selvag51540c,35.0,2024-08-12,35.0,2024-08-05,,2023-12-18,2024-10-21,3361.0,2976.0,385.0,Brisbane,Standard
-2023-12-06,2023-12-06,Recurring,Active,Mastercard,Keanu  Simitci,xoy05wne910w,35.0,2024-08-07,35.0,2024-08-03,,2023-12-06,2024-10-16,1610.0,1225.0,385.0,Brisbane,Standard
+2023-12-06,2023-12-06,Recurring,In care,Mastercard,Keanu  Simitci,xoy05wne910w,35.0,2024-08-14,35.0,2024-08-07,,2023-12-06,2024-10-23,1645.0,1225.0,420.0,Brisbane,Standard
 2023-12-17,2023-12-14,Recurring,Cancelled,Visa,Alexey Minkin,0xdq92b1pa6v,0.0,,35.0,2024-03-14,2024-03-18,2023-12-14,2024-03-14,490.0,490.0,0.0,Brisbane,Standard
 2024-01-05,2024-01-07,Recurring,Cancelled,Mastercard,Blake Williams,vgd1iy05m5h9,0.0,,35.0,2024-04-14,2024-04-16,2024-01-07,2024-04-14,525.0,525.0,0.0,Brisbane,Standard
-2024-01-12,2024-01-18,Recurring,Active,Visa,Zac Laird,7wud48j40qgt,35.0,2024-08-08,35.0,2024-08-01,,2024-01-18,2024-10-17,1400.0,1015.0,385.0,Brisbane,Standard
+2024-01-12,2024-01-18,Recurring,Cancelled,Visa,Zac Laird,7wud48j40qgt,0.0,,35.0,2024-08-01,2024-08-08,2024-01-18,2024-08-01,1015.0,1015.0,0.0,Brisbane,Standard
 2024-01-14,2024-01-12,Recurring,Active,Mastercard,Regan Payne,dpf9bee83pue,35.0,2024-08-09,35.0,2024-08-02,,2024-01-12,2024-10-18,1435.0,1050.0,385.0,Brisbane,Standard
 2024-01-15,2024-01-15,Recurring,Active,Mastercard,Rodney Troian,uffvvf6fz32e,99.0,2024-08-12,99.0,2024-08-05,,2024-01-15,2024-10-21,3797.0,2708.0,1089.0,Brisbane,Gold
 2024-01-16,2024-01-15,Recurring,Active,Amex,Emma James,rilef2lbk4wj,35.0,2024-08-12,35.0,2024-08-05,,2024-01-15,2024-10-21,1435.0,1050.0,385.0,Brisbane,Standard
@@ -273,13 +273,13 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2024-01-28,2024-01-26,Recurring,Cancelled,Mastercard,Ryan Van Der Aa,7m5fj96xvdjr,0.0,,35.0,2024-05-17,2024-05-22,2024-01-26,2024-05-17,595.0,595.0,0.0,Brisbane,Standard
 2024-01-29,2024-01-29,Recurring,Active,Mastercard,Geethikanjani Naraharisetty,aatgrw0l6pou,99.0,2024-08-12,99.0,2024-08-05,,2024-01-29,2024-10-28,3337.0,2149.0,1188.0,Brisbane,Gold
 2024-01-30,2024-01-30,Recurring,Cancelled,Visa,Naomi Waldie,ddkokppdaa9y,0.0,,35.0,2024-04-09,2024-04-13,2024-01-30,2024-04-09,385.0,385.0,0.0,Brisbane,Standard
-2024-02-06,2024-02-06,Recurring,Active,Mastercard,Lian Advincula,5cm8t1nty3fh,35.0,2024-08-07,35.0,2024-07-31,,2024-02-06,2024-10-23,1225.0,805.0,420.0,Brisbane,Standard
+2024-02-06,2024-02-06,Recurring,Active,Mastercard,Lian Advincula,5cm8t1nty3fh,35.0,2024-08-14,35.0,2024-08-07,,2024-02-06,2024-10-23,1225.0,840.0,385.0,Brisbane,Standard
 2024-02-06,2024-02-09,Recurring,Active,Mastercard,Joshua Schnebele,ktodvz1e060o,35.0,2024-08-09,35.0,2024-08-02,,2024-02-09,2024-10-18,1295.0,910.0,385.0,Brisbane,Standard
-2024-02-07,2024-02-06,Recurring,Active,Mastercard,Jordan Watson,ahqj0i7h40so,35.0,2024-08-06,35.0,2024-07-30,,2024-02-06,2024-10-15,1295.0,910.0,385.0,Brisbane,Standard
+2024-02-07,2024-02-06,Recurring,Active,Mastercard,Jordan Watson,ahqj0i7h40so,35.0,2024-08-13,35.0,2024-08-06,,2024-02-06,2024-10-22,1330.0,945.0,385.0,Brisbane,Standard
 2024-02-12,2024-02-12,Recurring,Cancelled,Mastercard,Alexander Ng,c3hatqltzsju,0.0,,35.0,2024-04-01,2024-04-03,2024-02-12,2024-04-01,280.0,280.0,0.0,Brisbane,Standard
 2024-02-15,2024-02-15,Recurring,Cancelled,Visa,Yves Ahipo,3gbhjfszrdss,0.0,,35.0,2024-07-07,2024-07-10,2024-02-15,2024-07-07,700.0,455.0,245.0,Brisbane,Standard
-2024-02-27,2024-02-27,Recurring,Active,Mastercard,Gareth Small,anynjtyjecu0,35.0,2024-08-06,35.0,2024-07-30,,2024-02-27,2024-10-15,1190.0,805.0,385.0,Brisbane,Standard
-2024-02-27,2024-02-28,Recurring,Active,Visa,Katie Reid,7bm7wh5sae8c,35.0,2024-08-07,35.0,2024-07-31,,2024-02-28,2024-10-16,1190.0,805.0,385.0,Brisbane,Standard
+2024-02-27,2024-02-27,Recurring,Active,Mastercard,Gareth Small,anynjtyjecu0,35.0,2024-08-13,35.0,2024-08-06,,2024-02-27,2024-10-22,1225.0,840.0,385.0,Brisbane,Standard
+2024-02-27,2024-02-28,Recurring,Active,Visa,Katie Reid,7bm7wh5sae8c,35.0,2024-08-14,35.0,2024-08-07,,2024-02-28,2024-10-23,1225.0,840.0,385.0,Brisbane,Standard
 2024-03-07,2024-03-07,Recurring,Active,Visa,Sonia Hedge,rlr76x7hngh4,99.0,2024-08-08,99.0,2024-08-01,,2024-03-07,2024-10-17,2772.0,1683.0,1089.0,Brisbane,Gold
 2024-03-09,2024-03-08,Recurring,Active,Mastercard,Tim Van Der Klauw,dt299oseci76,35.0,2024-08-09,35.0,2024-08-02,,2024-03-08,2024-10-18,1085.0,700.0,385.0,Brisbane,Standard
 2024-03-14,2024-03-14,Recurring,Active,Amex,Zoe Bailey,g513tjjde4g6,35.0,2024-08-08,35.0,2024-08-01,,2024-03-14,2024-10-17,1120.0,735.0,385.0,Brisbane,Standard
@@ -291,28 +291,28 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2024-04-05,2024-03-25,Recurring,Cancelled,Mastercard,Michelle Yee,byNLowh5ZdqrtI,0.0,,35.0,2024-06-10,2024-06-16,2024-03-25,2024-06-11,420.0,420.0,0.0,Brisbane,Standard
 2024-04-09,2024-04-06,Recurring,Active,Mastercard,Brett Haughtey,51Si9HbYXV4cRy,99.0,2024-08-10,99.0,2024-08-03,,2024-04-06,2024-10-19,2079.0,990.0,1089.0,Brisbane,Gold
 2024-04-16,2024-04-12,Recurring,Cancelled,Mastercard,Enkhbat  Batkhuu,Lc99AfNKlJxUh4,0.0,,35.0,2024-06-28,2024-07-03,2024-04-12,2024-06-28,420.0,420.0,0.0,Brisbane,Standard
-2024-04-24,2024-04-23,Recurring,Active,Visa,Ken Kimura,DJKe1ZYktvzudk,20.0,2024-08-06,20.0,2024-07-30,,2024-04-23,2024-10-15,520.0,300.0,220.0,Brisbane,Other
+2024-04-24,2024-04-23,Recurring,Active,Visa,Ken Kimura,DJKe1ZYktvzudk,20.0,2024-08-13,20.0,2024-08-06,,2024-04-23,2024-10-22,540.0,320.0,220.0,Brisbane,Other
 2024-05-07,2024-05-07,Recurring,Cancelled,Mastercard,Hannah Altman,KtMtqPLDy4wSPi,0.0,,250.0,2024-07-16,2024-07-17,2024-05-07,2024-07-16,2000.0,2000.0,0.0,Brisbane,Other
 2024-05-15,2024-05-23,Recurring,Active,Visa,Robert Streeting,5jdYSrLpw7yJYv,99.0,2024-08-08,99.0,2024-08-01,,2024-05-23,2024-10-17,2178.0,1089.0,1089.0,Brisbane,Gold
-2024-05-15,2024-05-15,Recurring,Active,Visa,Roxanna  Stagg,RlMHMNHMXXd14e,35.0,2024-08-07,35.0,2024-07-31,,2024-05-15,2024-10-16,805.0,420.0,385.0,Brisbane,Standard
+2024-05-15,2024-05-15,Recurring,Active,Visa,Roxanna  Stagg,RlMHMNHMXXd14e,35.0,2024-08-14,35.0,2024-08-07,,2024-05-15,2024-10-23,840.0,455.0,385.0,Brisbane,Standard
 2024-06-05,2024-06-03,Recurring,Active,Amex,Clayton Payne,vPhHlo55JQuZYQ,35.0,2024-08-12,35.0,2024-08-05,,2024-06-03,2024-10-21,735.0,350.0,385.0,Brisbane,Standard
 2024-06-07,2024-06-10,Recurring,Active,Visa,Ryan Duggan,RrCgQSqr4qLAKg,35.0,2024-08-12,35.0,2024-08-05,,2024-06-10,2024-10-21,700.0,315.0,385.0,Brisbane,Standard
-2024-06-11,2024-06-12,Recurring,Active,Visa,Arthur Magisson,pEGX7VnJYh2PSB,35.0,2024-08-07,35.0,2024-07-31,,2024-06-12,2024-10-16,665.0,280.0,385.0,Brisbane,Standard
+2024-06-11,2024-06-12,Recurring,Active,Visa,Arthur Magisson,pEGX7VnJYh2PSB,35.0,2024-08-14,35.0,2024-08-07,,2024-06-12,2024-10-23,700.0,315.0,385.0,Brisbane,Standard
 2024-06-16,2024-06-14,Recurring,Active,Mastercard,Matthew Cheesman,FhstPHEG2Y3gJx,35.0,2024-08-09,35.0,2024-08-02,,2024-06-14,2024-10-18,665.0,280.0,385.0,Brisbane,Standard
 2024-06-17,2024-06-14,Recurring,Active,Mastercard,Lee Sutherland,LGpmZ1O22TbIE5,35.0,2024-08-09,35.0,2024-08-05,,2024-06-14,2024-10-18,665.0,280.0,385.0,Brisbane,Standard
 2024-06-22,2024-06-20,Recurring,Active,Mastercard,Andrew Hunter,F0JawEsigFNkCP,35.0,2024-08-08,35.0,2024-08-01,,2024-06-20,2024-10-17,630.0,245.0,385.0,Brisbane,Standard
 2024-06-23,2024-06-23,Recurring,Active,Mastercard,Damdin Sambuunyam,pznNnlmiw4cf7w,35.0,2024-08-11,35.0,2024-08-04,,2024-06-23,2024-10-20,560.0,175.0,385.0,Brisbane,Standard
 2024-06-23,2024-06-23,Recurring,Active,Mastercard,Oochko Ochko,TcchcNqbJirNta,35.0,2024-08-11,35.0,2024-08-04,,2024-06-23,2024-10-20,630.0,245.0,385.0,Brisbane,Standard
-2024-07-04,2024-07-03,Recurring,Suspended,Mastercard,Luke  Steptoe,VONj3zGhIxZrXE,35.0,2024-08-07,35.0,2024-08-03,,2024-07-03,2024-10-16,560.0,140.0,420.0,Brisbane,Standard
-2024-07-08,2024-07-08,Recurring,Active,Visa,Beth Perry,8n4XvfZ5Mz9QPa,35.0,2024-08-07,35.0,2024-07-31,,2024-07-08,2024-10-16,525.0,140.0,385.0,Brisbane,Standard
-2024-07-11,2024-07-09,Recurring,Active,Visa,Josh Wright,rkXqPiJsLTrSKc,35.0,2024-08-06,35.0,2024-07-30,,2024-07-09,2024-10-15,525.0,140.0,385.0,Brisbane,Standard
+2024-07-04,2024-07-03,Recurring,In recovery,Mastercard,Luke  Steptoe,VONj3zGhIxZrXE,35.0,2024-08-14,35.0,2024-08-07,,2024-07-03,2024-10-30,630.0,140.0,490.0,Brisbane,Standard
+2024-07-08,2024-07-08,Recurring,Active,Visa,Beth Perry,8n4XvfZ5Mz9QPa,35.0,2024-08-14,35.0,2024-08-07,,2024-07-08,2024-10-23,560.0,175.0,385.0,Brisbane,Standard
+2024-07-11,2024-07-09,Recurring,Active,Visa,Josh Wright,rkXqPiJsLTrSKc,35.0,2024-08-13,35.0,2024-08-06,,2024-07-09,2024-10-22,560.0,175.0,385.0,Brisbane,Standard
 2024-07-12,2024-07-12,Recurring,Active,Mastercard,Kiel Woodward,2fV9ytFfRslJlb,99.0,2024-08-09,99.0,2024-07-26,,2024-07-12,2024-12-27,1287.0,198.0,1089.0,Brisbane,Gold
 2024-07-16,2024-07-22,Recurring,Active,Visa,Bill Morrissey,nFypt6apxQr66f,35.0,2024-08-12,35.0,2024-08-05,,2024-07-22,2024-10-21,490.0,105.0,385.0,Brisbane,Standard
 2024-07-19,2024-07-05,Recurring,Active,Mastercard,Usukhbayar  Od-Erdene,mXJTJgfGbQRcLG,35.0,2024-08-09,35.0,2024-08-02,,2024-07-05,2024-10-18,560.0,175.0,385.0,Brisbane,Standard
 2024-07-22,2024-07-22,Recurring,Active,Visa,Isaiah Fitzpatrick,MBwcYd1xfM8Ewp,35.0,2024-08-12,35.0,2024-08-05,,2024-07-22,2024-10-21,490.0,105.0,385.0,Brisbane,Standard
-2024-07-22,2024-07-22,Recurring,In care,Visa,Nat Duttom,RN29g2OIRjisSc,35.0,2024-08-12,35.0,2024-08-05,,2024-07-22,2024-10-21,490.0,35.0,455.0,Brisbane,Standard
+2024-07-22,2024-07-22,Recurring,In care,Visa,Nat Duttom,RN29g2OIRjisSc,35.0,2024-08-08,35.0,2024-08-05,,2024-07-22,2024-10-21,490.0,35.0,455.0,Brisbane,Standard
 2024-07-26,2024-07-25,Recurring,Active,Visa,Yuki Yamakura,aUED2ti4Abty81,35.0,2024-08-08,35.0,2024-08-01,,2024-07-25,2024-10-17,455.0,70.0,385.0,Brisbane,Standard
-2024-07-30,2024-07-30,Recurring,Active,Visa,Nick Ielasi,3zWJuKSzC49HOr,35.0,2024-08-06,35.0,2024-07-30,,2024-07-30,2024-10-15,420.0,35.0,385.0,Brisbane,Standard
+2024-07-30,2024-07-30,Recurring,Active,Visa,Nick Ielasi,3zWJuKSzC49HOr,35.0,2024-08-13,35.0,2024-08-06,,2024-07-30,2024-10-22,455.0,70.0,385.0,Brisbane,Standard
 2024-08-02,2024-08-02,Recurring,Active,Visa,Nat Dutton,pDubSsD8zxOAqV,35.0,2024-08-09,35.0,2024-08-02,,2024-08-02,2024-10-18,420.0,35.0,385.0,Brisbane,Standard
 2024-08-02,2024-07-29,Recurring,Active,Visa,Boyco Boychev,Vugr3CuxPRmrHi,99.0,2024-08-12,99.0,2024-08-05,,2024-07-29,2024-10-21,1287.0,198.0,1089.0,Brisbane,Gold
 2020-02-03,2020-02-03,Recurring,Cancelled,DE Debit,Danita Keast,r43r85ifoptx,0.0,,220.0,2020-03-23,2020-06-08,2020-02-03,2020-03-23,1760.0,1760.0,0.0,South Side,Other
@@ -401,7 +401,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2020-09-17,2020-09-17,Recurring,Cancelled,Mastercard,Josh Rayner,arzqtn2j1fd7,0.0,,35.0,2021-05-25,2021-12-17,2020-09-17,2021-05-25,1615.0,1615.0,0.0,South Side,Standard
 2020-09-25,2020-09-25,Recurring,Cancelled,Visa,jason grybitis ,747wruie7a9t,0.0,,35.0,2022-01-02,2022-06-02,2020-09-25,2022-01-02,2065.0,2065.0,0.0,South Side,Standard
 2020-09-25,2020-09-23,Recurring,Cancelled,Visa,Declan Austin,70qa1r3pewoz,0.0,,25.0,2021-02-10,2021-08-02,2020-09-23,2021-02-10,525.0,525.0,0.0,South Side,Other
-2020-09-29,2020-09-29,Recurring,Active,Mastercard,Ryan Symons ,l36qd519zmws,25.0,2024-08-06,25.0,2024-07-30,,2020-09-29,2024-10-15,5300.0,5025.0,275.0,South Side,Other
+2020-09-29,2020-09-29,Recurring,Active,Mastercard,Ryan Symons ,l36qd519zmws,25.0,2024-08-13,25.0,2024-08-06,,2020-09-29,2024-10-22,5325.0,5050.0,275.0,South Side,Other
 2020-09-30,2020-10-05,Recurring,Cancelled,DE Debit,Gabe Matt,coj6bm0dhfdo,0.0,,35.0,2021-03-08,2021-06-01,2020-10-05,2021-03-08,805.0,805.0,0.0,South Side,Standard
 2020-10-01,2020-10-01,Recurring,Cancelled,Visa,Leonard case,o8bgx1eay6a6,0.0,,25.0,2024-02-15,2024-05-30,2020-10-01,2024-02-15,4425.0,4425.0,0.0,South Side,Other
 2020-10-07,2020-10-12,Recurring,Cancelled,Mastercard,Ryan Jarvis,w7x7qfd4t2od,0.0,,35.0,2023-03-27,2023-09-07,2020-10-12,2023-03-27,4515.0,4515.0,0.0,South Side,Standard
@@ -423,7 +423,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2020-11-17,2020-11-17,Recurring,Cancelled,DE Debit,Dylan  Vit,qujmw32ciwwj,0.0,,25.0,2021-11-23,2022-06-02,2020-11-17,2021-11-23,1350.0,1350.0,0.0,South Side,Other
 2020-11-18,2020-11-18,Recurring,Cancelled,Visa,Kyle Reid,p0myqan75njs,0.0,,35.0,2022-02-23,2022-03-01,2020-11-18,2022-02-23,2345.0,2345.0,0.0,South Side,Standard
 2020-11-19,2020-11-18,Recurring,Cancelled,Visa,Alastair Patman,rw2fsz19yi9s,0.0,,35.0,2022-01-26,2022-01-31,2020-11-18,2022-01-26,2205.0,2205.0,0.0,South Side,Standard
-2020-12-01,2020-12-01,Recurring,Active,Mastercard,Stephen  Bradshaw,d8rgm1hc7cmw,35.0,2024-08-06,35.0,2024-07-30,,2020-12-01,2024-10-15,7105.0,6720.0,385.0,South Side,Standard
+2020-12-01,2020-12-01,Recurring,Active,Mastercard,Stephen  Bradshaw,d8rgm1hc7cmw,35.0,2024-08-13,35.0,2024-08-06,,2020-12-01,2024-10-22,7140.0,6755.0,385.0,South Side,Standard
 2020-12-01,2020-12-01,Recurring,Cancelled,Mastercard,Brandon Black,pmuo14cgp60x,0.0,,35.0,2022-10-11,2022-10-18,2020-12-01,2022-10-11,3430.0,3430.0,0.0,South Side,Standard
 2020-12-17,2020-12-17,One-off,Complete,DE Debit,Amanda Watson,1clxtcutntg9,0.0,,240.0,2020-12-17,,2020-12-17,2020-12-17,240.0,240.0,0.0,South Side,Other
 2020-12-22,2020-12-22,Recurring,Cancelled,DE Debit,Rachel Park,inwuwn0natri,0.0,,20.0,2021-07-06,2023-12-21,2020-12-22,2021-07-09,580.0,580.0,0.0,South Side,Other
@@ -604,7 +604,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2022-03-22,2022-03-28,Recurring,Cancelled,Mastercard,Tom Earl,7afw443reh1u,0.0,,25.0,2024-06-24,2024-06-26,2022-03-28,2024-06-24,2950.0,2950.0,0.0,South Side,Other
 2022-03-29,2022-03-28,Recurring,Cancelled,Mastercard,Matthew  Dixon,sxrxskkz347y,0.0,,35.0,2022-04-18,2022-04-20,2022-03-28,2022-04-18,140.0,140.0,0.0,South Side,Standard
 2022-03-30,2022-03-31,Recurring,Cancelled,Mastercard,Talissa Lam,du3j9ww1w7qz,0.0,,35.0,2022-07-14,2022-07-19,2022-03-31,2022-07-14,560.0,560.0,0.0,South Side,Standard
-2022-03-30,2022-03-29,Recurring,Active,Mastercard,Kimberley Saller,lhb2hiqs4kvm,150.0,2024-08-28,150.0,2024-07-28,,2022-03-29,2025-06-28,6000.0,4350.0,1650.0,South Side,Other
+2022-03-30,2022-03-29,Recurring,Cancelled,Mastercard,Kimberley Saller,lhb2hiqs4kvm,0.0,,150.0,2024-07-28,2024-08-08,2022-03-29,2024-07-28,4350.0,4350.0,0.0,South Side,Other
 2022-03-30,2022-03-30,Recurring,Cancelled,Visa,Carla Kapp,rdg910fsd1m8,0.0,,0.0,2022-05-06,2022-08-22,2022-03-30,2022-04-30,150.0,150.0,0.0,South Side,Other
 2022-04-01,2022-04-01,Recurring,Cancelled,Mastercard,Nazia Massan,hs9vuyuxybc5,0.0,,35.0,2022-08-12,2023-09-07,2022-04-01,2022-08-12,700.0,700.0,0.0,South Side,Standard
 2022-04-04,2022-04-04,Recurring,Cancelled,Visa,Shannon Maloney,o4jm0yifuan0,0.0,,35.0,2022-04-25,2023-09-07,2022-04-04,2022-04-25,140.0,140.0,0.0,South Side,Standard
@@ -616,7 +616,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2022-04-28,2022-04-28,Recurring,Cancelled,Visa,Sam Irvine,8k01e8gx8nzw,0.0,,35.0,2022-07-07,2023-12-21,2022-04-28,2022-07-07,385.0,385.0,0.0,South Side,Standard
 2022-05-05,2022-04-28,Recurring,Active,Mastercard,Kris Coenik,i81hnbo5yro2,99.0,2024-08-08,99.0,2024-08-01,,2022-04-28,2024-10-17,12474.0,11385.0,1089.0,South Side,Gold
 2022-05-05,2022-05-06,Recurring,Cancelled,Mastercard,Khristian Argana,cjsvef9sn8qv,0.0,,35.0,2022-06-03,2022-08-22,2022-05-06,2022-06-03,175.0,175.0,0.0,South Side,Standard
-2022-05-06,2022-05-11,Recurring,Active,Visa,Jesse Lucas ,477k3sv6yh79,35.0,2024-08-07,35.0,2024-07-31,,2022-05-11,2024-10-16,4480.0,4095.0,385.0,South Side,Standard
+2022-05-06,2022-05-11,Recurring,Active,Visa,Jesse Lucas ,477k3sv6yh79,35.0,2024-08-14,35.0,2024-08-07,,2022-05-11,2024-10-23,4515.0,4130.0,385.0,South Side,Standard
 2022-05-09,2022-05-09,Recurring,Cancelled,Visa,David Barbara,o3kzrdtpqcyn,0.0,,150.0,2022-05-09,2022-05-17,2022-05-09,2022-05-09,150.0,150.0,0.0,South Side,Other
 2022-05-09,2022-05-09,Recurring,Cancelled,Visa,Caleb Grant,0tlseqlk48s3,0.0,,35.0,2023-01-09,2023-09-07,2022-05-09,2023-01-09,1260.0,1260.0,0.0,South Side,Standard
 2022-05-09,2022-05-09,Recurring,Cancelled,Ach credit,Adriel  Pillay,nvlrooq92evb,0.0,,35.0,2022-06-06,2023-12-21,2022-05-09,2022-06-06,175.0,140.0,35.0,South Side,Standard
@@ -647,7 +647,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2022-07-28,2022-08-01,Recurring,Cancelled,Visa,Andrew Swann,1bk8r4jqjibk,0.0,,35.0,2023-03-13,2023-09-07,2022-08-01,2023-03-13,1155.0,1155.0,0.0,South Side,Standard
 2022-08-05,2022-08-05,Recurring,Cancelled,Visa,Scott Gallaher,p9sguwg4nnft,0.0,,100.0,2022-12-05,2023-09-07,2022-08-05,2022-12-05,500.0,500.0,0.0,South Side,Other
 2022-08-06,2022-07-25,Recurring,Cancelled,Visa,Jo Robbertsen,v0886tnudv5z,0.0,,250.0,2022-10-13,2022-10-31,2022-07-25,2022-10-10,750.0,750.0,0.0,South Side,Other
-2022-08-10,2022-08-10,Recurring,Active,Visa,Jesse Lucas ,1ujmmoiiso3i,35.0,2024-08-07,35.0,2024-07-31,,2022-08-10,2024-10-16,4025.0,3640.0,385.0,South Side,Standard
+2022-08-10,2022-08-10,Recurring,Active,Visa,Jesse Lucas ,1ujmmoiiso3i,35.0,2024-08-14,35.0,2024-08-07,,2022-08-10,2024-10-23,4060.0,3675.0,385.0,South Side,Standard
 2022-08-11,2022-08-11,Recurring,Cancelled,Ach credit,Royden Young,ccyb66bfa17i,0.0,,150.0,2022-10-11,2022-11-09,2022-08-11,2022-10-11,450.0,450.0,0.0,South Side,Other
 2022-08-11,2022-08-17,Recurring,Cancelled,Mastercard,Mitchell Cushway,lon7ehv63qli,0.0,,35.0,2022-10-12,2022-10-12,2022-08-17,2022-10-12,315.0,315.0,0.0,South Side,Standard
 2022-08-11,2022-08-17,Recurring,Cancelled,Mastercard,Mitchell Cushway,j04lltgfdx9r,0.0,,35.0,2022-10-05,2022-10-05,2022-08-17,2022-10-05,280.0,280.0,0.0,South Side,Standard
@@ -658,9 +658,9 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2022-09-05,2022-08-29,Recurring,Cancelled,Mastercard,Rebecca Anderson,vu2rgus2juxf,0.0,,70.0,2022-11-10,2023-09-07,2022-08-29,2022-11-10,804.0,804.0,0.0,South Side,Standard Plus Nutrition
 2022-09-07,2022-09-07,Recurring,Cancelled,Visa,Jed  Archibald,f4w2cl7rrtql,0.0,,35.0,2022-11-17,2022-11-22,2022-09-07,2022-11-17,385.0,280.0,105.0,South Side,Standard
 2022-09-08,2022-09-08,Recurring,Cancelled,Mastercard,kurt duncan,1v6hxihgfks0,0.0,,35.0,2023-12-21,2024-05-30,2022-09-08,2023-12-21,2380.0,2380.0,0.0,South Side,Standard
-2022-09-20,2022-09-20,Recurring,Active,Visa,Talitha  Couch,68yfs7ndpdbo,35.0,2024-08-06,35.0,2024-07-30,,2022-09-20,2024-10-15,3815.0,3430.0,385.0,South Side,Standard
+2022-09-20,2022-09-20,Recurring,Active,Visa,Talitha  Couch,68yfs7ndpdbo,35.0,2024-08-13,35.0,2024-08-06,,2022-09-20,2024-10-22,3850.0,3465.0,385.0,South Side,Standard
 2022-09-21,2022-09-21,Recurring,Cancelled,Visa,Eli Daunt,3l825tchl6me,0.0,,35.0,2022-10-12,2022-12-20,2022-09-21,2022-10-11,140.0,140.0,0.0,South Side,Standard
-2022-09-21,2022-09-20,Recurring,Active,Visa,Jake  Grevsmuhl,h1kbazk6e9au,35.0,2024-08-06,35.0,2024-07-30,,2022-09-20,2024-10-15,3815.0,3430.0,385.0,South Side,Standard
+2022-09-21,2022-09-20,Recurring,Active,Visa,Jake  Grevsmuhl,h1kbazk6e9au,35.0,2024-08-13,35.0,2024-08-06,,2022-09-20,2024-10-22,3850.0,3465.0,385.0,South Side,Standard
 2022-09-24,2022-09-12,Recurring,Cancelled,Visa,Rachael Harrison,z77arce694i4,0.0,,99.0,2022-09-26,2022-09-27,2022-09-12,2022-09-26,297.0,297.0,0.0,South Side,Gold
 2022-09-27,2022-09-29,Recurring,Cancelled,Mastercard,Shane Bleakley,ppum3d63mjpk,0.0,,150.0,2023-01-29,2023-09-07,2022-09-29,2023-01-29,750.0,750.0,0.0,South Side,Other
 2022-10-04,2022-10-05,Recurring,Cancelled,Visa,Rebecca Hill,lox864khrswu,0.0,,150.0,2022-10-05,2022-10-20,2022-10-05,2022-10-05,150.0,150.0,0.0,South Side,Other
@@ -684,7 +684,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2022-12-13,2022-12-13,Recurring,Active,Mastercard,Bella  Hart,5ebkro1pn3ls,99.0,2024-08-12,99.0,2024-08-05,,2022-12-13,2025-01-13,8514.0,6237.0,2277.0,South Side,Gold
 2022-12-13,2022-12-15,Recurring,Cancelled,Mastercard,Leonard Van Lille,7418admtqzzx,0.0,,35.0,2023-01-19,2023-09-07,2022-12-15,2023-01-19,210.0,210.0,0.0,South Side,Standard
 2023-01-02,2023-01-02,Recurring,Cancelled,Visa,Shay Carroll,wu1z5hg8xd36,0.0,,35.0,2023-03-13,2023-09-07,2023-01-02,2023-02-05,385.0,35.0,350.0,South Side,Standard
-2023-01-03,2023-01-03,Recurring,Active,Mastercard,Skye Linton,qq0muq82nyhc,35.0,2024-08-06,35.0,2024-07-30,,2023-01-03,2024-10-15,3220.0,2835.0,385.0,South Side,Standard
+2023-01-03,2023-01-03,Recurring,Active,Mastercard,Skye Linton,qq0muq82nyhc,35.0,2024-08-13,35.0,2024-08-06,,2023-01-03,2024-10-22,3255.0,2870.0,385.0,South Side,Standard
 2023-01-03,2023-01-03,Recurring,Cancelled,Mastercard,Danny  Ung,iv74oife7u0g,0.0,,35.0,2023-09-12,2023-12-21,2023-01-03,2023-09-12,1295.0,1295.0,0.0,South Side,Standard
 2023-01-03,2023-01-03,Recurring,Cancelled,Visa,Luke Iles,o0g10t2oulm4,0.0,,35.0,2023-04-18,2023-09-07,2023-01-03,2023-04-18,455.0,455.0,0.0,South Side,Standard
 2023-01-04,2023-01-05,Recurring,Cancelled,Mastercard,Volkan Gozek,2bfbi2t6hhy9,0.0,,150.0,2023-06-05,2023-09-07,2023-01-05,2023-06-05,900.0,900.0,0.0,South Side,Other
@@ -712,7 +712,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-03-24,2023-03-24,Recurring,Cancelled,Mastercard,steven adey,qt36yix3zr7y,0.0,,35.0,2023-04-21,2023-09-07,2023-03-24,2023-04-21,175.0,175.0,0.0,South Side,Standard
 2023-03-28,2023-03-23,Recurring,Active,Amex,Jenni Walke,ktk6quzjt1as,35.0,2024-08-08,35.0,2024-08-01,,2023-03-23,2024-10-17,2905.0,2520.0,385.0,South Side,Standard
 2023-03-28,2023-03-23,Recurring,Cancelled,Amex,Michael Shepherd,yfonlbtvxqqx,0.0,,35.0,2023-08-17,2023-09-07,2023-03-23,2023-08-17,770.0,770.0,0.0,South Side,Standard
-2023-03-29,2023-03-29,Recurring,Active,Visa,Emma Waller,ur70setbkz5t,99.0,2024-08-07,99.0,2024-07-31,,2023-03-29,2024-10-16,7722.0,6633.0,1089.0,South Side,Gold
+2023-03-29,2023-03-29,Recurring,Active,Visa,Emma Waller,ur70setbkz5t,99.0,2024-08-14,99.0,2024-08-07,,2023-03-29,2024-10-23,7821.0,6732.0,1089.0,South Side,Gold
 2023-03-29,2023-04-01,Recurring,Active,Visa,Jemima James,0nviivbivr15,35.0,2024-08-10,35.0,2024-08-03,,2023-04-01,2024-10-19,2870.0,2485.0,385.0,South Side,Standard
 2023-03-31,2023-03-31,Recurring,Active,Mastercard,Khristian Argana,vcjx3j552wf8,35.0,2024-08-09,35.0,2024-08-02,,2023-03-31,2024-10-18,2870.0,2485.0,385.0,South Side,Standard
 2023-04-01,2023-03-31,Recurring,Cancelled,Mastercard,Adriel  Pillay,tddjvlipzfip,0.0,,35.0,2023-09-08,2023-12-21,2023-03-31,2023-09-09,840.0,840.0,0.0,South Side,Standard
@@ -738,7 +738,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-05-15,2023-05-15,Recurring,Cancelled,Mastercard,Dale Rogers,ks2ovki791ke,0.0,,35.0,2024-01-08,2024-05-30,2023-05-15,2024-01-01,1225.0,1190.0,35.0,South Side,Standard
 2023-05-15,2023-05-17,Recurring,Cancelled,Visa,Brooke Alfredson,a87e9q1hm1kn,0.0,,35.0,2023-10-04,2023-12-21,2023-05-17,2023-10-04,665.0,665.0,0.0,South Side,Standard
 2023-05-17,2023-05-17,Recurring,Paused,Mastercard,Mary  Bellas,hmje7ag83f4d,99.0,2024-01-03,99.0,2023-12-27,,2023-05-17,2024-03-13,4059.0,2970.0,1089.0,South Side,Gold
-2023-05-17,2023-05-17,Recurring,Active,Visa,Paul Quan,gexq1qnfr7ji,99.0,2024-08-07,99.0,2024-07-31,,2023-05-17,2024-10-16,7425.0,6336.0,1089.0,South Side,Gold
+2023-05-17,2023-05-17,Recurring,Active,Visa,Paul Quan,gexq1qnfr7ji,99.0,2024-08-14,99.0,2024-08-07,,2023-05-17,2024-10-23,7524.0,6435.0,1089.0,South Side,Gold
 2023-05-18,2023-05-17,Recurring,Cancelled,Visa,Trudee  Thomas,53or043edjrv,0.0,,35.0,2023-10-04,2023-12-21,2023-05-17,2023-10-04,735.0,735.0,0.0,South Side,Standard
 2023-05-18,2023-05-24,Recurring,Cancelled,Visa,Stephanie Brunt,7sff5kn8u5od,0.0,,150.0,2023-08-27,2023-12-21,2023-05-24,2023-08-27,600.0,450.0,150.0,South Side,Other
 2023-05-19,2023-05-23,Recurring,Paused,Visa,Matt Brown,x2173ff0zc1y,35.0,2024-03-12,35.0,2024-03-08,,2023-05-23,2024-05-28,3618.0,3163.0,455.0,South Side,Standard
@@ -771,7 +771,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-08-11,2023-08-15,Recurring,Cancelled,Mastercard,Jeff Winter,4e1eppsmfip8,0.0,,150.0,2023-10-15,2023-12-21,2023-08-15,2023-09-23,450.0,150.0,300.0,South Side,Other
 2023-08-15,2023-08-17,Recurring,Cancelled,Amex,Amy  Pemrose,2koabjw6me6i,0.0,,20.0,2024-01-11,2024-05-30,2023-08-17,2024-01-11,380.0,380.0,0.0,South Side,Other
 2023-08-16,2023-08-15,Recurring,Cancelled,Visa,Talitha  Couch,c1prme02zvsu,0.0,,35.0,2024-06-18,2024-06-24,2023-08-15,2024-06-18,1575.0,1575.0,0.0,South Side,Standard
-2023-08-17,2023-08-16,Recurring,Active,Visa,Jamey Lao,67r3nko3kgbo,35.0,2024-08-07,35.0,2024-07-31,,2023-08-16,2024-10-16,2100.0,1715.0,385.0,South Side,Standard
+2023-08-17,2023-08-16,Recurring,Active,Visa,Jamey Lao,67r3nko3kgbo,35.0,2024-08-14,35.0,2024-08-07,,2023-08-16,2024-10-23,2135.0,1750.0,385.0,South Side,Standard
 2023-08-24,2023-09-04,Recurring,Active,Mastercard,Paul Lee,i56akgr6j8pg,30.0,2024-08-12,30.0,2024-08-05,,2023-09-04,2024-10-21,1800.0,1470.0,330.0,South Side,Other
 2023-08-24,2023-08-24,Recurring,Cancelled,Mastercard,Antonio  Cristiano,k51xbmuheq3e,0.0,,35.0,2024-02-08,2024-05-30,2023-08-24,2024-02-08,875.0,875.0,0.0,South Side,Standard
 2023-08-24,2023-09-04,Recurring,Active,Visa,Dave Lee,hh2bwr58l7n4,30.0,2024-08-12,30.0,2024-08-05,,2023-09-04,2024-10-21,1800.0,1470.0,330.0,South Side,Other
@@ -779,10 +779,10 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-08-25,2023-09-04,Recurring,Cancelled,Visa,Darren Van Der Ryken,49c7m42j9fe1,0.0,,250.0,2024-03-04,2024-05-30,2023-09-04,2024-03-04,1750.0,1750.0,0.0,South Side,Other
 2023-08-25,2023-08-25,One-off,Complete,Mastercard,Liz  Johnson ,62klwedreznd,0.0,,195.0,2023-08-25,,2023-08-25,2023-08-25,195.0,195.0,0.0,South Side,Other
 2023-08-26,2023-08-24,Recurring,Cancelled,Visa,Logan Martinovic,b31cu730cmd0,0.0,,25.0,2024-04-18,2024-04-24,2023-08-24,2024-04-18,875.0,875.0,0.0,South Side,Other
-2023-08-26,2023-08-29,Recurring,Active,Mastercard,Gavin Gosain,7ezaafzt0qwr,35.0,2024-08-06,35.0,2024-07-30,,2023-08-29,2024-10-15,2100.0,1715.0,385.0,South Side,Standard
+2023-08-26,2023-08-29,Recurring,Active,Mastercard,Gavin Gosain,7ezaafzt0qwr,35.0,2024-08-13,35.0,2024-08-06,,2023-08-29,2024-10-22,2135.0,1750.0,385.0,South Side,Standard
 2023-08-29,2023-08-29,Recurring,Cancelled,Visa,Daniela  Amin,y38fcz6c2jm5,0.0,,35.0,2023-10-31,2023-12-21,2023-08-29,2023-10-31,350.0,350.0,0.0,South Side,Standard
-2023-08-29,2023-08-29,Recurring,Active,Visa,egor  baranov,unvxwzirjrud,35.0,2024-08-06,35.0,2024-07-30,,2023-08-29,2024-10-15,2100.0,1715.0,385.0,South Side,Standard
-2023-08-30,2023-08-29,Recurring,Active,Mastercard,Lachlan Swain,lfx4e0of36lv,25.0,2024-08-06,25.0,2024-07-30,,2023-08-29,2024-10-15,1500.0,1225.0,275.0,South Side,Other
+2023-08-29,2023-08-29,Recurring,Active,Visa,egor  baranov,unvxwzirjrud,35.0,2024-08-13,35.0,2024-08-06,,2023-08-29,2024-10-22,2135.0,1750.0,385.0,South Side,Standard
+2023-08-30,2023-08-29,Recurring,Active,Mastercard,Lachlan Swain,lfx4e0of36lv,25.0,2024-08-13,25.0,2024-08-06,,2023-08-29,2024-10-22,1525.0,1250.0,275.0,South Side,Other
 2023-09-02,2023-09-07,Recurring,Cancelled,Mastercard,Antonio  Cristiano,cyvvomza7f8b,0.0,,65.0,2023-10-05,2024-05-30,2023-09-07,2023-10-05,325.0,325.0,0.0,South Side,Other
 2023-09-03,2023-09-04,Recurring,Active,Visa,Brody Cochrane,l1kanbbb6knb,35.0,2024-08-12,35.0,2024-08-05,,2023-09-04,2024-10-21,2100.0,1715.0,385.0,South Side,Standard
 2023-09-04,2023-09-04,Recurring,Active,Mastercard,Irena Cox,wv418wjj581k,35.0,2024-08-12,35.0,2024-08-05,,2023-09-04,2024-10-21,2100.0,1715.0,385.0,South Side,Standard
@@ -791,7 +791,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-09-09,2023-09-11,Recurring,Cancelled,Mastercard,Aimee  Maclean,ww8sr5hoa8yg,0.0,,150.0,2023-10-11,2023-12-21,2023-09-11,2023-10-11,300.0,150.0,150.0,South Side,Other
 2023-09-11,2023-09-25,Recurring,Cancelled,Visa,Heather  Windle,k7mr9m893rzt,0.0,,100.0,2023-10-25,2023-11-14,2023-09-25,2023-10-25,200.0,200.0,0.0,South Side,Other
 2023-09-12,2023-09-11,Recurring,Cancelled,Mastercard,Matthew  Su,a863p85hnopd,0.0,,35.0,2024-01-08,2024-05-30,2023-09-11,2024-01-03,630.0,595.0,35.0,South Side,Standard
-2023-09-15,2023-09-19,Recurring,Active,Visa,Lucy Smart ,7poz4ceqcd95,35.0,2024-08-06,35.0,2024-07-23,,2023-09-19,2024-12-24,1190.0,805.0,385.0,South Side,Standard
+2023-09-15,2023-09-19,Recurring,Active,Visa,Lucy Smart ,7poz4ceqcd95,35.0,2024-08-20,35.0,2024-08-06,,2023-09-19,2025-01-07,1225.0,840.0,385.0,South Side,Standard
 2023-09-15,2023-09-16,Recurring,Active,Mastercard,Jayden Hiscox,3gofu54wll4h,35.0,2024-08-10,35.0,2024-08-03,,2023-09-16,2024-10-19,2030.0,1645.0,385.0,South Side,Standard
 2023-09-21,2023-10-02,Recurring,Active,Visa,Rick Tierney,rv8n37upl0vl,30.0,2024-08-12,30.0,2024-07-29,,2023-10-02,2024-10-14,1650.0,1350.0,300.0,South Side,Other
 2023-09-23,2023-09-20,Recurring,Cancelled,Visa,Simona Dagui,sn0lqtn25h10,0.0,,35.0,2023-11-29,2023-12-21,2023-09-20,2023-11-29,385.0,385.0,0.0,South Side,Standard
@@ -810,14 +810,14 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-11-22,2023-11-22,Recurring,Paused,Visa,Sean  Bridgewater,h5hdsx4u7lut,35.0,2024-04-09,35.0,2024-04-02,,2023-11-22,2024-06-18,980.0,595.0,385.0,South Side,Standard
 2023-11-27,2023-11-28,Recurring,Cancelled,Mastercard,Lynda Bergin,crouhvvhpqr9,0.0,,35.0,2024-03-26,2024-05-30,2023-11-28,2024-03-26,525.0,525.0,0.0,South Side,Standard
 2023-11-28,2023-11-28,Recurring,Cancelled,Mastercard,Loki Zero Weakness Chauhan,8go1sl1tfeah,0.0,,34.5,2023-12-12,2023-12-21,2023-11-28,2023-12-12,103.5,103.5,0.0,South Side,Other
-2023-11-29,2023-11-29,Recurring,Active,Visa,bradley read,v0ulamv2injf,35.0,2024-08-07,35.0,2024-07-31,,2023-11-29,2024-10-16,1645.0,1260.0,385.0,South Side,Standard
+2023-11-29,2023-11-29,Recurring,Active,Visa,bradley read,v0ulamv2injf,35.0,2024-08-14,35.0,2024-08-07,,2023-11-29,2024-10-23,1680.0,1295.0,385.0,South Side,Standard
 2023-12-05,2023-12-04,Recurring,Active,Visa,Yannick Christopher ,r6mutig5jubw,35.0,2024-08-12,35.0,2024-08-05,,2023-12-04,2024-10-21,1645.0,1260.0,385.0,South Side,Standard
 2023-12-12,2023-12-14,Recurring,Suspended,Visa,Tuvaru Toki,nx7es7uwkkr1,250.0,2024-08-08,250.0,2024-08-01,,2023-12-14,2024-10-17,10750.0,7500.0,3250.0,South Side,Other
 2023-12-15,2023-12-14,Recurring,Active,Mastercard,Caleb  Knarston,a8slx0nfdyw9,30.0,2024-08-08,30.0,2024-08-01,,2023-12-14,2024-10-17,1350.0,1020.0,330.0,South Side,Other
 2023-12-15,2023-12-15,Recurring,Cancelled,Visa,Austin Hedge ,cmjv26w7aaxp,0.0,,35.0,2024-04-19,2024-05-30,2023-12-15,2024-04-19,665.0,665.0,0.0,South Side,Standard
 2023-12-18,2023-12-18,Recurring,Cancelled,Mastercard,Matthew Leung,tt2ft3ejedzn,0.0,,35.0,2024-01-22,2024-05-30,2023-12-18,2024-01-22,210.0,210.0,0.0,South Side,Standard
-2023-12-20,2023-12-20,Recurring,Active,Visa,Adam Fittler,x1q8td0bub92,35.0,2024-08-07,35.0,2024-07-31,,2023-12-20,2024-10-16,1435.0,1050.0,385.0,South Side,Standard
-2023-12-20,2023-12-20,Recurring,Active,Mastercard,Tayla Forbes,gs6zqcoqi0r2,35.0,2024-08-07,35.0,2024-07-31,,2023-12-20,2024-10-16,1540.0,1155.0,385.0,South Side,Standard
+2023-12-20,2023-12-20,Recurring,Active,Visa,Adam Fittler,x1q8td0bub92,35.0,2024-08-14,35.0,2024-08-07,,2023-12-20,2024-10-23,1470.0,1085.0,385.0,South Side,Standard
+2023-12-20,2023-12-20,Recurring,Active,Mastercard,Tayla Forbes,gs6zqcoqi0r2,35.0,2024-08-14,35.0,2024-08-07,,2023-12-20,2024-10-23,1575.0,1190.0,385.0,South Side,Standard
 2023-12-22,2023-12-22,Recurring,Paused,Mastercard,Lauren Teklenburg,yzhm7et3bqib,35.0,2024-04-12,35.0,2024-04-05,,2023-12-22,2024-06-21,875.0,490.0,385.0,South Side,Standard
 2023-12-22,2023-12-22,Recurring,Active,Mastercard,Dee Cha,vsi2q2a3d6rf,65.0,2024-08-09,65.0,2024-08-02,,2023-12-22,2024-10-18,2730.0,2015.0,715.0,South Side,Other
 2023-12-22,2024-01-01,Recurring,Cancelled,Visa,Brad Turner,hl4a7wt2csop,0.0,,35.0,2024-06-24,2024-06-24,2024-01-01,2024-06-24,910.0,875.0,35.0,South Side,Standard
@@ -830,15 +830,15 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2024-01-14,2024-01-22,Recurring,Paused,Amex,Tracey Coombes,hyvl9o54bwdk,160.0,2024-02-05,160.0,2024-01-29,,2024-01-22,2024-04-22,2080.0,160.0,1920.0,South Side,Other
 2024-01-14,2024-01-15,Recurring,Paused,Visa,Joshua Schauer,i9lxbklmrcsw,99.0,2024-01-22,99.0,2024-01-15,,2024-01-15,2024-04-01,1188.0,99.0,1089.0,South Side,Gold
 2024-01-15,2024-01-15,Recurring,Cancelled,Visa,Joelle  Boribon ,3br759tw50iy,0.0,,35.0,2024-07-01,2024-07-01,2024-01-15,2024-07-01,875.0,875.0,0.0,South Side,Standard
-2024-01-15,2024-01-10,Recurring,Active,Visa,Leonard Van Lille,ftpkvhejiwcu,35.0,2024-08-07,35.0,2024-07-31,,2024-01-10,2024-10-16,1435.0,1050.0,385.0,South Side,Standard
-2024-01-16,2024-01-17,Recurring,Active,Visa,Richard  dunks,lld9cj3iesiq,35.0,2024-08-07,35.0,2024-07-31,,2024-01-17,2024-10-16,1400.0,1015.0,385.0,South Side,Standard
-2024-01-16,2024-01-22,Recurring,Active,Mastercard,Natasha Lindsey,mmfhkcmgmoa3,57.0,2024-08-07,57.0,2024-07-31,,2024-01-24,2024-10-16,1995.0,1368.0,627.0,South Side,Other
+2024-01-15,2024-01-10,Recurring,In care,Visa,Leonard Van Lille,ftpkvhejiwcu,35.0,2024-08-14,35.0,2024-08-07,,2024-01-10,2024-10-23,1470.0,1050.0,420.0,South Side,Standard
+2024-01-16,2024-01-17,Recurring,Active,Visa,Richard  dunks,lld9cj3iesiq,35.0,2024-08-14,35.0,2024-08-07,,2024-01-17,2024-10-23,1435.0,1050.0,385.0,South Side,Standard
+2024-01-16,2024-01-22,Recurring,Active,Mastercard,Natasha Lindsey,mmfhkcmgmoa3,57.0,2024-08-14,57.0,2024-08-07,,2024-01-24,2024-10-23,2052.0,1425.0,627.0,South Side,Other
 2024-01-17,2024-01-30,Recurring,Cancelled,Visa,Ryan Urbani,ru3asiwkrm3z,0.0,,35.0,2024-04-09,2024-05-30,2024-01-30,2024-02-20,385.0,35.0,350.0,South Side,Standard
 2024-01-17,2024-01-17,One-off,Complete,Visa,Darren Van Der Ryken,ul7xkr1qh2mr,0.0,,180.0,2024-01-17,,2024-01-17,2024-01-17,180.0,180.0,0.0,South Side,Other
 2024-01-19,2024-01-11,Recurring,Suspended,Visa,Rohan Musch,ncv3kkh31gwy,30.0,2024-08-08,30.0,2024-08-01,,2024-01-11,2024-10-17,1230.0,540.0,690.0,South Side,Other
 2024-01-19,2024-01-18,Recurring,Cancelled,Mastercard,Kelly Lawton,axfw2xsmy56g,0.0,,35.0,2024-05-30,2024-06-04,2024-01-18,2024-05-30,700.0,700.0,0.0,South Side,Standard
 2024-01-19,2024-01-22,Recurring,Cancelled,Mastercard,Liz  Johnson ,8hjusta8f20c,0.0,,35.0,2024-05-20,2024-05-22,2024-01-22,2024-05-20,630.0,630.0,0.0,South Side,Standard
-2024-01-19,2024-01-23,Recurring,Active,Visa,Joshua Schauer,30kr3s7nh3zy,179.0,2024-08-06,179.0,2024-07-30,,2024-01-23,2024-10-15,6623.0,4654.0,1969.0,South Side,Platinum
+2024-01-19,2024-01-23,Recurring,Active,Visa,Joshua Schauer,30kr3s7nh3zy,179.0,2024-08-13,179.0,2024-08-06,,2024-01-23,2024-10-22,6802.0,4833.0,1969.0,South Side,Platinum
 2024-01-19,2024-02-05,Recurring,Cancelled,Visa,Justin  Mann,bdyu595twh3p,0.0,,35.0,2024-05-13,2024-05-30,2024-02-05,2024-05-13,525.0,525.0,0.0,South Side,Standard
 2024-01-19,2024-01-22,Recurring,Cancelled,Mastercard,Tom  Jamison,hshs3ngcegl5,0.0,,35.0,2024-04-15,2024-05-30,2024-01-22,2024-04-15,455.0,455.0,0.0,South Side,Standard
 2024-01-24,2024-01-31,Recurring,Cancelled,Visa,Leon Chen,djjxyrjminyk,0.0,,35.0,2024-02-28,2024-03-04,2024-01-31,2024-02-28,175.0,175.0,0.0,South Side,Standard
@@ -853,28 +853,28 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2024-02-28,2024-03-01,Recurring,Active,Visa,Trent Mazzarella,92mjixfgfayo,35.0,2024-08-09,35.0,2024-08-02,,2024-03-01,2024-10-18,1190.0,805.0,385.0,South Side,Standard
 2024-02-28,2024-02-29,Recurring,Active,Visa,KJ Godinet,vszb4lpwlk1w,35.0,2024-08-08,35.0,2024-08-01,,2024-02-29,2024-10-17,1190.0,805.0,385.0,South Side,Standard
 2024-02-28,2024-02-29,Recurring,Cancelled,Visa,Faith  Hickey,kgw0l86ugkue,0.0,,35.0,2024-07-25,2024-07-31,2024-02-29,2024-07-25,1730.0,1730.0,0.0,South Side,Standard
-2024-03-01,2024-03-04,Recurring,In care,Visa,Isaiah  Young,7ftuzre7l300,35.0,2024-08-12,35.0,2024-08-05,,2024-03-04,2024-10-21,1155.0,735.0,420.0,South Side,Standard
+2024-03-01,2024-03-04,Recurring,Active,Visa,Isaiah  Young,7ftuzre7l300,35.0,2024-08-12,35.0,2024-08-05,,2024-03-04,2024-10-21,1155.0,770.0,385.0,South Side,Standard
 2024-03-05,2024-03-08,Recurring,Active,Visa,Rachel Park,xhz3pxvnuff6,99.0,2024-08-16,99.0,2024-08-02,,2024-03-08,2024-11-01,1782.0,594.0,1188.0,South Side,Gold
 2024-03-05,2024-03-05,One-off,Complete,Visa,Rachel Park,fny18f3z092t,0.0,,150.0,2024-03-05,,2024-03-05,2024-03-05,150.0,150.0,0.0,South Side,Other
-2024-03-07,2024-03-06,Recurring,Active,Visa,Kent Barth,7u2d205miwmg,35.0,2024-08-07,35.0,2024-07-31,,2024-03-06,2024-10-16,1155.0,770.0,385.0,South Side,Standard
-2024-03-07,2024-03-13,Recurring,Active,Mastercard,Bob McCutcheon,0qy5105hf78w,35.0,2024-08-07,35.0,2024-07-31,,2024-03-13,2024-10-16,1120.0,735.0,385.0,South Side,Standard
+2024-03-07,2024-03-06,Recurring,Active,Visa,Kent Barth,7u2d205miwmg,35.0,2024-08-14,35.0,2024-08-07,,2024-03-06,2024-10-23,1190.0,805.0,385.0,South Side,Standard
+2024-03-07,2024-03-13,Recurring,Active,Mastercard,Bob McCutcheon,0qy5105hf78w,35.0,2024-08-14,35.0,2024-08-07,,2024-03-13,2024-10-23,1155.0,770.0,385.0,South Side,Standard
 2024-03-08,2024-03-07,Recurring,Active,Visa,Christopher Lochran,tjkbkcxj00ye,35.0,2024-08-08,35.0,2024-08-01,,2024-03-07,2024-10-17,1155.0,770.0,385.0,South Side,Standard
 2024-03-11,2024-03-11,One-off,Complete,Visa,Rachel Park,cyf50tttacyc,0.0,,495.0,2024-03-11,,2024-03-11,2024-03-11,495.0,495.0,0.0,South Side,Other
-2024-03-20,2024-03-20,Recurring,Active,Mastercard,Melinda  Newitt ,5oem6s7jr7q2,35.0,2024-08-07,35.0,2024-07-31,,2024-03-20,2024-10-16,1085.0,700.0,385.0,South Side,Standard
+2024-03-20,2024-03-20,Recurring,Active,Mastercard,Melinda  Newitt ,5oem6s7jr7q2,35.0,2024-08-14,35.0,2024-08-07,,2024-03-20,2024-10-23,1120.0,735.0,385.0,South Side,Standard
 2024-03-26,2024-03-25,Recurring,Active,Visa,Louis Blinkhorne ,Lj2lvFCyIOJMZ5,35.0,2024-08-12,35.0,2024-08-05,,2024-03-25,2024-10-21,1277.0,892.0,385.0,South Side,Standard
 2024-03-28,2024-03-28,Recurring,Active,Mastercard,Nic Fotins,0nm2Xy0CTPWUe2,30.0,2024-08-08,30.0,2024-08-01,,2024-03-28,2024-10-17,900.0,570.0,330.0,South Side,Other
-2024-04-03,2024-04-03,Recurring,Active,Mastercard,Marise Jack,KAwcIM7jtEVg2T,99.0,2024-08-07,99.0,2024-07-31,,2024-04-03,2024-10-16,2871.0,1782.0,1089.0,South Side,Gold
+2024-04-03,2024-04-03,Recurring,Active,Mastercard,Marise Jack,KAwcIM7jtEVg2T,99.0,2024-08-14,99.0,2024-08-07,,2024-04-03,2024-10-23,2970.0,1881.0,1089.0,South Side,Gold
 2024-04-05,2024-04-05,One-off,Complete,Visa,Rachel Park,95gspD6JZH6HAY,0.0,,594.0,2024-04-05,,2024-04-05,2024-04-05,594.0,594.0,0.0,South Side,Other
 2024-04-08,2024-04-09,Recurring,Cancelled,Mastercard,Crystal  Brownbill,IRKmca0Ak2rmcy,0.0,,35.0,2024-06-18,2024-06-19,2024-04-09,2024-06-18,350.0,315.0,35.0,South Side,Standard
-2024-04-08,2024-04-10,Recurring,Active,Visa,Deena Lindner,t8oweoGE0YWJFD,35.0,2024-08-07,35.0,2024-07-31,,2024-04-08,2024-10-16,980.0,595.0,385.0,South Side,Standard
+2024-04-08,2024-04-10,Recurring,Active,Visa,Deena Lindner,t8oweoGE0YWJFD,35.0,2024-08-14,35.0,2024-08-07,,2024-04-08,2024-10-23,1015.0,630.0,385.0,South Side,Standard
 2024-04-08,2024-04-08,Recurring,Active,Visa,Stefano Brusato,le3e1SA4IzlEtd,35.0,2024-08-12,35.0,2024-08-05,,2024-04-08,2024-10-21,1015.0,630.0,385.0,South Side,Standard
-2024-04-08,2024-04-10,Recurring,Active,Mastercard,Lem Lobhoy,pJNF85UOPJicLQ,35.0,2024-08-07,35.0,2024-07-31,,2024-04-10,2024-10-16,980.0,595.0,385.0,South Side,Standard
+2024-04-08,2024-04-10,Recurring,Active,Mastercard,Lem Lobhoy,pJNF85UOPJicLQ,35.0,2024-08-14,35.0,2024-08-07,,2024-04-10,2024-10-23,1015.0,630.0,385.0,South Side,Standard
 2024-04-09,2024-04-08,Recurring,Cancelled,Mastercard,Kurtis Ellems,rposZFsMfx3Eu4,0.0,,35.0,2024-04-29,2024-05-30,2024-04-08,2024-04-29,140.0,140.0,0.0,South Side,Standard
 2024-04-18,2024-04-19,Recurring,Paused,Visa,Alexis  Uren,WohqGS1owqbD9b,80.0,2024-08-02,80.0,2024-07-26,,2024-04-18,2024-11-08,1760.0,560.0,1200.0,South Side,Other
 2024-04-26,2024-04-24,Fixed,Complete,Visa,Joshua Schauer,Y0hloOSwbfIdKv,0.0,,70.0,2024-04-24,,2024-04-24,2024-04-26,70.0,70.0,0.0,South Side,Standard Plus Nutrition
 2024-04-29,2024-04-29,Recurring,Active,Visa,Leon Chen,ZJK2D9wfCkK4uF,35.0,2024-08-12,35.0,2024-08-05,,2024-04-29,2024-10-21,910.0,525.0,385.0,South Side,Standard
 2024-05-02,2024-05-06,Recurring,Cancelled,Visa,Karen Stokes,89OaTOyTS0ebQN,0.0,,0.0,,2024-05-30,2024-05-06,2024-07-22,0.0,0.0,0.0,South Side,Other
-2024-05-12,2024-04-30,Recurring,Active,Visa,Nick Ewing,LxZeI671joiu5t,35.0,2024-08-06,35.0,2024-07-30,,2024-04-30,2024-10-15,875.0,490.0,385.0,South Side,Standard
+2024-05-12,2024-04-30,Recurring,Active,Visa,Nick Ewing,LxZeI671joiu5t,35.0,2024-08-13,35.0,2024-08-06,,2024-04-30,2024-10-22,910.0,525.0,385.0,South Side,Standard
 2024-05-13,2024-05-13,Recurring,Active,Visa,Amber Clifford ,0PbiJ3qTcY01TR,35.0,2024-08-12,35.0,2024-08-05,,2024-05-13,2024-10-21,840.0,455.0,385.0,South Side,Standard
 2024-05-21,2024-05-20,Recurring,Active,Visa,Andrew Swann,lBU7Bk4pOYEGRX,35.0,2024-08-12,35.0,2024-08-05,,2024-05-20,2024-10-21,805.0,420.0,385.0,South Side,Standard
 2024-05-24,2024-05-24,Recurring,Active,Mastercard,James Austin,I7ibwLqBou48QX,35.0,2024-08-09,35.0,2024-08-02,,2024-05-24,2024-10-18,770.0,385.0,385.0,South Side,Standard
@@ -887,22 +887,25 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2024-06-06,2024-06-17,Recurring,Active,Mastercard,Raphael Demetreos,1CDiD1kx1G3wKC,134.0,2024-08-12,134.0,2024-08-05,,2024-06-06,2024-10-21,2546.0,1072.0,1474.0,South Side,Gold Plus Nutrition
 2024-06-07,2024-06-07,Recurring,Active,Visa,Lachlan Flew,GZuhEQNAEDoGBO,35.0,2024-08-09,35.0,2024-08-02,,2024-06-07,2024-10-18,700.0,315.0,385.0,South Side,Standard
 2024-06-12,2024-06-14,Recurring,Active,Visa,Beau Rutherford,9eDplJUTp8qi8H,35.0,2024-08-09,35.0,2024-08-02,,2024-06-14,2024-10-18,665.0,280.0,385.0,South Side,Standard
-2024-06-24,2024-06-24,Recurring,Active,Mastercard,Jack Hobbs,Xn2vDZc8UlcGQI,35.0,2024-08-07,35.0,2024-07-31,,2024-06-26,2024-10-16,595.0,210.0,385.0,South Side,Standard
-2024-06-25,2024-06-25,Recurring,Active,Visa,Jett  Alexander ,3MFOibywaaosBK,35.0,2024-08-06,35.0,2024-07-30,,2024-06-25,2024-10-15,595.0,210.0,385.0,South Side,Standard
-2024-06-25,2024-06-26,Recurring,Active,Visa,Joshua Schauer,0Mm5OCOYDGhj1d,35.0,2024-08-07,35.0,2024-07-31,,2024-06-26,2024-10-16,595.0,210.0,385.0,South Side,Standard
-2024-06-25,2024-06-26,Recurring,Active,Mastercard,Dylan  Corbett ,T6K07C6nzoqrYq,35.0,2024-08-07,35.0,2024-07-31,,2024-06-25,2024-10-16,595.0,210.0,385.0,South Side,Standard
-2024-06-25,2024-06-25,Recurring,Active,Mastercard,Yeon  Woo,Fs0T0O49cYmfqo,35.0,2024-08-06,35.0,2024-07-30,,2024-06-25,2024-10-15,595.0,210.0,385.0,South Side,Standard
+2024-06-24,2024-06-24,Recurring,Active,Mastercard,Jack Hobbs,Xn2vDZc8UlcGQI,35.0,2024-08-14,35.0,2024-08-07,,2024-06-26,2024-10-23,630.0,245.0,385.0,South Side,Standard
+2024-06-25,2024-06-25,Recurring,Active,Visa,Jett  Alexander ,3MFOibywaaosBK,35.0,2024-08-13,35.0,2024-08-06,,2024-06-25,2024-10-22,630.0,245.0,385.0,South Side,Standard
+2024-06-25,2024-06-26,Recurring,Active,Visa,Joshua Schauer,0Mm5OCOYDGhj1d,35.0,2024-08-14,35.0,2024-08-07,,2024-06-26,2024-10-23,630.0,245.0,385.0,South Side,Standard
+2024-06-25,2024-06-26,Recurring,Active,Mastercard,Dylan  Corbett ,T6K07C6nzoqrYq,35.0,2024-08-14,35.0,2024-08-07,,2024-06-25,2024-10-23,630.0,245.0,385.0,South Side,Standard
+2024-06-25,2024-06-25,Recurring,Active,Mastercard,Yeon  Woo,Fs0T0O49cYmfqo,35.0,2024-08-13,35.0,2024-08-06,,2024-06-25,2024-10-22,630.0,245.0,385.0,South Side,Standard
 2024-06-27,2024-06-28,Recurring,Active,Visa,Tracey Maher,2uEPD5eVKHuzK3,35.0,2024-08-09,35.0,2024-08-02,,2024-06-28,2024-10-18,595.0,210.0,385.0,South Side,Standard
-2024-07-03,2024-07-10,Recurring,Active,Visa,Emma Scott,tkld2B8rrq8aW6,35.0,2024-08-07,35.0,2024-07-31,,2024-07-10,2024-10-16,525.0,140.0,385.0,South Side,Standard
-2024-07-04,2024-07-02,Recurring,Active,Visa,Nathan Buckle,O3Yr47RRumZaBI,35.0,2024-08-06,35.0,2024-07-30,,2024-07-02,2024-10-15,560.0,175.0,385.0,South Side,Standard
+2024-07-03,2024-07-10,Recurring,Active,Visa,Emma Scott,tkld2B8rrq8aW6,35.0,2024-08-14,35.0,2024-08-07,,2024-07-10,2024-10-23,560.0,175.0,385.0,South Side,Standard
+2024-07-04,2024-07-02,Recurring,Active,Visa,Nathan Buckle,O3Yr47RRumZaBI,35.0,2024-08-13,35.0,2024-08-06,,2024-07-02,2024-10-22,595.0,210.0,385.0,South Side,Standard
 2024-07-04,2024-07-05,Recurring,Active,Visa,Asher Jones,n1H9TS6JL5PiFr,35.0,2024-08-09,35.0,2024-08-02,,2024-07-05,2024-10-18,560.0,175.0,385.0,South Side,Standard
-2024-07-04,2024-07-10,Recurring,Active,Visa,Emma Scott,zMDvRUw9S9rOIB,80.0,2024-08-07,80.0,2024-07-24,,2024-07-10,2024-12-25,1040.0,160.0,880.0,South Side,Other
+2024-07-04,2024-07-10,Recurring,Active,Visa,Emma Scott,zMDvRUw9S9rOIB,80.0,2024-08-21,80.0,2024-08-07,,2024-07-10,2025-06-25,1120.0,160.0,960.0,South Side,Other
 2024-07-16,2024-07-22,Recurring,Active,Mastercard,Angela Verner,6wJ5IJEHV06LxG,99.0,2024-08-12,99.0,2024-08-05,,2024-07-22,2024-10-21,1386.0,297.0,1089.0,South Side,Gold
-2024-07-23,2024-07-23,Recurring,Active,Visa,Casey Dodd,yLb1qKD5E1yTnJ,35.0,2024-08-06,35.0,2024-07-30,,2024-07-23,2024-10-15,455.0,70.0,385.0,South Side,Standard
-2024-07-23,2024-07-23,Recurring,Active,Visa,Cory Gilbert,UJAzPwD7SUJ1Hw,35.0,2024-08-06,35.0,2024-07-30,,2024-07-23,2024-10-15,455.0,70.0,385.0,South Side,Standard
+2024-07-23,2024-07-23,Recurring,Active,Visa,Casey Dodd,yLb1qKD5E1yTnJ,35.0,2024-08-13,35.0,2024-08-06,,2024-07-23,2024-10-22,490.0,105.0,385.0,South Side,Standard
+2024-07-23,2024-07-23,Recurring,Active,Visa,Cory Gilbert,UJAzPwD7SUJ1Hw,35.0,2024-08-13,35.0,2024-08-06,,2024-07-23,2024-10-22,490.0,105.0,385.0,South Side,Standard
 2024-07-26,2024-07-26,Recurring,Active,Mastercard,Valentinas Kornijenka,KmpfyUKava4VcP,35.0,2024-08-09,35.0,2024-08-02,,2024-07-26,2024-10-18,455.0,70.0,385.0,South Side,Standard
 2024-07-26,2024-07-26,Recurring,Active,Mastercard,Nicholas Røkenes,Ez6e9uy6XBhy3U,35.0,2024-08-09,35.0,2024-08-02,,2024-07-26,2024-10-18,455.0,70.0,385.0,South Side,Standard
 2024-08-02,2024-08-02,Recurring,Active,Mastercard,jonty gabriel,S5MnmXBiJRrHih,35.0,2024-08-09,35.0,2024-08-02,,2024-08-02,2024-10-18,420.0,35.0,385.0,South Side,Standard
+2024-08-07,2024-08-12,Recurring,In transit,Mastercard,Laura Fuchs,E9Y9h98JrbPltd,35.0,2024-08-12,0.0,,,2024-08-12,2024-10-28,420.0,0.0,420.0,South Side,Other
+2024-08-07,2024-08-19,Recurring,In transit,Visa,Hayley Salter,3Lt5h0VPxcQ0ii,70.0,2024-08-19,0.0,,,2024-08-19,2025-01-20,840.0,0.0,840.0,South Side,Other
+2024-08-07,2024-08-07,,Active,,,,,,,,,,,,,,Wales,Standard
 2024-08-01,2024-08-01,,Active,,,,,,,,,,,,,,Wales,Standard
 2024-08-01,2024-08-01,,Active,,,,,,,,,,,,,,Wales,Hybrid
 2024-07-22,2024-07-22,,Active,,,,,,,,,,,,,,Wales,Gold
@@ -933,10 +936,10 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2024-05-14,2024-07-14,,Active,,,,,,,,,,,,,,Wales,Standard
 2024-05-13,2024-06-13,,Canceled,,,,,,,,,,,,,,Wales,Standard
 2024-05-09,2024-07-09,,Active,,,,,,,,,,,,,,Wales,Gold
-2024-05-08,2024-07-08,,Active,,,,,,,,,,,,,,Wales,Standard
-2024-05-06,2024-07-06,,Active,,,,,,,,,,,,,,Wales,Standard
+2024-05-08,2024-08-08,,Active,,,,,,,,,,,,,,Wales,Standard
+2024-05-06,2024-08-06,,Active,,,,,,,,,,,,,,Wales,Standard
 2024-05-06,2024-06-06,,Canceled,,,,,,,,,,,,,,Wales,Standard
-2024-05-05,2024-07-05,,Active,,,,,,,,,,,,,,Wales,Standard
+2024-05-05,2024-08-05,,Active,,,,,,,,,,,,,,Wales,Standard
 2024-05-03,2024-08-03,,Active,,,,,,,,,,,,,,Wales,Gold
 2024-05-01,2024-08-01,,Active,,,,,,,,,,,,,,Wales,Standard
 2024-04-30,2024-07-30,,Active,,,,,,,,,,,,,,Wales,Standard
@@ -981,29 +984,29 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2024-01-13,2024-03-13,,Canceled,,,,,,,,,,,,,,Wales,Standard
 2024-01-11,2024-07-11,,Active,,,,,,,,,,,,,,Wales,Standard
 2024-01-11,2024-07-11,,Active,,,,,,,,,,,,,,Wales,Standard
-2024-01-06,2024-07-06,,Active,,,,,,,,,,,,,,Wales,Standard
-2024-01-06,2024-07-06,,Active,,,,,,,,,,,,,,Wales,Standard
+2024-01-06,2024-08-06,,Active,,,,,,,,,,,,,,Wales,Standard
+2024-01-06,2024-08-06,,Active,,,,,,,,,,,,,,Wales,Standard
 2024-01-01,2024-01-01,,Canceled,,,,,,,,,,,,,,Wales,Standard
 2023-12-29,2024-07-29,,Active,,,,,,,,,,,,,,Wales,Standard
 2023-12-28,2024-07-28,,Active,,,,,,,,,,,,,,Wales,Gold
 2023-12-23,2024-02-23,,Canceled,,,,,,,,,,,,,,Wales,Standard
 2023-12-22,2024-06-22,,Canceled,,,,,,,,,,,,,,Wales,Online Coaching - STANDARD
 2023-12-22,2023-12-22,,Canceled,,,,,,,,,,,,,,Wales,Standard
-2023-12-21,2024-07-21,,Active,,,,,,,,,,,,,,Wales,Gold
+2023-12-21,2024-07-21,,Active,,,,,,,,,,,,,,Wales,Standard
 2023-12-21,2024-07-21,,Active,,,,,,,,,,,,,,Wales,Gold
 2023-12-14,2023-12-14,,Canceled,,,,,,,,,,,,,,Wales,Standard
 2023-12-14,2024-07-14,,Active,,,,,,,,,,,,,,Wales,Platinum
 2023-12-10,2024-04-10,,Canceled,,,,,,,,,,,,,,Wales,Standard
 2023-12-10,2024-07-10,,Active,,,,,,,,,,,,,,Wales,Online Coaching - STANDARD
-2023-12-10,2024-07-10,,Active,,,,,,,,,,,,,,Wales,Standard
+2023-12-10,2024-07-10,,Active,,,,,,,,,,,,,,Wales,Gold
 2023-12-09,2024-02-09,,Canceled,,,,,,,,,,,,,,Wales,Standard
-2023-12-08,2024-07-08,,Active,,,,,,,,,,,,,,Wales,Standard
-2023-12-07,2024-07-07,,Active,,,,,,,,,,,,,,Wales,Standard
-2023-12-06,2024-07-06,,Active,,,,,,,,,,,,,,Wales,Standard
+2023-12-08,2024-08-08,,Active,,,,,,,,,,,,,,Wales,Standard
+2023-12-07,2024-08-07,,Active,,,,,,,,,,,,,,Wales,Standard
+2023-12-06,2024-08-06,,Active,,,,,,,,,,,,,,Wales,Standard
 2023-12-06,2024-01-06,,Canceled,,,,,,,,,,,,,,Wales,Standard
-2023-12-06,2024-07-06,,Active,,,,,,,,,,,,,,Wales,Standard
-2023-12-05,2024-07-05,,Active,,,,,,,,,,,,,,Wales,Standard
-2023-12-05,2024-08-05,,Past_due,,,,,,,,,,,,,,Wales,Standard
+2023-12-06,2024-08-06,,Active,,,,,,,,,,,,,,Wales,Standard
+2023-12-05,2024-07-05,,Canceled,,,,,,,,,,,,,,Wales,Standard
+2023-12-05,2024-08-05,,Active,,,,,,,,,,,,,,Wales,Standard
 2023-12-05,2024-08-05,,Active,,,,,,,,,,,,,,Wales,Standard
 2023-12-05,2024-08-05,,Active,,,,,,,,,,,,,,Wales,Standard
 2023-12-04,2024-04-04,,Canceled,,,,,,,,,,,,,,Wales,Standard
@@ -1044,64 +1047,64 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-11-29,2023-12-05,,Canceled,,,,,,,,,,,,,,Wales,Standard
 2024-08-05,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Gold
 2024-08-02,2024-08-02,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-08-01,2024-08-01,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-08-01,2024-08-08,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-07-26,2024-08-02,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-07-16,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-07-16,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-07-16,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-07-16,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-07-15,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-07-12,2024-08-02,,Past_due,,,,,,,,,,,,,,Gold Coast,Standard
-2024-07-09,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-07-08,2024-07-29,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-07-08,2024-07-29,,Active,,,,,,,,,,,,,,Gold Coast,Gold
-2024-07-03,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-07-02,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-07-01,2024-07-29,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-07-12,2024-08-02,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-07-09,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-07-08,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-07-08,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Gold
+2024-07-03,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-07-02,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-07-01,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-06-28,2024-08-02,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-06-25,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-06-25,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-06-18,2024-07-02,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
-2024-06-11,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-06-10,2024-07-29,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-06-11,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-06-10,2024-08-05,,Past_due,,,,,,,,,,,,,,Gold Coast,Standard
 2024-06-10,2024-07-29,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard Online Coaching
 2024-06-09,2024-08-04,,Active,,,,,,,,,,,,,,Gold Coast,Gold
 2024-06-08,2024-08-03,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-06-06,2024-08-01,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-05-29,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-05-28,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-05-29,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-05-28,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-05-27,2024-06-24,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2024-05-27,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Gold
-2024-05-22,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-05-22,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-05-22,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-05-22,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-05-20,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-05-16,2024-08-01,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-05-10,2024-06-07,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard Online Coaching
-2024-05-07,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-05-07,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-04-29,2024-06-17,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2024-04-25,2024-06-06,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
-2024-04-22,2024-07-29,,Active,,,,,,,,,,,,,,Gold Coast,Standard Online Coaching
+2024-04-22,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard Online Coaching
 2024-04-22,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-04-22,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-04-21,2024-06-23,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
-2024-04-17,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-04-17,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-04-08,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Gold
 2024-04-04,2024-08-01,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-04-02,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-04-02,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-03-31,2024-04-21,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
-2024-03-26,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-03-26,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-03-26,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-03-26,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-03-14,2024-08-01,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-03-05,2024-04-09,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard Online Coaching
 2024-03-05,2024-03-19,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
-2024-03-04,2024-07-29,,Past_due,,,,,,,,,,,,,,Gold Coast,Standard
+2024-03-04,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-02-28,2024-05-22,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2024-02-27,2024-03-19,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2024-02-24,2024-06-22,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2024-02-22,2024-08-01,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-02-20,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-02-20,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-02-19,2024-03-18,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2024-02-19,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-02-18,2024-08-04,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-02-15,2024-08-01,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-02-14,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Gold
+2024-02-15,2024-08-08,,Past_due,,,,,,,,,,,,,,Gold Coast,Standard
+2024-02-14,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Gold
 2024-02-09,2024-08-02,,Active,,,,,,,,,,,,,,Gold Coast,Standard Online Coaching
 2024-02-08,2024-08-01,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-02-07,2024-03-13,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
@@ -1109,16 +1112,16 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2024-02-02,2024-08-02,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-30,2024-02-27,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard Online Coaching
 2024-01-30,2024-04-30,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
-2024-01-30,2024-07-30,,Past_due,,,,,,,,,,,,,,Gold Coast,Standard
+2024-01-30,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-26,2024-02-09,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-23,2024-02-13,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-23,2024-04-23,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-22,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-22,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-18,2024-08-01,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-01-17,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Gold
-2024-01-16,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-01-15,2024-07-29,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-01-17,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Gold
+2024-01-16,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-01-15,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-15,2024-03-11,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-15,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Gold
 2024-01-12,2024-08-02,,Active,,,,,,,,,,,,,,Gold Coast,Standard
@@ -1128,11 +1131,11 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2024-01-10,2024-04-17,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-09,2024-04-09,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-09,2024-01-30,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
-2024-01-09,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-01-09,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-01-09,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-01-08,2024-07-29,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-01-08,2024-07-29,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-01-09,2024-07-30,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
+2024-01-09,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-01-09,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-01-08,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-01-08,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-08,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-07,2024-06-16,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-06,2024-08-03,,Active,,,,,,,,,,,,,,Gold Coast,Standard
@@ -1140,11 +1143,11 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2024-01-04,2024-06-13,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-03,2024-01-03,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-03,2024-01-03,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
-2024-01-03,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-01-03,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-03,2024-06-12,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
-2024-01-02,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-01-02,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2024-01-02,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-01-02,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-01-02,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2024-01-02,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-02,2024-03-12,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-02,2024-05-07,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2024-01-01,2024-02-12,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
@@ -1154,14 +1157,14 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-12-29,2024-05-24,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-29,2024-08-02,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-28,2024-08-01,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2023-12-28,2024-08-01,,Past_due,,,,,,,,,,,,,,Gold Coast,Standard
+2023-12-28,2024-08-08,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-27,2024-04-24,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
-2023-12-27,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2023-12-27,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-27,2024-01-31,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
-2023-12-27,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2023-12-27,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2023-12-27,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Gold
-2023-12-27,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Silver
+2023-12-27,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2023-12-27,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2023-12-27,2024-08-07,,Past_due,,,,,,,,,,,,,,Gold Coast,Gold
+2023-12-27,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Silver
 2023-12-27,2024-06-05,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-24,2024-08-04,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-24,2023-12-24,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
@@ -1178,15 +1181,15 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-12-21,2024-05-02,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-21,2024-08-01,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-21,2024-08-01,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2023-12-21,2024-08-01,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2023-12-20,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2023-12-20,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Platinum
-2023-12-20,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2023-12-21,2024-08-08,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2023-12-20,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2023-12-20,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Platinum
+2023-12-20,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-20,2024-02-07,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
-2023-12-19,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2023-12-19,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2023-12-19,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2023-12-18,2024-07-29,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2023-12-19,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2023-12-19,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2023-12-19,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2023-12-18,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-18,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-18,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Gold
 2023-12-18,2024-08-05,,Active,,,,,,,,,,,,,,Gold Coast,Standard
@@ -1204,18 +1207,18 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-12-14,2024-08-01,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-14,2024-02-29,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-14,2024-08-01,,Active,,,,,,,,,,,,,,Gold Coast,Standard Online Coaching
-2023-12-14,2024-08-01,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2023-12-13,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2023-12-14,2024-08-08,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2023-12-13,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-13,2024-04-10,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-13,2024-06-26,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-13,2024-02-28,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
-2023-12-13,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Standard
-2023-12-13,2024-07-31,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2023-12-13,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2023-12-13,2024-08-07,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-12,2023-12-26,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
-2023-12-12,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2023-12-12,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-12,2024-03-05,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
 2023-12-12,2024-03-05,,Canceled,,,,,,,,,,,,,,Gold Coast,Standard
-2023-12-12,2024-07-30,,Active,,,,,,,,,,,,,,Gold Coast,Standard
+2023-12-12,2024-08-06,,Active,,,,,,,,,,,,,,Gold Coast,Standard
 2023-01-02,2023-01-18,Fixed,Complete,Mastercard,,kbzbofm9lank,0.0,,28.0,2023-04-05,,2023-01-18,2023-04-05,336.0,336.0,0.0,Cairns,Other
 2023-01-02,2023-01-18,Fixed,Complete,Mastercard,,xid7wdy0nmwn,0.0,,28.0,2023-04-05,,2023-01-18,2023-04-05,336.0,336.0,0.0,Cairns,Other
 2023-01-02,2023-01-16,Fixed,Complete,Mastercard,,787mutujzbwe,0.0,,28.0,2023-04-05,,2023-01-18,2023-04-05,336.0,336.0,0.0,Cairns,Other
@@ -1329,14 +1332,14 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-01-23,2023-01-23,Recurring,Cancelled,Mastercard,,qno35miv9o7k,0.0,,79.2,2023-04-05,2023-04-11,2023-01-25,2023-04-06,1302.65,1302.65,0.0,Cairns,Other
 2023-01-30,2023-01-30,Recurring,Cancelled,Mastercard,,2ivhabvcwyzr,0.0,,35.0,2023-04-06,2023-04-11,2023-02-01,2023-04-06,350.0,350.0,0.0,Cairns,Standard
 2023-01-30,2023-01-30,Recurring,Cancelled,Amex,,wgwhkd7fmizk,0.0,,80.0,2023-08-14,2023-08-15,2023-02-01,2023-08-14,1840.0,1840.0,0.0,Cairns,Other
-2023-01-31,2023-02-01,Recurring,Active,Visa,,uz9trurln6t0,35.0,2024-08-07,35.0,2024-07-31,,2023-02-01,2024-10-16,2975.0,2590.0,385.0,Cairns,Standard
+2023-01-31,2023-02-01,Recurring,Active,Visa,,uz9trurln6t0,35.0,2024-08-14,35.0,2024-08-07,,2023-02-01,2024-10-23,3010.0,2625.0,385.0,Cairns,Standard
 2023-02-01,2023-01-30,Recurring,Cancelled,Mastercard,,wsvqxpiz6zv2,0.0,,35.0,2023-03-26,2023-04-02,2023-02-01,2023-03-27,315.0,315.0,0.0,Cairns,Standard
 2023-02-02,2023-02-03,Recurring,Cancelled,Visa,,irjreqdlpejt,0.0,,28.0,2023-04-05,2023-04-11,2023-02-08,2023-04-05,252.0,252.0,0.0,Cairns,Other
 2023-02-02,2023-02-06,Fixed,Complete,Mastercard,,bo3qnk8a1oi3,0.0,,107.2,2023-03-22,,2023-02-08,2023-03-22,428.8,428.8,0.0,Cairns,Other
 2023-02-04,2023-02-01,Recurring,Cancelled,Visa,,b5gps44vk0zp,0.0,,143.2,2023-04-06,2023-04-11,2023-02-02,2023-04-06,1432.0,1432.0,0.0,Cairns,Other
 2023-02-07,2023-02-07,Recurring,Cancelled,Mastercard,,etkprbd2qf3a,0.0,,35.0,2023-11-15,2023-11-16,2023-02-08,2023-04-02,1435.0,245.0,1190.0,Cairns,Standard
 2023-02-07,2023-02-07,Recurring,Cancelled,Mastercard,,hwpo1oly693q,0.0,,35.0,2024-01-24,2024-03-28,2023-02-08,2024-01-21,1785.0,1715.0,70.0,Cairns,Standard
-2023-02-08,2023-02-08,Recurring,Active,Visa,,ljroqqdorc1n,99.0,2024-08-07,99.0,2024-07-31,,2023-02-08,2024-10-16,8747.0,7658.0,1089.0,Cairns,Gold
+2023-02-08,2023-02-08,Recurring,Active,Visa,,ljroqqdorc1n,99.0,2024-08-14,99.0,2024-08-07,,2023-02-08,2024-10-23,8846.0,7757.0,1089.0,Cairns,Gold
 2023-02-08,2023-02-09,Recurring,Cancelled,Visa,,hgowcnwliqij,0.0,,35.0,2023-09-20,2023-09-22,2023-02-15,2023-09-20,1120.0,1085.0,35.0,Cairns,Standard
 2023-02-09,2023-02-05,Recurring,Cancelled,Visa,,d3l3i2c790ul,0.0,,79.2,2023-04-05,2023-04-11,2023-02-08,2023-04-05,633.6,633.6,0.0,Cairns,Other
 2023-02-09,2023-02-09,Recurring,Suspended,Visa,,zegyd6hoz19i,35.0,2024-08-09,35.0,2024-08-02,,2023-02-15,2024-10-18,3080.0,2380.0,700.0,Cairns,Standard
@@ -1353,7 +1356,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-03-07,2023-03-07,Recurring,Cancelled,Mastercard,,q54s89ixnc95,0.0,,35.0,2023-04-05,2023-04-06,2023-03-08,2023-04-02,175.0,105.0,70.0,Cairns,Standard
 2023-03-08,2023-03-06,Recurring,Paused,Mastercard,,s94q7d66tvsd,30.0,2023-12-08,30.0,2023-12-01,,2023-03-08,2024-02-16,1500.0,1170.0,330.0,Cairns,Other
 2023-03-08,2023-03-09,Recurring,Cancelled,Visa,,ww5ynusb3awk,0.0,,35.0,2023-05-31,2023-06-01,2023-03-15,2023-05-31,420.0,420.0,0.0,Cairns,Standard
-2023-03-10,2023-03-09,Recurring,Active,Visa,,zlz1l8in7tm3,35.0,2024-08-07,35.0,2024-07-31,,2023-03-15,2024-10-16,2940.0,2555.0,385.0,Cairns,Standard
+2023-03-10,2023-03-09,Recurring,Active,Visa,,zlz1l8in7tm3,35.0,2024-08-14,35.0,2024-08-07,,2023-03-15,2024-10-23,2975.0,2590.0,385.0,Cairns,Standard
 2023-03-13,2023-03-13,Recurring,Cancelled,Visa,,79uejq4z7qoj,0.0,,35.0,2023-09-06,2023-09-07,2023-03-15,2023-09-06,910.0,910.0,0.0,Cairns,Standard
 2023-03-15,2023-03-13,Recurring,Cancelled,Mastercard,,hyt32bgelo1j,0.0,,179.0,2023-06-18,2023-07-14,2023-03-15,2023-06-18,2506.0,2506.0,0.0,Cairns,Platinum
 2023-03-15,2023-03-16,Recurring,Cancelled,Mastercard,,nojbipt8e02t,0.0,,35.0,2024-06-05,2024-06-06,2023-03-22,2024-06-05,2240.0,2240.0,0.0,Cairns,Standard
@@ -1366,7 +1369,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-03-27,2023-03-21,Recurring,Cancelled,Visa,,t6tma7rilpgd,0.0,,35.0,2023-04-26,2023-04-27,2023-03-22,2023-04-03,210.0,35.0,175.0,Cairns,Standard
 2023-03-27,2023-03-21,Recurring,Cancelled,Visa,,v5c378zw0nvc,0.0,,35.0,2023-06-28,2023-06-28,2023-03-22,2023-06-28,525.0,525.0,0.0,Cairns,Standard
 2023-03-29,2023-03-27,Recurring,Cancelled,Mastercard,,dh3mps37bo7p,0.0,,35.0,2024-07-03,2024-07-04,2023-03-29,2024-07-03,2345.0,2345.0,0.0,Cairns,Standard
-2023-03-29,2023-03-28,Recurring,Active,Visa,,ztmdrn3eh81g,35.0,2024-08-07,35.0,2024-07-31,,2023-03-29,2024-10-16,2870.0,2485.0,385.0,Cairns,Standard
+2023-03-29,2023-03-28,Recurring,Active,Visa,,ztmdrn3eh81g,35.0,2024-08-14,35.0,2024-08-07,,2023-03-29,2024-10-23,2905.0,2520.0,385.0,Cairns,Standard
 2023-03-30,2023-03-29,Recurring,Cancelled,Mastercard,,f29nsusgjiqw,0.0,,28.0,2023-04-05,2023-04-11,2023-03-29,2023-04-05,56.0,56.0,0.0,Cairns,Other
 2023-03-30,2023-04-03,Recurring,Cancelled,Visa,,2d71x8fqjlcc,0.0,,28.0,2023-04-06,2023-04-11,2023-04-06,2023-04-06,28.0,28.0,0.0,Cairns,Other
 2023-04-03,2023-04-03,Recurring,Cancelled,Mastercard,,5o9ox3gd6d8u,0.0,,35.0,2023-04-19,2023-04-20,2023-04-05,2023-04-19,105.0,105.0,0.0,Cairns,Standard
@@ -1375,49 +1378,49 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-04-05,2023-04-03,Recurring,Cancelled,Mastercard,,skh6wvbxmos6,0.0,,99.0,2023-05-03,2023-05-09,2023-04-05,2023-04-30,495.0,297.0,198.0,Cairns,Gold
 2023-04-09,2023-04-10,Recurring,Cancelled,Mastercard,,0e88sz73mlnp,0.0,,35.0,2024-02-07,2024-02-08,2023-04-12,2024-02-07,735.0,735.0,0.0,Cairns,Standard
 2023-04-11,2023-04-11,Recurring,Cancelled,Amex,,y1zlus6zemac,0.0,,35.0,2024-03-20,2024-03-20,2023-04-12,2024-03-20,1750.0,1750.0,0.0,Cairns,Standard
-2023-04-11,2023-04-11,Recurring,Active,Mastercard,,y0u63tdqedfq,35.0,2024-08-07,35.0,2024-07-31,,2023-04-12,2024-10-16,2800.0,2415.0,385.0,Cairns,Standard
+2023-04-11,2023-04-11,Recurring,Active,Mastercard,,y0u63tdqedfq,35.0,2024-08-14,35.0,2024-08-07,,2023-04-12,2024-10-23,2835.0,2450.0,385.0,Cairns,Standard
 2023-04-11,2023-04-11,Recurring,Cancelled,Visa,,6mzdelvwpkkd,0.0,,0.0,,2023-04-11,2023-04-12,2023-06-28,0.0,0.0,0.0,Cairns,Other
 2023-04-11,2023-04-11,Recurring,Paused,Visa,,s9p573pbk7u8,35.0,2023-08-17,35.0,2023-08-10,,2023-04-13,2023-10-26,1015.0,630.0,385.0,Cairns,Standard
 2023-04-11,2023-04-11,Recurring,Cancelled,Mastercard,,n5q8wetgu44n,0.0,,67.0,2024-02-14,2024-02-14,2023-04-12,2024-02-14,3015.0,3015.0,0.0,Cairns,Other
 2023-04-11,2023-04-11,Recurring,Cancelled,Visa,,qcl7w2ozpa1g,0.0,,99.0,2023-04-19,2023-04-21,2023-04-12,2023-04-19,198.0,198.0,0.0,Cairns,Gold
 2023-04-11,2023-04-19,Recurring,Cancelled,Mastercard,,3qoa5sxmzrra,0.0,,134.0,2024-01-24,2024-01-24,2023-04-19,2024-01-24,2814.0,2680.0,134.0,Cairns,Gold Plus Nutrition
-2023-04-11,2023-04-11,Recurring,Active,Visa,,twic2dcknj33,35.0,2024-08-07,35.0,2024-07-31,,2023-04-12,2024-10-16,2695.0,2310.0,385.0,Cairns,Standard
+2023-04-11,2023-04-11,Recurring,Active,Visa,,twic2dcknj33,35.0,2024-08-14,35.0,2024-08-07,,2023-04-12,2024-10-23,2730.0,2345.0,385.0,Cairns,Standard
 2023-04-11,2023-04-11,Recurring,Cancelled,Mastercard,,phnawj0ieohr,0.0,,35.0,2023-09-27,2023-10-03,2023-04-12,2023-09-27,875.0,875.0,0.0,Cairns,Standard
-2023-04-11,2023-04-11,Recurring,Active,Visa,,xht403qy9tpd,99.0,2024-08-07,99.0,2024-07-31,,2023-04-12,2024-10-16,7648.0,6559.0,1089.0,Cairns,Gold
-2023-04-11,2023-04-11,Recurring,Active,Visa,,r8o9hv6im4gi,35.0,2024-08-07,35.0,2024-07-31,,2023-04-12,2024-10-16,2695.0,2310.0,385.0,Cairns,Standard
-2023-04-11,2023-04-11,Recurring,Active,Mastercard,,rkn2jtu64ik0,35.0,2024-08-07,35.0,2024-07-31,,2023-04-12,2024-10-16,2800.0,2415.0,385.0,Cairns,Standard
+2023-04-11,2023-04-11,Recurring,Active,Visa,,xht403qy9tpd,99.0,2024-08-14,99.0,2024-08-07,,2023-04-12,2024-10-23,7747.0,6658.0,1089.0,Cairns,Gold
+2023-04-11,2023-04-11,Recurring,Active,Visa,,r8o9hv6im4gi,35.0,2024-08-14,35.0,2024-08-07,,2023-04-12,2024-10-23,2730.0,2345.0,385.0,Cairns,Standard
+2023-04-11,2023-04-11,Recurring,Active,Mastercard,,rkn2jtu64ik0,35.0,2024-08-14,35.0,2024-08-07,,2023-04-12,2024-10-23,2835.0,2450.0,385.0,Cairns,Standard
 2023-04-11,2023-04-11,Recurring,Cancelled,Visa,,clvh1kfrea7k,0.0,,67.0,2023-09-13,2024-01-24,2023-04-12,2023-09-13,670.0,670.0,0.0,Cairns,Other
 2023-04-11,2023-04-11,Recurring,Cancelled,Visa,,ov7lsvwtlg8b,0.0,,35.0,2023-09-13,2024-01-14,2023-04-12,2023-09-13,805.0,805.0,0.0,Cairns,Standard
 2023-04-11,2023-04-11,Recurring,Cancelled,Mastercard,,2mviptb973x9,0.0,,35.0,2023-09-13,2023-09-14,2023-04-12,2023-09-13,805.0,805.0,0.0,Cairns,Standard
 2023-04-11,2023-04-11,Recurring,Cancelled,Visa,,epcbvlbt6mlk,0.0,,35.0,2023-04-28,2023-04-28,2023-04-14,2023-04-27,105.0,105.0,0.0,Cairns,Standard
 2023-04-11,2023-04-11,Recurring,Cancelled,Mastercard,,atg0zqwcyg34,0.0,,35.0,2023-12-25,2023-12-26,2023-04-12,2023-12-25,1260.0,1260.0,0.0,Cairns,Standard
-2023-04-11,2023-04-11,Recurring,Active,Mastercard,,mt5urj47dt47,67.0,2024-08-07,67.0,2024-07-31,,2023-04-12,2024-10-16,5296.0,4559.0,737.0,Cairns,Other
+2023-04-11,2023-04-11,Recurring,Active,Mastercard,,mt5urj47dt47,67.0,2024-08-14,67.0,2024-08-07,,2023-04-12,2024-10-23,5363.0,4626.0,737.0,Cairns,Other
 2023-04-11,2023-04-11,Recurring,Cancelled,Visa,,ae5si3cqcj9c,0.0,,99.0,2023-05-03,2023-05-03,2023-04-12,2023-05-03,396.0,396.0,0.0,Cairns,Gold
 2023-04-11,2023-04-11,Recurring,Cancelled,Visa,,elbmaiczr77m,0.0,,35.0,2023-06-06,2023-06-07,2023-04-12,2023-06-06,175.0,140.0,35.0,Cairns,Standard
 2023-04-11,2023-04-11,Recurring,Cancelled,Mastercard,,1il1rx0ot5w5,0.0,,99.0,2024-02-14,2024-02-20,2023-04-12,2024-02-14,4455.0,4455.0,0.0,Cairns,Gold
-2023-04-11,2023-04-11,Recurring,Active,Mastercard,,rmnmcbfr0ook,35.0,2024-08-07,35.0,2024-07-31,,2023-04-12,2024-10-16,2800.0,2415.0,385.0,Cairns,Standard
+2023-04-11,2023-04-11,Recurring,Active,Mastercard,,rmnmcbfr0ook,35.0,2024-08-14,35.0,2024-08-07,,2023-04-12,2024-10-23,2835.0,2450.0,385.0,Cairns,Standard
 2023-04-11,2023-04-11,Recurring,Paused,Visa,,fs232v8wbdm7,72.0,2024-08-07,72.0,2024-07-31,,2023-04-12,2024-10-16,5723.0,4931.0,792.0,Cairns,Other
-2023-04-11,2023-04-11,Recurring,Active,Mastercard,,nwkw05bez89z,35.0,2024-08-07,35.0,2024-07-31,,2023-04-12,2024-10-16,2800.0,2415.0,385.0,Cairns,Standard
+2023-04-11,2023-04-11,Recurring,Active,Mastercard,,nwkw05bez89z,35.0,2024-08-14,35.0,2024-08-07,,2023-04-12,2024-10-23,2835.0,2450.0,385.0,Cairns,Standard
 2023-04-11,2023-04-11,Recurring,Cancelled,Visa,,vhwbbtx8gg9d,0.0,,35.0,2024-06-26,2024-06-27,2023-04-12,2024-06-26,5440.0,5440.0,0.0,Cairns,Standard
 2023-04-11,2023-04-11,Recurring,Cancelled,Visa,,eju54tsya83e,0.0,,35.0,2023-05-10,2023-05-11,2023-04-12,2023-05-10,175.0,175.0,0.0,Cairns,Standard
-2023-04-11,2023-04-11,Recurring,Active,Mastercard,,asx04i9n7e7f,35.0,2024-08-06,35.0,2024-07-30,,2023-04-12,2024-10-15,1855.0,1470.0,385.0,Cairns,Standard
+2023-04-11,2023-04-11,Recurring,Active,Mastercard,,asx04i9n7e7f,35.0,2024-08-13,35.0,2024-08-06,,2023-04-12,2024-10-22,1890.0,1505.0,385.0,Cairns,Standard
 2023-04-11,2023-04-11,Recurring,Paused,Mastercard,,rlch9tsfnbwe,35.0,2023-09-20,35.0,2023-09-13,,2023-04-12,2023-11-29,1190.0,805.0,385.0,Cairns,Standard
-2023-04-11,2023-04-11,Recurring,Active,Mastercard,,1pgbgdj8znd6,107.8,2024-08-07,107.8,2024-07-31,,2023-04-12,2024-10-16,8551.2,7365.4,1185.8,Cairns,Other
+2023-04-11,2023-04-11,Recurring,Active,Mastercard,,1pgbgdj8znd6,107.8,2024-08-14,107.8,2024-08-07,,2023-04-12,2024-10-23,8659.0,7473.2,1185.8,Cairns,Other
 2023-04-11,2023-04-11,Recurring,Active,Visa,,duf9h3ly36o8,67.0,2024-08-12,67.0,2024-08-05,,2023-04-12,2024-10-21,5232.0,4495.0,737.0,Cairns,Other
 2023-04-11,2023-04-11,Recurring,Active,Visa,,qr3akt283b12,67.0,2024-08-12,67.0,2024-08-05,,2023-04-12,2024-10-21,5232.0,4495.0,737.0,Cairns,Other
-2023-04-11,2023-04-11,Recurring,Active,Visa,,a6x10h57rom1,53.6,2024-08-07,53.6,2024-07-31,,2023-04-12,2024-10-16,4127.2,3537.6,589.6,Cairns,Other
+2023-04-11,2023-04-11,Recurring,Active,Visa,,a6x10h57rom1,53.6,2024-08-14,53.6,2024-08-07,,2023-04-12,2024-10-23,4180.8,3591.2,589.6,Cairns,Other
 2023-04-11,2023-04-11,Recurring,Cancelled,Mastercard,,qf4kbukuw9lq,0.0,,35.0,2023-07-26,2023-07-27,2023-04-12,2023-07-26,560.0,525.0,35.0,Cairns,Standard
-2023-04-11,2023-04-11,Recurring,Active,Visa,,tu2dfgs4fgrj,35.0,2024-08-07,35.0,2024-07-31,,2023-04-12,2024-10-16,2800.0,2415.0,385.0,Cairns,Standard
+2023-04-11,2023-04-11,Recurring,Active,Visa,,tu2dfgs4fgrj,35.0,2024-08-14,35.0,2024-08-07,,2023-04-12,2024-10-23,2835.0,2450.0,385.0,Cairns,Standard
 2023-04-11,2023-04-11,Recurring,Cancelled,Visa,,rlrdc1huzvdb,0.0,,35.0,2024-02-28,2024-02-29,2023-04-12,2024-02-28,1610.0,1610.0,0.0,Cairns,Standard
 2023-04-11,2023-04-12,Recurring,Cancelled,Visa,,hvev6mnxu9v4,0.0,,35.0,2023-11-16,2023-11-16,2023-04-13,2023-05-29,1120.0,210.0,910.0,Cairns,Standard
 2023-04-12,2023-04-11,Recurring,Cancelled,Mastercard,,dq7gcut2v6fb,0.0,,35.0,2023-05-17,2023-05-18,2023-04-12,2023-05-17,210.0,210.0,0.0,Cairns,Standard
 2023-04-12,2023-04-11,Recurring,Cancelled,Mastercard,,buyll4kzr9ch,0.0,,35.0,2023-06-28,2023-06-29,2023-04-12,2023-06-28,420.0,420.0,0.0,Cairns,Standard
 2023-04-12,2023-04-11,Recurring,Cancelled,Visa,,npxygmheh50v,0.0,,35.0,2024-02-28,2024-02-29,2023-04-12,2024-02-28,1645.0,1645.0,0.0,Cairns,Standard
-2023-04-12,2023-04-11,Recurring,Active,Visa,,n9ieqj6plbun,35.0,2024-08-07,35.0,2024-07-31,,2023-04-12,2024-10-16,2800.0,2415.0,385.0,Cairns,Standard
+2023-04-12,2023-04-11,Recurring,Active,Visa,,n9ieqj6plbun,35.0,2024-08-14,35.0,2024-08-07,,2023-04-12,2024-10-23,2835.0,2450.0,385.0,Cairns,Standard
 2023-04-12,2023-04-11,Recurring,Cancelled,Mastercard,,ugxj801qwc9p,0.0,,35.0,2023-09-11,2023-09-12,2023-04-12,2023-09-11,630.0,630.0,0.0,Cairns,Standard
 2023-04-12,2023-04-11,Recurring,Cancelled,Visa,,p9ihhpoahhb4,0.0,,35.0,2023-09-20,2023-09-22,2023-04-12,2023-09-20,840.0,805.0,35.0,Cairns,Standard
-2023-04-12,2023-04-11,Recurring,Active,Mastercard,,oql26lpnkuug,35.0,2024-08-07,35.0,2024-07-31,,2023-04-12,2024-10-16,2800.0,2415.0,385.0,Cairns,Standard
-2023-04-12,2023-04-11,Recurring,Active,Visa,,jsfesmd98xly,35.0,2024-08-07,35.0,2024-07-31,,2023-04-12,2024-10-16,2800.0,2415.0,385.0,Cairns,Standard
+2023-04-12,2023-04-11,Recurring,Active,Mastercard,,oql26lpnkuug,35.0,2024-08-14,35.0,2024-08-07,,2023-04-12,2024-10-23,2835.0,2450.0,385.0,Cairns,Standard
+2023-04-12,2023-04-11,Recurring,Active,Visa,,jsfesmd98xly,35.0,2024-08-14,35.0,2024-08-07,,2023-04-12,2024-10-23,2835.0,2450.0,385.0,Cairns,Standard
 2023-04-12,2023-04-11,Recurring,Cancelled,Mastercard,,e91v47difqjr,0.0,,35.0,2023-08-02,2023-08-04,2023-04-12,2023-08-02,595.0,595.0,0.0,Cairns,Standard
 2023-04-12,2023-04-12,Recurring,Cancelled,Visa,,a86ypny85ymu,0.0,,35.0,2024-05-01,2024-05-02,2023-04-12,2024-05-01,1960.0,1960.0,0.0,Cairns,Standard
 2023-04-12,2023-04-11,Recurring,Active,Mastercard,,c4w5xohg0iad,99.0,2024-08-09,99.0,2024-08-02,,2023-04-12,2024-10-18,7920.0,6831.0,1089.0,Cairns,Gold
@@ -1429,14 +1432,14 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-04-12,2023-04-11,Recurring,Cancelled,Visa,,8f61ddsro6sd,0.0,,99.0,2023-06-14,2023-06-15,2023-04-12,2023-06-14,693.0,693.0,0.0,Cairns,Gold
 2023-04-12,2023-04-11,Recurring,Cancelled,Visa,,1zqoyn3omira,0.0,,35.0,2024-04-17,2024-04-18,2023-04-12,2024-04-16,3750.0,3750.0,0.0,Cairns,Standard
 2023-04-12,2023-04-11,Recurring,Cancelled,Mastercard,,n1rykvgwqq9c,0.0,,35.0,2023-11-01,2023-11-02,2023-04-12,2023-11-01,1050.0,1050.0,0.0,Cairns,Standard
-2023-04-12,2023-04-11,Recurring,Active,Visa,,hwhjovoerddm,25.0,2024-08-07,25.0,2024-07-31,,2023-04-12,2024-10-16,2005.0,1730.0,275.0,Cairns,Other
+2023-04-12,2023-04-11,Recurring,Active,Visa,,hwhjovoerddm,25.0,2024-08-14,25.0,2024-08-07,,2023-04-12,2024-10-23,2030.0,1755.0,275.0,Cairns,Other
 2023-04-12,2023-04-11,Recurring,Paused,Visa,,hlv36posacuh,35.0,2024-05-08,35.0,2024-05-01,,2023-04-12,2024-07-17,2345.0,1960.0,385.0,Cairns,Standard
 2023-04-12,2023-04-11,Recurring,Cancelled,Mastercard,,o6edj2iqvd40,0.0,,99.0,2023-04-12,2023-04-15,2023-04-12,2023-04-12,99.0,99.0,0.0,Cairns,Gold
 2023-04-12,2023-04-11,Recurring,Active,Mastercard,,pjaktxndc7uc,35.0,2024-08-09,35.0,2024-08-02,,2023-04-12,2024-10-18,2660.0,2275.0,385.0,Cairns,Standard
-2023-04-12,2023-04-11,Recurring,Active,Visa,,olf2fjpcyhre,67.0,2024-08-14,67.0,2024-08-07,,2023-04-12,2024-10-16,5360.0,4690.0,670.0,Cairns,Other
-2023-04-12,2023-04-11,Recurring,Active,Visa,,54euj4r0ndjq,67.0,2024-08-07,67.0,2024-07-31,,2023-04-12,2024-10-16,5296.0,4559.0,737.0,Cairns,Other
+2023-04-12,2023-04-11,Recurring,Active,Visa,,olf2fjpcyhre,67.0,2024-08-28,67.0,2024-08-21,,2023-04-12,2024-10-30,5494.0,4824.0,670.0,Cairns,Other
+2023-04-12,2023-04-11,Recurring,Active,Visa,,54euj4r0ndjq,67.0,2024-08-14,67.0,2024-08-07,,2023-04-12,2024-10-23,5363.0,4626.0,737.0,Cairns,Other
 2023-04-12,2023-04-11,Recurring,Cancelled,Mastercard,,f7ar9wfch3z0,0.0,,28.0,2023-09-29,2023-09-30,2023-04-12,2023-09-29,420.0,392.0,28.0,Cairns,Other
-2023-04-12,2023-04-11,Recurring,Active,Visa,,q0g4tsohd81y,35.0,2024-08-07,35.0,2024-07-31,,2023-04-12,2024-10-16,2800.0,2415.0,385.0,Cairns,Standard
+2023-04-12,2023-04-11,Recurring,Active,Visa,,q0g4tsohd81y,35.0,2024-08-14,35.0,2024-08-07,,2023-04-12,2024-10-23,2835.0,2450.0,385.0,Cairns,Standard
 2023-04-13,2023-04-11,Recurring,Cancelled,Visa,,2j3urwrgbap3,0.0,,35.0,2023-10-21,2023-10-22,2023-04-12,2023-10-21,910.0,910.0,0.0,Cairns,Standard
 2023-04-13,2023-04-11,Recurring,Active,Mastercard,,0drhshsc124d,35.0,2024-08-08,35.0,2024-08-01,,2023-04-12,2024-10-17,2800.0,2415.0,385.0,Cairns,Standard
 2023-04-13,2023-04-11,Recurring,Cancelled,Visa,,tpe4nivaffdq,0.0,,35.0,2023-07-26,2023-07-27,2023-04-12,2023-07-26,560.0,560.0,0.0,Cairns,Standard
@@ -1452,11 +1455,11 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-04-19,2023-05-05,Recurring,Paused,Mastercard,,ib6u02oksgig,70.0,2024-03-15,70.0,2024-03-05,,2023-05-06,2024-08-02,2100.0,1260.0,840.0,Cairns,Standard Plus Nutrition
 2023-04-20,2023-04-24,Recurring,Active,Visa,,5ep3s8evuf25,35.0,2024-08-15,35.0,2024-08-01,,2023-04-27,2025-01-02,1575.0,1190.0,385.0,Cairns,Standard
 2023-04-21,2023-04-17,Recurring,Active,Visa,,dx0zfjnyezy3,179.0,2024-08-08,179.0,2024-08-01,,2023-04-20,2024-10-17,12277.0,10308.0,1969.0,Cairns,Platinum
-2023-04-25,2023-04-24,Recurring,Active,Visa,,ak3i07gsdx9v,30.0,2024-08-07,30.0,2024-07-31,,2023-04-26,2024-10-16,2340.0,2010.0,330.0,Cairns,Other
+2023-04-25,2023-04-24,Recurring,Active,Visa,,ak3i07gsdx9v,30.0,2024-08-14,30.0,2024-08-07,,2023-04-26,2024-10-23,2370.0,2040.0,330.0,Cairns,Other
 2023-04-25,2023-04-24,Recurring,Cancelled,Visa,,qxjqzft8fgy4,0.0,,35.0,2023-08-04,2023-08-05,2023-04-28,2023-08-04,525.0,525.0,0.0,Cairns,Standard
 2023-04-27,2023-04-26,Recurring,Cancelled,Visa,,xw2jii53z00w,0.0,,278.0,2024-05-09,2024-05-14,2023-04-27,2024-05-09,13695.0,13695.0,0.0,Cairns,Other
 2023-04-27,2023-04-27,Recurring,Paused,Visa,,6qu1jik4l79t,70.0,2024-07-24,70.0,2024-07-10,,2023-04-27,2025-02-19,3080.0,1960.0,1120.0,Cairns,Standard Plus Nutrition
-2023-04-28,2023-05-01,Recurring,In care,Visa,,jaz34e6xw29n,35.0,2024-08-02,0.0,2024-08-05,2024-08-10,2023-05-05,2024-12-06,5835.0,4250.0,1585.0,Cairns,Other
+2023-04-28,2023-05-01,Recurring,Cancelled,Visa,,jaz34e6xw29n,0.0,,0.0,2024-08-07,2024-08-07,2023-05-05,2024-08-07,4355.0,4250.0,105.0,Cairns,Other
 2023-05-02,2023-05-08,Recurring,Active,Visa,,rdrqk90uzdcb,30.0,2024-08-14,30.0,2024-07-31,,2023-05-10,2025-01-01,1320.0,990.0,330.0,Cairns,Other
 2023-05-04,2023-05-02,Recurring,Cancelled,Visa,,u8nenx8ewi0y,0.0,,35.0,2024-03-08,2024-03-09,2023-05-03,2024-03-05,1575.0,1505.0,70.0,Cairns,Standard
 2023-05-04,2023-05-08,Recurring,Cancelled,Visa,,dd9pfmcihjy7,0.0,,35.0,2024-02-27,2024-03-04,2023-05-10,2024-02-27,735.0,735.0,0.0,Cairns,Standard
@@ -1468,20 +1471,20 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-05-24,2023-05-24,Recurring,Cancelled,Visa,,ln0amscskdti,0.0,,40.8,2024-01-24,2024-01-25,2023-05-24,2024-01-24,1463.0,1463.0,0.0,Cairns,Other
 2023-05-26,2023-06-02,Recurring,Cancelled,Visa,,831hzcscif5m,0.0,,35.0,2023-11-20,2023-11-21,2023-06-04,2023-11-20,1230.0,1230.0,0.0,Cairns,Standard
 2023-05-27,2023-05-31,Recurring,Paused,Visa,,f9uz4o4yxfkz,72.0,2024-07-18,72.0,2024-07-11,,2023-06-01,2024-09-26,4787.0,3995.0,792.0,Cairns,Other
-2023-05-30,2023-05-31,Recurring,Active,Visa,,ovwatm8151qv,179.0,2024-08-07,179.0,2024-07-31,,2023-05-31,2024-10-16,13067.0,11098.0,1969.0,Cairns,Platinum
+2023-05-30,2023-05-31,Recurring,Active,Visa,,ovwatm8151qv,179.0,2024-08-14,179.0,2024-08-07,,2023-05-31,2024-10-23,13246.0,11277.0,1969.0,Cairns,Platinum
 2023-06-02,2023-05-30,Recurring,Cancelled,Visa,,l7pwol9lqon6,0.0,,30.0,2024-01-17,2024-01-18,2023-05-31,2024-01-17,1020.0,1020.0,0.0,Cairns,Other
 2023-06-06,2023-06-05,Recurring,Cancelled,Mastercard,,3dshh3aue40h,0.0,,99.0,2024-05-01,2024-06-19,2023-06-07,2024-05-01,3698.0,3698.0,0.0,Cairns,Gold
 2023-06-06,2023-06-19,Recurring,Cancelled,Mastercard,,0z8u25omwddc,0.0,,35.0,2024-06-27,2024-06-28,2023-06-21,2024-06-27,1890.0,1890.0,0.0,Cairns,Standard
 2023-06-07,2023-06-12,Recurring,Cancelled,Visa,,p2tjs9zh3mlt,0.0,,35.0,2023-11-22,2023-11-23,2023-06-14,2023-11-22,840.0,840.0,0.0,Cairns,Standard
-2023-06-09,2023-06-12,Recurring,Suspended,Visa,,b0hi5uvc93t5,35.0,2024-08-07,35.0,2024-07-31,,2023-06-09,2024-10-16,2485.0,140.0,2345.0,Cairns,Standard
+2023-06-09,2023-06-12,Recurring,Suspended,Visa,,b0hi5uvc93t5,35.0,2024-08-14,35.0,2024-08-07,,2023-06-09,2024-10-23,2520.0,140.0,2380.0,Cairns,Standard
 2023-06-09,2023-06-14,Recurring,Cancelled,Mastercard,,r57rnilnx2dx,0.0,,35.0,2023-10-18,2023-10-19,2023-06-14,2023-10-18,665.0,665.0,0.0,Cairns,Standard
 2023-06-12,2023-06-12,Recurring,Cancelled,Visa,,djem317tll6g,0.0,,35.0,2023-10-25,2023-10-26,2023-06-14,2023-10-25,700.0,700.0,0.0,Cairns,Standard
 2023-06-20,2023-06-19,Recurring,Cancelled,Visa,,e4b547hpa4hr,0.0,,35.0,2023-10-25,2023-10-26,2023-06-21,2023-10-25,665.0,665.0,0.0,Cairns,Standard
 2023-06-21,2023-06-27,Recurring,Cancelled,Mastercard,,uxkdskj137nv,0.0,,35.0,2024-03-06,2024-03-07,2023-06-28,2024-03-06,840.0,840.0,0.0,Cairns,Standard
 2023-06-22,2023-06-20,Recurring,Cancelled,Visa,,09fs1kzn2yqh,0.0,,35.0,2023-10-24,2023-10-25,2023-06-21,2023-10-24,665.0,665.0,0.0,Cairns,Standard
-2023-06-25,2023-06-23,Recurring,Active,Mastercard,,7hw72la86tqc,35.0,2024-08-07,35.0,2024-07-31,,2023-06-28,2024-10-16,2415.0,2030.0,385.0,Cairns,Standard
+2023-06-25,2023-06-23,Recurring,Active,Mastercard,,7hw72la86tqc,35.0,2024-08-14,35.0,2024-08-07,,2023-06-28,2024-10-23,2450.0,2065.0,385.0,Cairns,Standard
 2023-06-26,2023-06-26,Recurring,Cancelled,Visa,,pzp39xvzrdue,0.0,,35.0,2023-08-16,2023-08-17,2023-06-28,2023-08-16,175.0,175.0,0.0,Cairns,Standard
-2023-06-26,2023-06-26,Recurring,Active,Visa,,vai7if7tolqr,35.0,2024-08-07,35.0,2024-07-24,,2023-06-28,2024-12-25,1400.0,1015.0,385.0,Cairns,Standard
+2023-06-26,2023-06-26,Recurring,Active,Visa,,vai7if7tolqr,35.0,2024-08-21,35.0,2024-08-07,,2023-06-28,2025-01-08,1435.0,1050.0,385.0,Cairns,Standard
 2023-06-27,2023-06-26,Recurring,Paused,Visa,,ilgypbilzytm,30.0,2024-05-29,30.0,2024-02-28,,2023-06-28,2024-05-15,1410.0,1080.0,330.0,Cairns,Other
 2023-06-27,2023-06-28,Recurring,Cancelled,Visa,,19z63rux7dwz,0.0,,99.0,2023-08-02,2023-08-03,2023-06-28,2023-08-02,594.0,594.0,0.0,Cairns,Gold
 2023-06-28,2023-06-28,Recurring,Cancelled,Visa,,p00pjt1mojgs,0.0,,30.0,2023-10-11,2023-10-12,2023-06-28,2023-10-11,480.0,480.0,0.0,Cairns,Other
@@ -1500,7 +1503,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-07-14,2023-07-13,Recurring,Cancelled,Visa,,b5pa7wp5905h,0.0,,25.0,2023-08-23,2023-08-23,2023-07-19,2023-08-23,150.0,150.0,0.0,Cairns,Other
 2023-07-16,2023-07-16,Recurring,Paused,Visa,,ch6splj5631f,35.0,2024-02-21,35.0,2024-02-14,,2023-07-19,2024-05-01,1470.0,980.0,490.0,Cairns,Standard
 2023-07-17,2023-07-17,Recurring,Cancelled,Mastercard,,i2mu0nfgjmes,0.0,,70.0,2023-09-28,2023-09-30,2023-07-20,2023-09-28,420.0,420.0,0.0,Cairns,Standard Plus Nutrition
-2023-07-18,2023-07-17,Recurring,Suspended,Mastercard,,rt2gafmgb8ex,35.0,2024-08-07,35.0,2024-07-31,,2023-07-19,2024-10-16,2310.0,1155.0,1155.0,Cairns,Standard
+2023-07-18,2023-07-17,Recurring,Suspended,Mastercard,,rt2gafmgb8ex,35.0,2024-08-14,35.0,2024-08-07,,2023-07-19,2024-10-23,2345.0,1155.0,1190.0,Cairns,Standard
 2023-07-18,2023-07-14,Recurring,Cancelled,Mastercard,,7155w3c4n8md,0.0,,35.0,2024-04-10,2024-04-11,2023-07-19,2024-04-07,1365.0,1295.0,70.0,Cairns,Standard
 2023-07-20,2023-08-03,Recurring,Cancelled,Mastercard,,l5esff81eki5,0.0,,70.0,2024-05-23,2024-05-24,2023-08-03,2024-05-23,1050.0,1050.0,0.0,Cairns,Standard Plus Nutrition
 2023-07-24,2023-07-17,Recurring,Cancelled,Mastercard,,ulzqys06km2n,0.0,,35.0,2023-08-23,2023-08-24,2023-07-19,2023-08-23,210.0,210.0,0.0,Cairns,Standard
@@ -1513,11 +1516,11 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-08-10,2023-08-10,Recurring,Cancelled,Visa,,7brbtfb3lubl,0.0,,35.0,2023-10-04,2023-10-05,2023-08-16,2023-10-04,280.0,280.0,0.0,Cairns,Standard
 2023-08-14,2023-08-14,Recurring,Cancelled,Mastercard,,ydvnfqnj905a,0.0,,35.0,2023-10-25,2023-10-26,2023-08-16,2023-10-25,385.0,350.0,35.0,Cairns,Standard
 2023-08-15,2023-08-15,Recurring,Active,Mastercard,,e5e9sy9xywy2,30.0,2024-08-10,30.0,2024-08-03,,2023-08-16,2024-10-19,1710.0,1380.0,330.0,Cairns,Other
-2023-08-15,2023-08-15,Recurring,Suspended,Mastercard,,y5h6am7kdorj,99.0,2024-08-07,99.0,2024-07-31,,2023-08-16,2024-10-16,6138.0,1089.0,5049.0,Cairns,Gold
+2023-08-15,2023-08-15,Recurring,Suspended,Mastercard,,y5h6am7kdorj,99.0,2024-08-14,99.0,2024-08-07,,2023-08-16,2024-10-23,6237.0,1089.0,5148.0,Cairns,Gold
 2023-08-22,2023-08-21,Recurring,Cancelled,Mastercard,,vyk2mddzaszx,0.0,,35.0,2023-08-23,2023-08-24,2023-08-23,2023-08-23,35.0,35.0,0.0,Cairns,Standard
 2023-08-25,2023-08-28,Recurring,Cancelled,Visa,,jvac7touvhcj,0.0,,99.0,2024-01-03,2024-01-08,2023-08-30,2024-01-03,1241.0,1241.0,0.0,Cairns,Gold
-2023-08-28,2023-08-28,Recurring,Active,Mastercard,,v7o9olvx63op,30.0,2024-08-07,30.0,2024-07-31,,2023-08-30,2024-10-16,1800.0,1470.0,330.0,Cairns,Other
-2023-08-29,2023-08-29,Recurring,Active,Visa,,iegpih5lrblv,30.0,2024-08-07,30.0,2024-07-31,,2023-08-30,2024-10-16,1800.0,1470.0,330.0,Cairns,Other
+2023-08-28,2023-08-28,Recurring,Active,Mastercard,,v7o9olvx63op,30.0,2024-08-14,30.0,2024-08-07,,2023-08-30,2024-10-23,1830.0,1500.0,330.0,Cairns,Other
+2023-08-29,2023-08-29,Recurring,Active,Visa,,iegpih5lrblv,30.0,2024-08-14,30.0,2024-08-07,,2023-08-30,2024-10-23,1830.0,1500.0,330.0,Cairns,Other
 2023-08-29,2023-08-28,Recurring,Cancelled,Mastercard,,r6azzgnodrey,0.0,,99.0,2023-09-06,2023-09-07,2023-08-30,2023-09-06,198.0,198.0,0.0,Cairns,Gold
 2023-08-29,2023-08-28,Recurring,Active,Visa,,24n5fyynkizx,30.0,2024-08-11,30.0,2024-08-04,,2023-08-30,2024-10-20,1710.0,1380.0,330.0,Cairns,Other
 2023-08-30,2023-08-28,Recurring,Cancelled,Mastercard,,zd40dstr0e2f,0.0,,35.0,2024-02-14,2024-02-15,2023-08-30,2024-02-14,875.0,875.0,0.0,Cairns,Standard
@@ -1529,7 +1532,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-09-20,2023-09-25,Recurring,Cancelled,Visa,,5nmyw6dun8u6,0.0,,35.0,2023-11-13,2023-11-14,2023-09-25,2023-11-13,280.0,280.0,0.0,Cairns,Standard
 2023-10-03,2023-10-03,Recurring,Cancelled,Mastercard,,bcup1aku7tce,0.0,,99.0,2023-12-20,2023-12-20,2023-10-04,2023-12-03,1188.0,792.0,396.0,Cairns,Gold
 2023-10-03,2023-10-02,Recurring,Cancelled,Mastercard,,qd5ig0z48oad,0.0,,35.0,2024-07-31,2024-08-01,2023-10-04,2024-07-31,1540.0,1540.0,0.0,Cairns,Standard
-2023-10-05,2023-10-03,Recurring,Active,Mastercard,,h1ni2d79juq5,35.0,2024-08-06,35.0,2024-07-23,,2023-10-03,2024-12-24,1155.0,770.0,385.0,Cairns,Standard
+2023-10-05,2023-10-03,Recurring,Active,Mastercard,,h1ni2d79juq5,35.0,2024-08-20,35.0,2024-08-06,,2023-10-03,2025-01-07,1190.0,805.0,385.0,Cairns,Standard
 2023-10-07,2023-10-09,Recurring,Cancelled,Mastercard,,8n7ge9huuemm,0.0,,35.0,2024-01-24,2024-01-25,2023-10-07,2024-01-24,560.0,560.0,0.0,Cairns,Standard
 2023-10-07,2023-10-09,Recurring,Cancelled,Mastercard,,ouilm5irjn2y,0.0,,35.0,2024-02-14,2024-02-15,2023-10-07,2024-02-14,665.0,665.0,0.0,Cairns,Standard
 2023-10-09,2023-10-09,Recurring,Cancelled,Mastercard,,fpcdeskcgwgp,0.0,,35.0,2023-10-11,2023-10-13,2023-10-11,2023-10-11,35.0,35.0,0.0,Cairns,Standard
@@ -1544,11 +1547,11 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-10-13,2023-10-16,Recurring,Cancelled,Visa,,5o9ebq8jrkf4,0.0,,35.0,2024-03-07,2024-03-08,2023-10-19,2024-03-07,1823.0,1823.0,0.0,Cairns,Standard
 2023-10-14,2023-10-16,Recurring,Active,Mastercard,,j3uzpm7dtxbm,35.0,2024-08-08,35.0,2024-08-01,,2023-10-19,2024-10-17,1855.0,1470.0,385.0,Cairns,Standard
 2023-10-18,2023-10-18,Recurring,Cancelled,Visa,,bt7ylweae36z,0.0,,99.0,2024-01-09,2024-01-10,2023-10-18,2024-01-09,1089.0,1089.0,0.0,Cairns,Gold
-2023-10-19,2023-10-23,Recurring,Active,Visa,,6w7cce3nlmxo,35.0,2024-08-07,35.0,2024-07-31,,2023-10-25,2024-10-16,1820.0,1435.0,385.0,Cairns,Standard
+2023-10-19,2023-10-23,Recurring,Active,Visa,,6w7cce3nlmxo,35.0,2024-08-14,35.0,2024-08-07,,2023-10-25,2024-10-23,1855.0,1470.0,385.0,Cairns,Standard
 2023-10-19,2023-10-18,Recurring,Cancelled,Mastercard,,qp47ksa9nlml,0.0,,35.0,2023-11-29,2023-11-30,2023-10-18,2023-11-29,565.0,565.0,0.0,Cairns,Standard
 2023-10-19,2023-10-23,Recurring,Paused,Visa,,fkmn05kmwayw,99.0,2024-07-03,99.0,2024-06-19,,2023-10-25,2024-11-20,2871.0,1782.0,1089.0,Cairns,Gold
 2023-10-20,2023-10-23,Recurring,Cancelled,Visa,,xs7e8n1m9a76,0.0,,30.0,2024-02-07,2024-02-08,2023-10-25,2024-02-07,480.0,480.0,0.0,Cairns,Other
-2023-10-27,2023-10-29,Recurring,Active,Mastercard,,3kfh8uq0gfqd,30.0,2024-08-07,30.0,2024-07-31,,2023-11-01,2024-10-16,1530.0,1200.0,330.0,Cairns,Other
+2023-10-27,2023-10-29,Recurring,Active,Mastercard,,3kfh8uq0gfqd,30.0,2024-08-14,30.0,2024-08-07,,2023-11-01,2024-10-23,1560.0,1230.0,330.0,Cairns,Other
 2023-10-27,2023-10-30,Recurring,Active,Visa,,2huuuzne3jr1,35.0,2024-08-08,35.0,2024-08-01,,2023-11-02,2024-10-17,1785.0,1400.0,385.0,Cairns,Standard
 2023-10-27,2023-10-30,Recurring,Cancelled,Mastercard,,emlzzpr9t3jg,0.0,,35.0,2024-01-31,2024-02-01,2023-11-01,2024-01-31,490.0,490.0,0.0,Cairns,Standard
 2023-10-30,2023-10-31,Recurring,Active,Visa,,z4qmux04cpqe,35.0,2024-08-08,35.0,2024-08-01,,2023-11-02,2024-10-17,1785.0,1400.0,385.0,Cairns,Standard
@@ -1565,17 +1568,17 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2023-11-23,2023-11-27,Recurring,Active,Visa,,snpbs4l2ekmt,35.0,2024-08-10,35.0,2024-08-03,,2023-11-29,2025-01-11,1645.0,840.0,805.0,Cairns,Standard
 2023-11-27,2023-11-28,Recurring,Cancelled,Mastercard,,sebnfni96v94,0.0,,35.0,2024-03-06,2024-03-12,2023-11-29,2024-03-06,525.0,525.0,0.0,Cairns,Standard
 2023-11-30,2023-11-29,Recurring,Cancelled,Visa,,rn63l9xo6e8l,0.0,,35.0,2024-05-15,2024-05-16,2023-11-29,2024-05-15,875.0,875.0,0.0,Cairns,Standard
-2023-12-01,2023-11-20,Recurring,Active,Visa,,hxi5rscbrzu9,35.0,2024-08-07,35.0,2024-07-31,,2023-11-22,2024-10-16,1680.0,1295.0,385.0,Cairns,Standard
-2023-12-04,2023-12-04,Recurring,Active,Mastercard,,q4fx3leddqs9,35.0,2024-08-07,35.0,2024-07-31,,2023-12-04,2024-10-16,1610.0,1225.0,385.0,Cairns,Standard
-2023-12-04,2023-12-04,Recurring,Active,Visa,,d2dw2s6wltnd,35.0,2024-08-07,35.0,2024-07-31,,2023-12-04,2024-10-16,1610.0,1225.0,385.0,Cairns,Standard
+2023-12-01,2023-11-20,Recurring,Active,Visa,,hxi5rscbrzu9,35.0,2024-08-14,35.0,2024-08-07,,2023-11-22,2024-10-23,1715.0,1330.0,385.0,Cairns,Standard
+2023-12-04,2023-12-04,Recurring,Active,Mastercard,,q4fx3leddqs9,35.0,2024-08-14,35.0,2024-08-07,,2023-12-04,2024-10-23,1645.0,1260.0,385.0,Cairns,Standard
+2023-12-04,2023-12-04,Recurring,Active,Visa,,d2dw2s6wltnd,35.0,2024-08-14,35.0,2024-08-07,,2023-12-04,2024-10-23,1645.0,1260.0,385.0,Cairns,Standard
 2023-12-05,2023-12-13,Recurring,Cancelled,Visa,,prd45n0jrizo,0.0,,35.0,2024-04-17,2024-04-18,2023-12-13,2024-04-17,665.0,665.0,0.0,Cairns,Standard
-2023-12-06,2023-12-06,Recurring,Active,Mastercard,,ykbdgfcmwm6u,150.0,2024-08-07,150.0,2024-07-31,,2023-12-06,2024-10-16,6900.0,5250.0,1650.0,Cairns,Other
+2023-12-06,2023-12-06,Recurring,Active,Mastercard,,ykbdgfcmwm6u,150.0,2024-08-14,150.0,2024-08-07,,2023-12-06,2024-10-23,7050.0,5400.0,1650.0,Cairns,Other
 2023-12-07,2023-12-08,Recurring,Cancelled,Mastercard,,930j9hsio4gx,0.0,,35.0,2024-02-28,2024-02-29,2023-12-13,2024-02-28,420.0,420.0,0.0,Cairns,Standard
 2023-12-15,2023-12-15,Recurring,Cancelled,Mastercard,,mtq99kzlxqu2,0.0,,35.0,2024-01-24,2024-01-25,2023-12-15,2024-01-24,210.0,210.0,0.0,Cairns,Standard
 2023-12-18,2023-12-27,Recurring,Cancelled,Mastercard,,yznmpmghfq8n,0.0,,99.0,2024-03-06,2024-03-06,2023-12-27,2024-03-06,769.0,670.0,99.0,Cairns,Gold
 2023-12-28,2023-12-22,Recurring,Cancelled,Visa,,bzwkj9fmauzi,0.0,,35.0,2024-03-20,2024-03-20,2023-12-27,2024-03-20,350.0,315.0,35.0,Cairns,Standard
-2023-12-28,2023-12-27,Recurring,Active,Visa,,3irf29qa7p1c,35.0,2024-08-07,35.0,2024-07-31,,2023-12-27,2024-11-20,1155.0,595.0,560.0,Cairns,Standard
-2024-01-01,2024-01-02,Recurring,Active,Mastercard,,hao0utqtjlqz,35.0,2024-08-07,35.0,2024-07-31,,2024-01-03,2024-10-16,1470.0,1085.0,385.0,Cairns,Standard
+2023-12-28,2023-12-27,Recurring,Active,Visa,,3irf29qa7p1c,35.0,2024-08-14,35.0,2024-08-07,,2023-12-27,2024-11-20,1155.0,630.0,525.0,Cairns,Standard
+2024-01-01,2024-01-02,Recurring,Active,Mastercard,,hao0utqtjlqz,35.0,2024-08-14,35.0,2024-08-07,,2024-01-03,2024-10-23,1505.0,1120.0,385.0,Cairns,Standard
 2024-01-03,2024-01-10,Recurring,Cancelled,Visa,,lv2jblwgkroa,0.0,,35.0,2024-07-24,2024-07-25,2024-01-10,2024-07-24,1015.0,1015.0,0.0,Cairns,Standard
 2024-01-04,2024-01-10,Recurring,Cancelled,Visa,,54pi6fpwgvmk,0.0,,35.0,2024-02-14,2024-02-15,2024-01-10,2024-02-14,210.0,210.0,0.0,Cairns,Standard
 2024-01-04,2024-01-05,Recurring,Active,Visa,,rvkufjkzqfvz,35.0,2024-08-09,35.0,2024-08-02,,2024-01-04,2024-10-18,1470.0,1085.0,385.0,Cairns,Standard
@@ -1584,70 +1587,70 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2024-01-10,2024-01-16,Recurring,Cancelled,Amex,,9shvqry3drfj,0.0,,35.0,2024-05-01,2024-05-02,2024-01-17,2024-05-01,560.0,560.0,0.0,Cairns,Standard
 2024-01-14,2024-01-15,Recurring,Cancelled,Visa,,eizy85gx4c2f,0.0,,30.0,2024-02-14,2024-02-14,2024-01-19,2024-02-14,150.0,150.0,0.0,Cairns,Other
 2024-01-15,2024-01-15,Recurring,Cancelled,Visa,,r4etw6fm781x,0.0,,35.0,2024-02-14,2024-02-26,2024-01-17,2024-02-14,105.0,105.0,0.0,Cairns,Standard
-2024-01-19,2024-01-18,Recurring,Active,Mastercard,,vwqrp7tshy7b,35.0,2024-08-07,35.0,2024-07-31,,2024-01-19,2024-10-16,1365.0,980.0,385.0,Cairns,Standard
+2024-01-19,2024-01-18,Recurring,Active,Mastercard,,vwqrp7tshy7b,35.0,2024-08-14,35.0,2024-08-07,,2024-01-19,2024-10-23,1400.0,1015.0,385.0,Cairns,Standard
 2024-01-19,2024-01-22,Recurring,Cancelled,Visa,,umitql758mox,0.0,,35.0,2024-05-29,2024-05-30,2024-01-24,2024-05-29,665.0,665.0,0.0,Cairns,Standard
 2024-01-22,2024-01-23,Recurring,Cancelled,Mastercard,,rpqwm9zq6r28,0.0,,35.0,2024-03-06,2024-03-07,2024-01-22,2024-03-06,245.0,245.0,0.0,Cairns,Standard
 2024-01-23,2024-01-01,Recurring,Cancelled,Mastercard,,jvpfp4rgetz1,0.0,,35.0,2024-05-15,2024-05-16,2024-01-03,2024-05-15,700.0,700.0,0.0,Cairns,Standard
 2024-01-24,2024-01-24,Recurring,Cancelled,Mastercard,,8fxxr7pdsesn,0.0,,70.0,2024-02-23,2024-03-07,2024-01-26,2024-02-23,210.0,210.0,0.0,Cairns,Standard Plus Nutrition
 2024-01-25,2024-01-25,Recurring,Active,Visa,,j3wt1eoy010w,70.0,2024-08-17,70.0,2024-07-17,,2024-02-16,2025-06-17,1190.0,420.0,770.0,Cairns,Standard Plus Nutrition
-2024-01-29,2024-02-05,Recurring,Active,Visa,,qyteotpou79i,35.0,2024-08-07,35.0,2024-07-31,,2024-02-07,2024-10-16,1295.0,910.0,385.0,Cairns,Standard
-2024-01-31,2024-01-31,Recurring,Suspended,Visa,,isl3ftajj360,35.0,2024-08-07,35.0,2024-07-31,,2024-01-31,2024-10-16,1330.0,70.0,1260.0,Cairns,Standard
-2024-02-01,2024-02-05,Recurring,Active,Mastercard,,ud0tn6ezzz4t,35.0,2024-08-07,35.0,2024-07-31,,2024-02-07,2024-10-16,1295.0,910.0,385.0,Cairns,Standard
-2024-02-02,2024-02-03,Recurring,Active,Mastercard,,1gath1eheux1,99.0,2024-08-07,99.0,2024-07-31,,2024-02-02,2024-10-16,3663.0,2574.0,1089.0,Cairns,Gold
+2024-01-29,2024-02-05,Recurring,Active,Visa,,qyteotpou79i,35.0,2024-08-14,35.0,2024-08-07,,2024-02-07,2024-10-23,1330.0,945.0,385.0,Cairns,Standard
+2024-01-31,2024-01-31,Recurring,Suspended,Visa,,isl3ftajj360,35.0,2024-08-14,35.0,2024-08-07,,2024-01-31,2024-10-23,1365.0,70.0,1295.0,Cairns,Standard
+2024-02-01,2024-02-05,Recurring,Active,Mastercard,,ud0tn6ezzz4t,35.0,2024-08-14,35.0,2024-08-07,,2024-02-07,2024-10-23,1330.0,945.0,385.0,Cairns,Standard
+2024-02-02,2024-02-03,Recurring,Active,Mastercard,,1gath1eheux1,99.0,2024-08-14,99.0,2024-08-07,,2024-02-02,2024-10-23,3762.0,2673.0,1089.0,Cairns,Gold
 2024-02-04,2024-02-05,Recurring,Cancelled,Mastercard,,e3tfb1z0vqzu,0.0,,35.0,2024-05-11,2024-05-12,2024-02-07,2024-05-09,455.0,385.0,70.0,Cairns,Standard
-2024-02-04,2024-02-05,Recurring,Active,Mastercard,,8lvoxu8h2fjq,35.0,2024-08-07,35.0,2024-07-31,,2024-02-05,2024-10-16,1295.0,910.0,385.0,Cairns,Standard
-2024-02-07,2024-02-08,Recurring,Active,Mastercard,,yxly6181dgba,35.0,2024-08-07,35.0,2024-07-31,,2024-02-14,2024-10-16,1260.0,875.0,385.0,Cairns,Standard
-2024-02-12,2024-02-12,Recurring,Paused,Visa,,znov65ku69iv,35.0,2024-04-10,35.0,2024-04-03,,2024-02-12,2024-06-19,665.0,280.0,385.0,Cairns,Standard
-2024-02-12,2024-02-12,Recurring,Active,Visa,,0soa73j9pkot,35.0,2024-08-07,35.0,2024-07-31,,2024-02-14,2024-10-16,1260.0,875.0,385.0,Cairns,Standard
+2024-02-04,2024-02-05,Recurring,Active,Mastercard,,8lvoxu8h2fjq,35.0,2024-08-14,35.0,2024-08-07,,2024-02-05,2024-10-23,1330.0,945.0,385.0,Cairns,Standard
+2024-02-07,2024-02-08,Recurring,Active,Mastercard,,yxly6181dgba,35.0,2024-08-14,35.0,2024-08-07,,2024-02-14,2024-10-23,1295.0,910.0,385.0,Cairns,Standard
+2024-02-12,2024-02-12,Recurring,Active,Visa,,znov65ku69iv,35.0,2024-08-14,35.0,2024-08-07,,2024-02-12,2025-02-19,1295.0,315.0,980.0,Cairns,Standard
+2024-02-12,2024-02-12,Recurring,Active,Visa,,0soa73j9pkot,35.0,2024-08-14,35.0,2024-08-07,,2024-02-14,2024-10-23,1295.0,910.0,385.0,Cairns,Standard
 2024-02-14,2024-02-19,Recurring,Cancelled,Visa,,9vfssfltx7zr,0.0,,30.0,2024-05-24,2024-05-25,2024-02-23,2024-05-24,420.0,420.0,0.0,Cairns,Other
-2024-02-14,2024-02-19,Recurring,Active,Mastercard,,eksflcott4jn,99.0,2024-08-07,99.0,2024-07-31,,2024-02-21,2024-10-16,3465.0,2376.0,1089.0,Cairns,Gold
-2024-02-15,2024-02-19,Recurring,Active,Mastercard,,obzl9faejh5t,35.0,2024-08-07,35.0,2024-07-31,,2024-02-21,2024-10-16,1225.0,840.0,385.0,Cairns,Standard
+2024-02-14,2024-02-19,Recurring,Active,Mastercard,,eksflcott4jn,99.0,2024-08-14,99.0,2024-08-07,,2024-02-21,2024-10-23,3564.0,2475.0,1089.0,Cairns,Gold
+2024-02-15,2024-02-19,Recurring,Active,Mastercard,,obzl9faejh5t,35.0,2024-08-14,35.0,2024-08-07,,2024-02-21,2024-10-23,1260.0,875.0,385.0,Cairns,Standard
 2024-02-15,2024-02-14,Recurring,Cancelled,Visa,,6quizvj1kox6,0.0,,35.0,2024-04-03,2024-04-04,2024-02-14,2024-04-03,280.0,280.0,0.0,Cairns,Standard
-2024-02-15,2024-02-21,Recurring,Active,Mastercard,,zqltgftge60f,30.0,2024-08-07,30.0,2024-07-31,,2024-02-21,2024-10-16,1050.0,720.0,330.0,Cairns,Other
-2024-02-15,2024-02-21,Recurring,Active,Mastercard,,9k62kismswe8,67.0,2024-08-07,67.0,2024-07-31,,2024-02-21,2024-10-16,2345.0,1608.0,737.0,Cairns,Other
+2024-02-15,2024-02-21,Recurring,Active,Mastercard,,zqltgftge60f,30.0,2024-08-14,30.0,2024-08-07,,2024-02-21,2024-10-23,1080.0,750.0,330.0,Cairns,Other
+2024-02-15,2024-02-21,Recurring,Active,Mastercard,,9k62kismswe8,67.0,2024-08-14,67.0,2024-08-07,,2024-02-21,2024-10-23,2412.0,1675.0,737.0,Cairns,Other
 2024-02-19,2024-02-19,Recurring,Cancelled,Visa,,pibgrj2g7c0o,0.0,,35.0,2024-07-31,2024-08-01,2024-02-21,2024-07-31,840.0,840.0,0.0,Cairns,Standard
 2024-02-19,2024-02-20,Recurring,Cancelled,Visa,,n76pykbkkfzg,0.0,,35.0,2024-03-20,2024-03-21,2024-02-20,2024-03-20,175.0,175.0,0.0,Cairns,Standard
-2024-02-20,2024-02-21,Recurring,Active,Mastercard,,qb129loi1svi,55.0,2024-08-07,55.0,2024-07-31,,2024-02-21,2024-10-16,1925.0,1320.0,605.0,Cairns,Other
+2024-02-20,2024-02-21,Recurring,Active,Mastercard,,qb129loi1svi,55.0,2024-08-14,55.0,2024-08-07,,2024-02-21,2024-10-23,1980.0,1375.0,605.0,Cairns,Other
 2024-02-20,2024-02-21,Recurring,Cancelled,Visa,,ae60zlboad5u,0.0,,0.0,2024-08-02,2024-08-02,2024-02-22,2024-08-02,840.0,665.0,175.0,Cairns,Other
 2024-02-21,2024-02-21,Recurring,Cancelled,Visa,,vu3isae8xpmn,0.0,,35.0,2024-03-13,2024-03-17,2024-02-21,2024-03-13,140.0,140.0,0.0,Cairns,Standard
-2024-02-26,2024-02-26,Recurring,Active,Visa,,h9d540m39vh0,35.0,2024-08-07,35.0,2024-07-31,,2024-02-28,2024-10-16,1190.0,805.0,385.0,Cairns,Standard
+2024-02-26,2024-02-26,Recurring,Active,Visa,,h9d540m39vh0,35.0,2024-08-14,35.0,2024-08-07,,2024-02-28,2024-10-23,1225.0,840.0,385.0,Cairns,Standard
 2024-02-26,2024-02-26,Recurring,Cancelled,Visa,,c166lnrxr8gs,0.0,,35.0,2024-07-24,2024-07-28,2024-02-28,2024-07-24,770.0,770.0,0.0,Cairns,Standard
-2024-03-01,2024-03-02,Recurring,Active,Visa,,qzq84vztlmrb,35.0,2024-08-07,35.0,2024-07-31,,2024-03-06,2024-10-16,1155.0,770.0,385.0,Cairns,Standard
+2024-03-01,2024-03-02,Recurring,Active,Visa,,qzq84vztlmrb,35.0,2024-08-14,35.0,2024-08-07,,2024-03-06,2024-10-23,1190.0,805.0,385.0,Cairns,Standard
 2024-03-04,2024-03-04,Recurring,Cancelled,Visa,,23u4qnwpud9r,0.0,,35.0,2024-07-03,2024-07-04,2024-03-06,2024-07-03,630.0,630.0,0.0,Cairns,Standard
 2024-03-04,2024-03-04,Recurring,Paused,Visa,,nypluh3q81gw,35.0,2024-08-04,35.0,2024-07-28,,2024-03-06,2024-10-13,1820.0,1155.0,665.0,Cairns,Standard
-2024-03-05,2024-03-05,Recurring,Active,Visa,,f308xu8ne0la,35.0,2024-08-07,35.0,2024-07-31,,2024-03-06,2024-10-16,1155.0,770.0,385.0,Cairns,Standard
+2024-03-05,2024-03-05,Recurring,Active,Visa,,f308xu8ne0la,35.0,2024-08-14,35.0,2024-08-07,,2024-03-06,2024-10-23,1190.0,805.0,385.0,Cairns,Standard
 2024-03-06,2024-03-05,Recurring,Cancelled,Visa,,a84fht4wdbxu,0.0,,35.0,2024-04-24,2024-04-30,2024-03-06,2024-04-24,280.0,280.0,0.0,Cairns,Standard
-2024-03-06,2024-03-12,Recurring,Active,Mastercard,,b1h0689dfkzj,35.0,2024-08-07,35.0,2024-07-31,,2024-03-06,2024-10-16,1120.0,735.0,385.0,Cairns,Standard
-2024-03-07,2024-03-11,Recurring,Active,Mastercard,,tialhj1wiwih,25.0,2024-08-07,25.0,2024-07-31,,2024-03-07,2024-10-16,800.0,525.0,275.0,Cairns,Other
+2024-03-06,2024-03-12,Recurring,Active,Mastercard,,b1h0689dfkzj,35.0,2024-08-14,35.0,2024-08-07,,2024-03-06,2024-10-23,1155.0,770.0,385.0,Cairns,Standard
+2024-03-07,2024-03-11,Recurring,In care,Mastercard,,tialhj1wiwih,25.0,2024-08-14,25.0,2024-08-07,,2024-03-07,2024-10-23,825.0,525.0,300.0,Cairns,Other
 2024-03-09,2024-03-11,Recurring,Cancelled,Mastercard,,en0eyxlmc1is,0.0,,35.0,2024-03-13,2024-03-15,2024-03-09,2024-03-09,35.0,35.0,0.0,Cairns,Standard
 2024-03-11,2024-03-11,Recurring,Cancelled,Mastercard,,3lj7r3w31eyt,0.0,,35.0,2024-07-03,2024-07-04,2024-03-13,2024-07-03,595.0,595.0,0.0,Cairns,Standard
 2024-03-11,2024-03-11,Recurring,Cancelled,Mastercard,,x653cxiho77o,0.0,,99.0,2024-07-31,2024-08-01,2024-03-13,2024-07-31,1386.0,1386.0,0.0,Cairns,Gold
-2024-03-12,2024-03-12,Recurring,Active,Visa,,nkrq9y0wdq7y,35.0,2024-08-07,35.0,2024-07-31,,2024-03-13,2024-10-16,1120.0,735.0,385.0,Cairns,Standard
+2024-03-12,2024-03-12,Recurring,In care,Visa,,nkrq9y0wdq7y,35.0,2024-08-14,35.0,2024-08-07,,2024-03-13,2024-10-23,1155.0,735.0,420.0,Cairns,Standard
 2024-03-14,2024-02-29,Recurring,Cancelled,Visa,,1wjmz4kmn7jm,0.0,,35.0,2024-05-01,2024-05-02,2024-03-06,2024-05-01,315.0,315.0,0.0,Cairns,Standard
 2024-03-15,2024-03-18,Recurring,Active,Visa,,nq3q4eaueid9,35.0,2024-08-09,35.0,2024-08-02,,2024-03-22,2024-10-18,1085.0,700.0,385.0,Cairns,Standard
 2024-03-15,2024-03-18,Recurring,Suspended,Visa,,zbaq00lo5fb6,35.0,2024-08-12,35.0,2024-08-05,,2024-03-18,2024-10-21,1120.0,595.0,525.0,Cairns,Standard
-2024-03-15,2024-03-18,Recurring,Active,Visa,,skpq2by13g9d,35.0,2024-08-07,35.0,2024-07-31,,2024-03-20,2024-10-16,1085.0,700.0,385.0,Cairns,Standard
-2024-03-15,2024-03-14,Recurring,Active,Mastercard,,ulvtcv9wwax3,25.0,2024-08-07,25.0,2024-07-31,,2024-03-20,2024-10-16,775.0,500.0,275.0,Cairns,Other
+2024-03-15,2024-03-18,Recurring,Active,Visa,,skpq2by13g9d,35.0,2024-08-14,35.0,2024-08-07,,2024-03-20,2024-10-23,1120.0,735.0,385.0,Cairns,Standard
+2024-03-15,2024-03-14,Recurring,Active,Mastercard,,ulvtcv9wwax3,25.0,2024-08-14,25.0,2024-08-07,,2024-03-20,2024-10-23,800.0,525.0,275.0,Cairns,Other
 2024-03-16,2024-03-16,Recurring,Cancelled,Mastercard,,nufsprt0co4y,0.0,,35.0,2024-05-01,2024-05-02,2024-03-20,2024-05-01,245.0,245.0,0.0,Cairns,Standard
 2024-03-17,2024-03-18,Recurring,Cancelled,Mastercard,,efsj273lv6a1,0.0,,99.0,2024-04-06,2024-04-06,2024-03-17,2024-04-06,297.0,297.0,0.0,Cairns,Gold
 2024-03-18,2024-03-25,Recurring,Active,Mastercard,,9i2bza1oajlw,35.0,2024-08-14,35.0,2024-07-31,,2024-03-27,2025-01-01,735.0,350.0,385.0,Cairns,Standard
 2024-03-18,2024-03-18,Recurring,Cancelled,Mastercard,,h9975r1io5va,0.0,,35.0,2024-04-19,2024-04-25,2024-03-22,2024-04-19,175.0,175.0,0.0,Cairns,Standard
 2024-03-19,2024-03-25,Recurring,Cancelled,Visa,,66j8fz3isswi,0.0,,99.0,2024-07-03,2024-07-04,2024-03-27,2024-07-03,1421.0,1421.0,0.0,Cairns,Gold
 2024-03-20,2024-03-20,Recurring,Cancelled,Visa,,njndli33t92e,0.0,,35.0,2024-06-12,2024-06-18,2024-03-20,2024-06-10,455.0,385.0,70.0,Cairns,Standard
-2024-03-22,2024-03-25,Recurring,Active,Visa,,yG8vhYWr1CFdT0,70.0,2024-08-07,70.0,2024-07-31,,2024-03-27,2024-10-16,2100.0,1330.0,770.0,Cairns,Standard Plus Nutrition
+2024-03-22,2024-03-25,Recurring,Active,Visa,,yG8vhYWr1CFdT0,70.0,2024-08-14,70.0,2024-08-07,,2024-03-27,2024-10-23,2170.0,1400.0,770.0,Cairns,Standard Plus Nutrition
 2024-03-23,2024-03-25,Recurring,Cancelled,Visa,,Yz7CXr41VOCENB,0.0,,99.0,2024-05-01,2024-05-07,2024-03-27,2024-05-01,594.0,594.0,0.0,Cairns,Gold
 2024-03-25,2024-04-01,Recurring,Cancelled,Mastercard,,TtONh9g6a0Wi5R,0.0,,0.0,,2024-03-25,2024-04-04,2024-09-05,0.0,0.0,0.0,Cairns,Other
 2024-03-25,2024-04-01,Recurring,Cancelled,Mastercard,,COlOkI6qOoTyAO,0.0,,70.0,2024-05-30,2024-05-31,2024-04-04,2024-05-30,350.0,350.0,0.0,Cairns,Standard Plus Nutrition
 2024-03-25,2024-03-25,Recurring,Cancelled,Mastercard,,bqzkyR9qCgoZ4t,0.0,,35.0,2024-04-10,2024-04-11,2024-03-27,2024-04-07,105.0,35.0,70.0,Cairns,Standard
 2024-03-27,2024-04-07,Recurring,Active,Mastercard,,wgE4K7ckJZcVUv,99.0,2024-08-25,99.0,2024-08-11,,2024-04-09,2025-01-12,2079.0,990.0,1089.0,Cairns,Gold
 2024-03-28,2024-03-28,Recurring,Cancelled,Mastercard,,DCtgAMIos2cXKO,0.0,,35.0,2024-07-31,2024-08-01,2024-03-28,2024-07-31,630.0,630.0,0.0,Cairns,Standard
-2024-04-04,2024-04-08,Recurring,Active,Visa,,cFxnm4bfhcPnu5,35.0,2024-08-07,35.0,2024-07-31,,2024-04-10,2024-10-16,980.0,595.0,385.0,Cairns,Standard
-2024-04-05,2024-04-08,Recurring,Active,Visa,,M5Tqu0lo8gKsAq,28.0,2024-08-07,28.0,2024-07-31,,2024-04-10,2024-10-16,784.0,476.0,308.0,Cairns,Other
+2024-04-04,2024-04-08,Recurring,Active,Visa,,cFxnm4bfhcPnu5,35.0,2024-08-14,35.0,2024-08-07,,2024-04-10,2024-10-23,1015.0,630.0,385.0,Cairns,Standard
+2024-04-05,2024-04-08,Recurring,Active,Visa,,M5Tqu0lo8gKsAq,28.0,2024-08-14,28.0,2024-08-07,,2024-04-10,2024-10-23,812.0,504.0,308.0,Cairns,Other
 2024-04-08,2024-04-08,Recurring,Cancelled,Mastercard,,cF4yHH8k9Dup8q,0.0,,0.0,2024-04-30,2024-04-29,2024-04-10,2024-04-29,105.0,105.0,0.0,Cairns,Other
-2024-04-11,2024-04-11,Recurring,Active,Mastercard,,oSHDVNOgpmmL4m,70.0,2024-08-07,70.0,2024-07-31,,2024-04-11,2024-10-16,1890.0,1120.0,770.0,Cairns,Standard Plus Nutrition
+2024-04-11,2024-04-11,Recurring,Active,Mastercard,,oSHDVNOgpmmL4m,70.0,2024-08-14,70.0,2024-08-07,,2024-04-11,2024-10-23,1960.0,1190.0,770.0,Cairns,Standard Plus Nutrition
 2024-04-11,2024-04-24,Recurring,Active,Mastercard,,ewzrZsloSX14sy,60.0,2024-08-14,60.0,2024-07-31,,2024-04-24,2025-01-01,1140.0,480.0,660.0,Cairns,Other
-2024-04-12,2024-04-08,Recurring,Active,Mastercard,,90uZ4ZapygX6sO,35.0,2024-08-07,35.0,2024-07-31,,2024-04-10,2024-10-16,980.0,595.0,385.0,Cairns,Standard
-2024-04-14,2024-04-14,Recurring,Active,Mastercard,,q7qgJ5eO9m0eM4,35.0,2024-08-07,35.0,2024-07-31,,2024-04-14,2024-10-16,945.0,560.0,385.0,Cairns,Standard
+2024-04-12,2024-04-08,Recurring,Active,Mastercard,,90uZ4ZapygX6sO,35.0,2024-08-14,35.0,2024-08-07,,2024-04-10,2024-10-23,1015.0,630.0,385.0,Cairns,Standard
+2024-04-14,2024-04-14,Recurring,Active,Mastercard,,q7qgJ5eO9m0eM4,35.0,2024-08-14,35.0,2024-08-07,,2024-04-14,2024-10-23,980.0,595.0,385.0,Cairns,Standard
 2024-04-15,2024-04-22,Recurring,Cancelled,Visa,,PP0R2z24uW9yUm,0.0,,70.0,2024-07-26,2024-07-28,2024-04-26,2024-07-26,980.0,980.0,0.0,Cairns,Standard Plus Nutrition
 2024-04-18,2024-04-19,Recurring,Paused,Amex,,C52L2NNAMIuIln,35.0,2024-08-06,35.0,2024-07-30,,2024-04-24,2024-10-15,735.0,350.0,385.0,Cairns,Standard
 2024-04-21,2024-04-22,Recurring,Cancelled,Visa,,7rfft7KwypbfUu,0.0,,35.0,2024-06-07,2024-06-08,2024-04-24,2024-06-07,175.0,175.0,0.0,Cairns,Standard
@@ -1659,50 +1662,51 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2024-05-02,2024-05-02,Recurring,Cancelled,Mastercard,,DaQbi6mP6g01GJ,0.0,,35.0,2024-06-07,2024-06-08,2024-05-10,2024-06-07,175.0,175.0,0.0,Cairns,Standard
 2024-05-03,2024-05-03,Recurring,Cancelled,Visa,,0XyXgDiLFTzWy2,0.0,,35.0,2024-07-25,2024-07-25,2024-05-03,2024-07-23,385.0,385.0,0.0,Cairns,Standard
 2024-05-03,2024-05-06,Recurring,Cancelled,Visa,,N6xt0xWQHY5hJD,0.0,,60.0,2024-05-31,2024-05-31,2024-05-10,2024-05-31,240.0,180.0,60.0,Cairns,Other
-2024-05-04,2024-05-06,Recurring,Active,Visa,,Pljng1mZkIHePB,179.0,2024-08-07,179.0,2024-07-31,,2024-05-09,2024-10-16,4296.0,2327.0,1969.0,Cairns,Platinum
+2024-05-04,2024-05-06,Recurring,Active,Visa,,Pljng1mZkIHePB,179.0,2024-08-14,179.0,2024-08-07,,2024-05-09,2024-10-23,4475.0,2506.0,1969.0,Cairns,Platinum
 2024-05-07,2024-05-08,Recurring,Cancelled,Visa,,bzRTI9V5WlkCDG,0.0,,35.0,2024-07-03,2024-07-07,2024-05-08,2024-07-03,315.0,315.0,0.0,Cairns,Standard
 2024-05-08,2024-05-08,Recurring,Active,Mastercard,,BYVNj9yHH8p8od,35.0,2024-08-08,35.0,2024-08-01,,2024-05-09,2024-10-17,840.0,455.0,385.0,Cairns,Standard
-2024-05-08,2024-04-30,Recurring,In care,Mastercard,,owqcMI46jNoXcB,35.0,2024-08-07,0.0,2024-08-05,,2024-05-01,2024-10-23,770.0,175.0,595.0,Cairns,Other
-2024-05-13,2024-05-13,Recurring,Active,Mastercard,,4Vwo4PR94uQbtf,35.0,2024-08-07,35.0,2024-07-31,,2024-05-15,2024-10-16,805.0,420.0,385.0,Cairns,Standard
+2024-05-08,2024-04-30,Recurring,In care,Mastercard,,owqcMI46jNoXcB,35.0,2024-08-07,0.0,2024-08-07,,2024-05-01,2024-10-23,770.0,175.0,595.0,Cairns,Other
+2024-05-13,2024-05-13,Recurring,Active,Mastercard,,4Vwo4PR94uQbtf,35.0,2024-08-14,35.0,2024-08-07,,2024-05-15,2024-10-23,840.0,455.0,385.0,Cairns,Standard
 2024-05-16,2024-05-20,Recurring,Active,Visa,,obeX7b3jDMouVy,134.0,2024-08-08,134.0,2024-08-01,,2024-05-23,2024-10-17,2948.0,1474.0,1474.0,Cairns,Gold Plus Nutrition
 2024-05-23,2024-05-20,Recurring,Cancelled,Visa,,tscQg6MhmYBccD,0.0,,35.0,2024-06-28,2024-06-29,2024-05-23,2024-06-28,210.0,210.0,0.0,Cairns,Standard
-2024-05-23,2024-05-29,Recurring,Active,Mastercard,,KQ23FoeGLpWtY5,35.0,2024-08-07,35.0,2024-07-31,,2024-05-29,2024-10-16,735.0,350.0,385.0,Cairns,Standard
-2024-05-26,2024-05-29,Recurring,Active,Mastercard,,cVVTXa2eQq1RIf,214.0,2024-08-07,214.0,2024-07-31,,2024-05-29,2024-10-16,4494.0,2140.0,2354.0,Cairns,Platinum Plus Nutrition
-2024-06-02,2024-06-03,Recurring,Active,Mastercard,,mhBoQTeK6uOBAS,35.0,2024-08-07,35.0,2024-07-31,,2024-06-05,2024-10-16,700.0,315.0,385.0,Cairns,Standard
-2024-06-03,2024-06-03,Recurring,Active,Visa,,1kCRUCEBFicME5,89.0,2024-08-07,89.0,2024-07-31,,2024-06-05,2024-10-16,1780.0,801.0,979.0,Cairns,Other
+2024-05-23,2024-05-29,Recurring,Active,Mastercard,,KQ23FoeGLpWtY5,35.0,2024-08-14,35.0,2024-08-07,,2024-05-29,2024-10-23,770.0,385.0,385.0,Cairns,Standard
+2024-05-26,2024-05-29,Recurring,Active,Mastercard,,cVVTXa2eQq1RIf,214.0,2024-08-14,214.0,2024-08-07,,2024-05-29,2024-10-23,4708.0,2354.0,2354.0,Cairns,Platinum Plus Nutrition
+2024-06-02,2024-06-03,Recurring,Active,Mastercard,,mhBoQTeK6uOBAS,35.0,2024-08-14,35.0,2024-08-07,,2024-06-05,2024-10-23,735.0,350.0,385.0,Cairns,Standard
+2024-06-03,2024-06-03,Recurring,Active,Visa,,1kCRUCEBFicME5,89.0,2024-08-14,89.0,2024-08-07,,2024-06-05,2024-10-23,1869.0,890.0,979.0,Cairns,Other
 2024-06-06,2024-06-10,Recurring,Paused,Visa,,EK2e7tMEvXDmHT,99.0,2024-07-31,99.0,2024-07-24,,2024-06-12,2024-10-09,1782.0,693.0,1089.0,Cairns,Gold
 2024-06-07,2024-06-10,Recurring,Cancelled,Visa,,5384dRe8gqp259,0.0,,99.0,2024-06-19,2024-06-24,2024-06-12,2024-06-19,198.0,198.0,0.0,Cairns,Gold
-2024-06-11,2024-06-17,Recurring,Active,Mastercard,,OsoOUiIXHBBDI1,179.0,2024-08-07,179.0,2024-07-31,,2024-06-19,2024-10-16,3222.0,1253.0,1969.0,Cairns,Platinum
+2024-06-11,2024-06-17,Recurring,Active,Mastercard,,OsoOUiIXHBBDI1,179.0,2024-08-14,179.0,2024-08-07,,2024-06-19,2024-10-23,3401.0,1432.0,1969.0,Cairns,Platinum
 2024-06-18,2024-06-18,Recurring,Cancelled,Visa,,x2EDVmBoHcXosG,0.0,,35.0,2024-07-10,2024-07-11,2024-06-19,2024-07-10,140.0,140.0,0.0,Cairns,Standard
-2024-06-19,2024-06-19,Recurring,Active,Mastercard,,XcB0AFOPaAgqR2,35.0,2024-08-07,35.0,2024-07-31,,2024-06-19,2024-10-16,630.0,245.0,385.0,Cairns,Standard
-2024-06-20,2024-06-24,Recurring,Active,Mastercard,,z2CPmqqLq7HJj9,35.0,2024-08-07,35.0,2024-07-31,,2024-06-21,2024-10-16,595.0,210.0,385.0,Cairns,Standard
-2024-06-22,2024-06-22,Recurring,Active,Mastercard,,QrpcTm7s9DQU7d,35.0,2024-08-07,35.0,2024-07-31,,2024-06-22,2024-10-16,595.0,210.0,385.0,Cairns,Standard
-2024-06-24,2024-06-24,Recurring,Active,Visa,,M6O5n94InasGy2,35.0,2024-08-07,35.0,2024-07-31,,2024-06-26,2024-10-16,595.0,210.0,385.0,Cairns,Standard
-2024-06-27,2024-07-01,Recurring,Active,Visa,,UCigkhePBNTQ44,35.0,2024-08-07,35.0,2024-07-31,,2024-07-03,2024-10-16,560.0,175.0,385.0,Cairns,Standard
-2024-07-01,2024-07-01,Recurring,Active,Mastercard,,m6Q6oQdKCLjhiF,99.0,2024-08-07,99.0,2024-07-31,,2024-07-03,2024-10-16,1584.0,495.0,1089.0,Cairns,Gold
-2024-07-03,2024-07-17,Recurring,Active,Visa,,ysV16SluK845fE,67.0,2024-08-07,67.0,2024-07-31,,2024-07-17,2024-10-16,938.0,201.0,737.0,Cairns,Other
-2024-07-03,2024-07-08,Recurring,Active,Mastercard,,WHiUueP42ASqGA,35.0,2024-08-07,35.0,2024-07-24,,2024-07-03,2024-12-25,455.0,70.0,385.0,Cairns,Standard
+2024-06-19,2024-06-19,Recurring,Active,Mastercard,,XcB0AFOPaAgqR2,35.0,2024-08-14,35.0,2024-08-07,,2024-06-19,2024-10-23,665.0,280.0,385.0,Cairns,Standard
+2024-06-20,2024-06-24,Recurring,In care,Mastercard,,z2CPmqqLq7HJj9,35.0,2024-08-14,35.0,2024-08-07,,2024-06-21,2024-10-23,630.0,210.0,420.0,Cairns,Standard
+2024-06-22,2024-06-22,Recurring,Active,Mastercard,,QrpcTm7s9DQU7d,35.0,2024-08-14,35.0,2024-08-07,,2024-06-22,2024-10-23,630.0,245.0,385.0,Cairns,Standard
+2024-06-24,2024-06-24,Recurring,Active,Visa,,M6O5n94InasGy2,35.0,2024-08-14,35.0,2024-08-07,,2024-06-26,2024-10-23,630.0,245.0,385.0,Cairns,Standard
+2024-06-27,2024-07-01,Recurring,Active,Visa,,UCigkhePBNTQ44,35.0,2024-08-14,35.0,2024-08-07,,2024-07-03,2024-10-23,595.0,210.0,385.0,Cairns,Standard
+2024-07-01,2024-07-01,Recurring,Active,Mastercard,,m6Q6oQdKCLjhiF,99.0,2024-08-14,99.0,2024-08-07,,2024-07-03,2024-10-23,1683.0,594.0,1089.0,Cairns,Gold
+2024-07-03,2024-07-17,Recurring,Active,Visa,,ysV16SluK845fE,67.0,2024-08-14,67.0,2024-08-07,,2024-07-17,2024-10-23,1005.0,268.0,737.0,Cairns,Other
+2024-07-03,2024-07-08,Recurring,Active,Mastercard,,WHiUueP42ASqGA,35.0,2024-08-21,35.0,2024-08-07,,2024-07-03,2025-01-08,490.0,105.0,385.0,Cairns,Standard
 2024-07-04,2024-07-05,Recurring,Active,Visa,,jHwki5PpQSpUOe,35.0,2024-08-09,35.0,2024-08-02,,2024-07-05,2024-10-18,560.0,175.0,385.0,Cairns,Standard
 2024-07-04,2024-07-15,Recurring,Active,Visa,,QAtOjaTioffmZb,70.0,2024-08-14,70.0,2024-07-31,,2024-07-17,2025-01-01,910.0,140.0,770.0,Cairns,Standard Plus Nutrition
-2024-07-04,2024-07-15,Recurring,Active,Mastercard,,iPclId7meVFzgZ,35.0,2024-08-07,35.0,2024-07-31,,2024-07-17,2024-10-16,490.0,105.0,385.0,Cairns,Standard
+2024-07-04,2024-07-15,Recurring,Active,Mastercard,,iPclId7meVFzgZ,35.0,2024-08-14,35.0,2024-08-07,,2024-07-17,2024-10-23,525.0,140.0,385.0,Cairns,Standard
 2024-07-04,2024-07-08,Recurring,Paused,Visa,,tp1SlKdfwI0XbK,35.0,2024-08-01,35.0,2024-07-24,,2024-07-10,2024-10-09,490.0,105.0,385.0,Cairns,Standard
-2024-07-06,2024-07-08,Recurring,Active,Visa,,Zry7UvSVDIxQup,35.0,2024-08-07,35.0,2024-07-31,,2024-07-10,2024-10-16,525.0,140.0,385.0,Cairns,Standard
-2024-07-08,2024-07-10,Recurring,Active,Visa,,3GRi0qzXhCoxXf,99.0,2024-08-07,99.0,2024-07-31,,2024-07-10,2024-10-16,1485.0,396.0,1089.0,Cairns,Gold
-2024-07-11,2024-07-15,Recurring,Active,Visa,,naeiO7SkkvNdgg,35.0,2024-08-07,35.0,2024-08-03,,2024-07-17,2024-10-16,490.0,105.0,385.0,Cairns,Standard
-2024-07-11,2024-07-12,Recurring,Active,Mastercard,,z38iT93pj9ZYqq,35.0,2024-08-07,35.0,2024-07-31,,2024-07-11,2024-10-16,490.0,105.0,385.0,Cairns,Standard
-2024-07-12,2024-07-15,Recurring,In care,Visa,,tUly2zy6xJKpYn,35.0,2024-08-11,35.0,2024-08-04,,2024-07-31,2024-10-27,490.0,35.0,455.0,Cairns,Standard
-2024-07-15,2024-07-15,Recurring,Active,Mastercard,,qcSDpKvej2H1bc,35.0,2024-08-07,35.0,2024-08-01,,2024-07-15,2024-10-16,490.0,105.0,385.0,Cairns,Standard
-2024-07-16,2024-07-16,Recurring,Active,Mastercard,,gVGL8xK1tNGHTQ,35.0,2024-08-07,35.0,2024-07-31,,2024-07-16,2024-10-16,490.0,105.0,385.0,Cairns,Standard
-2024-07-18,2024-07-16,Recurring,Active,Mastercard,,ZnDDly27WdpyWF,99.0,2024-08-07,99.0,2024-07-31,,2024-07-17,2024-10-16,1386.0,297.0,1089.0,Cairns,Gold
-2024-07-18,2024-07-15,Recurring,Active,Visa,,TKiqdXjTR6A7dY,35.0,2024-08-07,35.0,2024-07-31,,2024-07-17,2024-10-16,490.0,105.0,385.0,Cairns,Standard
-2024-07-25,2024-07-29,Recurring,Active,Mastercard,,M2oCvbKxH07SvJ,35.0,2024-08-07,35.0,2024-07-31,,2024-07-31,2024-10-16,420.0,35.0,385.0,Cairns,Standard
-2024-07-28,2024-07-31,Recurring,Active,Visa,,epkhS46jbpaPz3,99.0,2024-08-07,99.0,2024-07-31,,2024-07-31,2024-10-16,1188.0,99.0,1089.0,Cairns,Gold
-2024-07-28,2024-07-29,Recurring,Active,Visa,,7mAXKlrWIS45YA,134.0,2024-08-07,134.0,2024-07-31,,2024-07-31,2024-10-16,1608.0,134.0,1474.0,Cairns,Gold Plus Nutrition
-2024-07-28,2024-07-29,Recurring,Active,Visa,,zEpzTewtZCguxt,99.0,2024-08-07,99.0,2024-07-31,,2024-07-31,2024-10-16,1188.0,99.0,1089.0,Cairns,Gold
-2024-07-30,2024-07-30,Recurring,Active,Visa,,NfhDoBiGNxx54D,35.0,2024-08-07,35.0,2024-08-02,,2024-08-02,2024-10-16,420.0,35.0,385.0,Cairns,Standard
-2024-07-31,2024-08-05,Recurring,In transit,Mastercard,,EpF5LVkpcp1O8j,67.0,2024-08-07,0.0,,,2024-08-07,2024-10-23,804.0,0.0,804.0,Cairns,Other
+2024-07-06,2024-07-08,Recurring,Active,Visa,,Zry7UvSVDIxQup,35.0,2024-08-14,35.0,2024-08-07,,2024-07-10,2024-10-23,560.0,175.0,385.0,Cairns,Standard
+2024-07-08,2024-07-10,Recurring,Active,Visa,,3GRi0qzXhCoxXf,99.0,2024-08-14,99.0,2024-08-07,,2024-07-10,2024-10-23,1584.0,495.0,1089.0,Cairns,Gold
+2024-07-11,2024-07-15,Recurring,Active,Visa,,naeiO7SkkvNdgg,35.0,2024-08-14,35.0,2024-08-07,,2024-07-17,2024-10-23,525.0,140.0,385.0,Cairns,Standard
+2024-07-11,2024-07-12,Recurring,Active,Mastercard,,z38iT93pj9ZYqq,35.0,2024-08-14,35.0,2024-08-07,,2024-07-11,2024-10-23,525.0,140.0,385.0,Cairns,Standard
+2024-07-12,2024-07-15,Recurring,Active,Visa,,tUly2zy6xJKpYn,35.0,2024-08-11,35.0,2024-08-07,,2024-07-31,2024-10-27,490.0,70.0,420.0,Cairns,Standard
+2024-07-15,2024-07-15,Recurring,Active,Mastercard,,qcSDpKvej2H1bc,35.0,2024-08-14,35.0,2024-08-07,,2024-07-15,2024-10-23,525.0,140.0,385.0,Cairns,Standard
+2024-07-16,2024-07-16,Recurring,Active,Mastercard,,gVGL8xK1tNGHTQ,35.0,2024-08-14,35.0,2024-08-07,,2024-07-16,2024-10-23,525.0,140.0,385.0,Cairns,Standard
+2024-07-18,2024-07-16,Recurring,Active,Mastercard,,ZnDDly27WdpyWF,99.0,2024-08-14,99.0,2024-08-07,,2024-07-17,2024-10-23,1485.0,396.0,1089.0,Cairns,Gold
+2024-07-18,2024-07-15,Recurring,In care,Visa,,TKiqdXjTR6A7dY,35.0,2024-08-14,35.0,2024-08-07,,2024-07-17,2024-10-23,525.0,105.0,420.0,Cairns,Standard
+2024-07-25,2024-07-29,Recurring,Active,Mastercard,,M2oCvbKxH07SvJ,35.0,2024-08-14,35.0,2024-08-07,,2024-07-31,2024-10-23,455.0,70.0,385.0,Cairns,Standard
+2024-07-28,2024-07-31,Recurring,Active,Visa,,epkhS46jbpaPz3,99.0,2024-08-14,99.0,2024-08-07,,2024-07-31,2024-10-23,1287.0,198.0,1089.0,Cairns,Gold
+2024-07-28,2024-07-29,Recurring,Active,Visa,,7mAXKlrWIS45YA,134.0,2024-08-14,134.0,2024-08-07,,2024-07-31,2024-10-23,1742.0,268.0,1474.0,Cairns,Gold Plus Nutrition
+2024-07-28,2024-07-29,Recurring,Active,Visa,,zEpzTewtZCguxt,99.0,2024-08-14,99.0,2024-08-07,,2024-07-31,2024-10-23,1287.0,198.0,1089.0,Cairns,Gold
+2024-07-30,2024-07-30,Recurring,Active,Visa,,NfhDoBiGNxx54D,35.0,2024-08-14,35.0,2024-08-07,,2024-08-02,2024-10-23,455.0,70.0,385.0,Cairns,Standard
+2024-07-31,2024-08-05,Recurring,In care,Mastercard,,EpF5LVkpcp1O8j,67.0,2024-08-14,67.0,2024-08-07,,2024-08-07,2024-10-23,804.0,0.0,804.0,Cairns,Other
 2024-08-03,2024-08-03,Recurring,Active,Mastercard,,51vcW7Opqqhjz8,35.0,2024-08-14,35.0,2024-08-05,,2024-08-04,2024-10-23,420.0,35.0,385.0,Cairns,Standard
 2024-08-03,2024-08-03,Recurring,In transit,Visa,,ejG3EvKKHUwYsi,35.0,2024-08-09,0.0,,,2024-08-07,2025-01-08,420.0,0.0,420.0,Cairns,Other
+2024-08-06,2024-08-15,Recurring,In transit,Visa,,ivi3qEbNpczoMV,35.0,2024-08-21,0.0,,,2024-08-21,2025-01-22,420.0,0.0,420.0,Cairns,Other
 2024-06-15,2024-06-17,Recurring,Cancelled,Mastercard,,eVRBJQ7BTdVr3x,0.0,,28.0,2024-06-17,2024-06-21,2024-06-17,2024-06-17,28.0,28.0,0.0,Sunshine Coast,Other
 2024-06-15,2024-06-17,Recurring,Active,Visa,,ucOMGvmae0FD4v,28.0,2024-08-12,28.0,2024-08-05,,2024-06-17,2024-11-25,756.0,224.0,532.0,Sunshine Coast,Other
 2024-06-15,2024-06-17,Recurring,Active,Visa,,NMQWOrDLbhc2Zg,28.0,2024-08-12,28.0,2024-08-05,,2024-06-17,2024-11-25,756.0,224.0,532.0,Sunshine Coast,Other
@@ -1712,7 +1716,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2024-06-15,2024-06-17,Recurring,Active,Mastercard,,0KeXc6CDdqzgGp,28.0,2024-08-12,28.0,2024-08-05,,2024-06-15,2024-11-25,756.0,224.0,532.0,Sunshine Coast,Other
 2024-06-15,2024-06-17,Recurring,Cancelled,Visa,,EVsV5DlI3J8eBT,0.0,,28.0,2024-06-17,2024-06-20,2024-06-17,2024-06-17,28.0,28.0,0.0,Sunshine Coast,Other
 2024-06-15,2024-06-17,Recurring,Active,Mastercard,,Vojttwkh51oLbc,70.0,2024-08-12,70.0,2024-08-05,,2024-06-17,2024-10-21,1330.0,560.0,770.0,Sunshine Coast,Standard Plus Nutrition
-2024-06-15,2024-06-17,Recurring,Active,Mastercard,,nlc3kUXfzNJUBi,28.0,2024-08-07,28.0,2024-07-29,,2024-06-17,2025-01-15,952.0,196.0,756.0,Sunshine Coast,Other
+2024-06-15,2024-06-17,Recurring,Active,Mastercard,,nlc3kUXfzNJUBi,28.0,2024-08-14,28.0,2024-08-07,,2024-06-17,2025-01-15,952.0,224.0,728.0,Sunshine Coast,Other
 2024-06-15,2024-06-17,Recurring,Active,Visa,,ipP7BUmDGACIU3,28.0,2024-08-12,28.0,2024-08-05,,2024-06-17,2024-11-25,756.0,224.0,532.0,Sunshine Coast,Other
 2024-06-15,2024-06-17,Recurring,Active,Visa,,Ql0A8pzXcs5Lx6,80.0,2024-08-12,80.0,2024-08-05,,2024-06-17,2024-11-25,2148.0,640.0,1508.0,Sunshine Coast,Other
 2024-06-15,2024-06-17,Recurring,Active,Visa,,WS2y0V3JZteJ3j,28.0,2024-08-12,28.0,2024-08-05,,2024-06-17,2024-11-25,756.0,224.0,532.0,Sunshine Coast,Other
@@ -1720,7 +1724,7 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2024-06-15,2024-06-17,Recurring,Active,Mastercard,,0QktEsQyoiKimq,28.0,2024-08-12,28.0,2024-08-05,,2024-06-17,2024-11-25,756.0,224.0,532.0,Sunshine Coast,Other
 2024-06-15,2024-06-17,Recurring,Active,Mastercard,,Km2tVdmTIaNzaq,28.0,2024-08-12,28.0,2024-08-05,,2024-06-17,2024-12-02,756.0,196.0,560.0,Sunshine Coast,Other
 2024-06-15,2024-06-17,Recurring,Cancelled,Mastercard,,TZQRUnrTeZxu1D,0.0,,35.0,2024-07-01,2024-07-05,2024-06-17,2024-07-01,105.0,105.0,0.0,Sunshine Coast,Standard
-2024-06-15,2024-06-17,Recurring,In care,Visa,,lhQvGQSLaI1l4r,28.0,2024-08-12,28.0,2024-08-05,,2024-06-17,2024-11-25,756.0,196.0,560.0,Sunshine Coast,Other
+2024-06-15,2024-06-17,Recurring,Active,Visa,,lhQvGQSLaI1l4r,28.0,2024-08-12,28.0,2024-08-05,,2024-06-17,2024-11-25,756.0,224.0,532.0,Sunshine Coast,Other
 2024-06-15,2024-06-17,Recurring,Active,Visa,,LkcwV0Yte7cb5L,80.0,2024-08-12,80.0,2024-08-05,,2024-06-15,2024-11-25,2148.0,640.0,1508.0,Sunshine Coast,Other
 2024-06-15,2024-06-17,Recurring,Active,Visa,,X6ogodQEAk8nHe,28.0,2024-08-12,28.0,2024-08-05,,2024-06-19,2024-11-25,756.0,224.0,532.0,Sunshine Coast,Other
 2024-06-15,2024-06-17,Recurring,Active,Visa,,JqYO03EktnZ836,28.0,2024-08-12,28.0,2024-08-05,,2024-06-17,2024-11-25,756.0,224.0,532.0,Sunshine Coast,Other
@@ -1754,14 +1758,14 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2024-06-17,2024-06-17,Recurring,Active,Mastercard,,DY4KYOuEmuoLiB,28.0,2024-08-12,28.0,2024-08-05,,2024-06-17,2024-11-25,756.0,224.0,532.0,Sunshine Coast,Standard
 2024-06-17,2024-06-17,Recurring,Active,Mastercard,,TdHDnaKxNsHf2k,28.0,2024-08-12,28.0,2024-08-05,,2024-06-17,2024-11-25,756.0,224.0,532.0,Sunshine Coast,Standard
 2024-06-17,2024-06-17,Recurring,Active,Visa,,cyDcf7GBrIriUO,28.0,2024-08-12,28.0,2024-08-05,,2024-06-17,2024-11-25,756.0,224.0,532.0,Sunshine Coast,Standard
-2024-06-18,2024-06-18,Recurring,Active,Mastercard,,Ip4kZE8nVfM6De,80.0,2024-08-06,80.0,2024-07-30,,2024-06-18,2024-11-26,2148.0,560.0,1588.0,Sunshine Coast,Gold
-2024-06-18,2024-06-18,Recurring,Active,Visa,,egAETSZzTRNDMK,28.0,2024-08-06,28.0,2024-07-30,,2024-06-18,2024-11-26,756.0,196.0,560.0,Sunshine Coast,Standard
-2024-06-18,2024-06-18,Recurring,Active,Visa,,4rUUIY6thC3kOo,28.0,2024-08-06,28.0,2024-07-30,,2024-06-18,2024-11-26,756.0,196.0,560.0,Sunshine Coast,Standard
+2024-06-18,2024-06-18,Recurring,Active,Mastercard,,Ip4kZE8nVfM6De,80.0,2024-08-13,80.0,2024-08-06,,2024-06-18,2024-11-26,2148.0,640.0,1508.0,Sunshine Coast,Gold
+2024-06-18,2024-06-18,Recurring,Active,Visa,,egAETSZzTRNDMK,28.0,2024-08-13,28.0,2024-08-06,,2024-06-18,2024-11-26,756.0,224.0,532.0,Sunshine Coast,Standard
+2024-06-18,2024-06-18,Recurring,Active,Visa,,4rUUIY6thC3kOo,28.0,2024-08-13,28.0,2024-08-06,,2024-06-18,2024-11-26,756.0,224.0,532.0,Sunshine Coast,Standard
 2024-06-18,2024-06-18,Recurring,Paused,Mastercard,,7BIRD9Z5YnmkCs,80.0,2024-08-06,80.0,2024-07-30,,2024-06-18,2024-11-26,2148.0,560.0,1588.0,Sunshine Coast,Gold
-2024-06-18,2024-06-18,Recurring,Active,Mastercard,,7NT0yOhtI62r0V,28.0,2024-08-06,28.0,2024-07-30,,2024-06-18,2024-11-26,756.0,196.0,560.0,Sunshine Coast,Standard
+2024-06-18,2024-06-18,Recurring,Active,Mastercard,,7NT0yOhtI62r0V,28.0,2024-08-13,28.0,2024-08-06,,2024-06-18,2024-11-26,756.0,224.0,532.0,Sunshine Coast,Standard
 2024-06-19,2024-06-19,Recurring,Active,Visa,,Mn8GlEJRfdW0BU,28.0,2024-08-09,28.0,2024-08-02,,2024-06-19,2024-11-29,756.0,196.0,560.0,Sunshine Coast,Standard
 2024-06-19,2024-06-19,Recurring,Active,Visa,,VJ3RsCJo0LZ1vW,28.0,2024-08-09,28.0,2024-08-02,,2024-06-19,2024-11-29,756.0,196.0,560.0,Sunshine Coast,Standard
-2024-06-19,2024-06-19,Recurring,Active,Visa,,SyaWoc4GgD9EJQ,71.0,2024-08-07,71.0,2024-07-31,,2024-06-19,2024-10-16,1278.0,497.0,781.0,Sunshine Coast,Other
+2024-06-19,2024-06-19,Recurring,Active,Visa,,SyaWoc4GgD9EJQ,71.0,2024-08-14,71.0,2024-08-07,,2024-06-19,2024-10-23,1349.0,568.0,781.0,Sunshine Coast,Other
 2024-06-21,2024-06-21,Fixed,Cancelled,Mastercard,,ajNXrfWA2TbHvD,0.0,,20.0,2024-06-21,2024-06-28,2024-06-21,2024-06-21,0.0,0.0,0.0,Sunshine Coast,Casual Drop In
 2024-06-21,2024-06-24,Recurring,Cancelled,Visa,,aw7uq8ixuVDLEp,0.0,,70.0,2024-07-08,2024-07-11,2024-06-26,2024-07-09,210.0,210.0,0.0,Sunshine Coast,Standard Plus Nutrition
 2024-06-21,2024-06-24,Recurring,Active,Visa,,V90eA2Emb47Ytz,80.0,2024-08-12,80.0,2024-08-05,,2024-06-24,2024-12-02,2148.0,560.0,1588.0,Sunshine Coast,Other
@@ -1774,14 +1778,14 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2024-06-25,2024-06-25,Fixed,Complete,Visa,,tBPtcQcuysq3BE,0.0,,20.0,2024-06-25,,2024-06-25,2024-06-25,20.0,20.0,0.0,Sunshine Coast,Casual Drop In
 2024-06-26,2024-06-26,Recurring,Cancelled,Visa,,oY8Yp4LDy2UJ76,0.0,,35.0,2024-07-17,2024-07-22,2024-06-26,2024-07-17,140.0,140.0,0.0,Sunshine Coast,Standard
 2024-06-27,2024-06-27,Recurring,Active,Mastercard,,58XUwdRGrb3Uwc,35.0,2024-08-08,35.0,2024-08-01,,2024-06-27,2024-10-17,595.0,210.0,385.0,Sunshine Coast,Standard
-2024-06-28,2024-06-17,Recurring,Active,Visa,,ad6XEMXyvaSraN,28.0,2024-08-19,28.0,2024-08-12,,2024-06-17,2024-11-25,756.0,252.0,504.0,Sunshine Coast,Other
+2024-06-28,2024-06-17,Recurring,Active,Visa,,ad6XEMXyvaSraN,35.0,2024-09-09,28.0,2024-08-26,,2024-06-17,2024-11-25,784.0,308.0,476.0,Sunshine Coast,Other
 2024-06-29,2024-06-29,Fixed,Complete,Visa,,Cjs3ZnqWEKASVf,0.0,,20.0,2024-06-29,,2024-06-29,2024-06-29,20.0,20.0,0.0,Sunshine Coast,Casual Drop In
 2024-06-29,2024-06-29,Recurring,Active,Visa,,ljI5T06v4CA4cr,35.0,2024-08-10,35.0,2024-08-03,,2024-06-29,2024-10-19,595.0,210.0,385.0,Sunshine Coast,Standard
-2024-07-02,2024-07-02,Recurring,Active,Visa,,vdUJWtkn6iAm8f,35.0,2024-08-06,35.0,2024-07-30,,2024-07-02,2024-10-15,560.0,175.0,385.0,Sunshine Coast,Standard
+2024-07-02,2024-07-02,Recurring,Active,Visa,,vdUJWtkn6iAm8f,35.0,2024-08-13,35.0,2024-08-06,,2024-07-02,2024-10-22,595.0,210.0,385.0,Sunshine Coast,Standard
 2024-07-03,2024-06-17,Recurring,Active,Visa,,7GzJmudlGqJDHf,70.0,2024-08-19,70.0,2024-08-05,,2024-06-17,2025-01-06,1260.0,490.0,770.0,Sunshine Coast,Standard Plus Nutrition
-2024-07-09,2024-07-09,Recurring,Active,Mastercard,,sCX2SOjA74tJ6w,99.0,2024-08-06,99.0,2024-07-30,,2024-07-09,2024-10-15,1485.0,396.0,1089.0,Sunshine Coast,Gold
-2024-07-10,2024-07-15,Recurring,In care,Mastercard,,OwV4SCPi8lQ4RG,70.0,2024-08-12,70.0,2024-08-05,,2024-07-15,2024-10-21,1050.0,210.0,840.0,Sunshine Coast,Standard Plus Nutrition
-2024-07-10,2024-07-15,Recurring,In care,Visa,,cLcez6oTgyLIHh,35.0,2024-08-12,35.0,2024-08-05,,2024-07-15,2024-10-21,525.0,105.0,420.0,Sunshine Coast,Standard
+2024-07-09,2024-07-09,Recurring,Active,Mastercard,,sCX2SOjA74tJ6w,99.0,2024-08-13,99.0,2024-08-06,,2024-07-09,2024-10-22,1584.0,495.0,1089.0,Sunshine Coast,Gold
+2024-07-10,2024-07-15,Recurring,Active,Mastercard,,OwV4SCPi8lQ4RG,70.0,2024-08-19,70.0,2024-08-12,,2024-07-15,2024-10-21,1050.0,350.0,700.0,Sunshine Coast,Standard Plus Nutrition
+2024-07-10,2024-07-15,Recurring,Active,Visa,,cLcez6oTgyLIHh,35.0,2024-08-12,35.0,2024-08-05,,2024-07-15,2024-10-21,525.0,140.0,385.0,Sunshine Coast,Standard
 2024-07-10,2024-07-10,Fixed,Complete,Visa,,x6lRcpQlZzFwio,0.0,,150.0,2024-07-10,,2024-07-10,2024-07-10,150.0,150.0,0.0,Sunshine Coast,Technique Session
 2024-07-11,2024-07-25,Recurring,Active,Visa,,ESgj5rM84a1znY,140.0,2024-08-08,140.0,2024-07-25,,2024-07-25,2024-12-26,1680.0,140.0,1540.0,Sunshine Coast,Other
 2024-07-12,2024-07-12,Recurring,Active,Visa,,JBXtfrSNRlQEo7,35.0,2024-08-09,35.0,2024-08-02,,2024-07-12,2024-10-18,525.0,140.0,385.0,Sunshine Coast,Standard
@@ -1790,10 +1794,11 @@ AGREED_DATE,START_DATE,TYPE,STATUS,METHOD,CUSTOMER,PAYMENT_REQUEST,NEXT_PAYMENT,
 2024-07-22,2024-07-24,Recurring,Active,Visa,,3cZHbTTWcMgr3Z,83.0,2024-08-09,83.0,2024-08-02,,2024-07-26,2024-10-18,1079.0,166.0,913.0,Sunshine Coast,Other
 2024-07-24,2024-07-22,Recurring,Active,Visa,,rs4X8gb3BRy9Kf,28.0,2024-08-12,28.0,2024-08-05,,2024-07-22,2024-11-18,588.0,84.0,504.0,Sunshine Coast,Other
 2024-07-24,2024-08-19,Recurring,In transit,Visa,,ZjJwV0pSxQrOAM,35.0,2024-08-19,0.0,,,2024-08-19,2024-11-04,420.0,0.0,420.0,Sunshine Coast,Other
-2024-07-24,2024-07-23,Recurring,Active,Visa,,z0qkWQ3wRyY0nt,35.0,2024-08-07,35.0,2024-07-23,,2024-07-23,2024-10-08,420.0,35.0,385.0,Sunshine Coast,Standard
+2024-07-24,2024-07-23,Recurring,Active,Visa,,z0qkWQ3wRyY0nt,35.0,2024-08-14,35.0,2024-08-07,,2024-07-23,2024-10-30,490.0,70.0,420.0,Sunshine Coast,Standard
 2024-07-25,2024-07-22,Recurring,Active,Visa,,cDPz10asfYHCp0,35.0,2024-08-12,35.0,2024-08-05,,2024-07-22,2024-10-21,490.0,105.0,385.0,Sunshine Coast,Standard
 2024-07-31,2024-07-31,Recurring,Active,Mastercard,,XwBbCvjz3zmyF6,35.0,2024-08-08,35.0,2024-07-31,,2024-07-31,2024-10-16,420.0,35.0,385.0,Sunshine Coast,Standard
 2024-08-01,2024-08-08,Recurring,In transit,Mastercard,,V7yLHyNFlULi7v,70.0,2024-08-08,0.0,,,2024-08-08,2024-10-24,840.0,0.0,840.0,Sunshine Coast,Other
 2024-08-01,2024-08-01,Recurring,Active,Visa,,ClJJqYXLVAXe5f,99.0,2024-08-08,99.0,2024-08-01,,2024-08-01,2024-10-17,1188.0,99.0,1089.0,Sunshine Coast,Gold
 2024-08-02,2024-08-05,Recurring,Active,Visa,,TsDVWfSea7g2PN,35.0,2024-08-12,35.0,2024-08-05,,2024-08-05,2024-10-21,420.0,35.0,385.0,Sunshine Coast,Standard
-2024-08-05,2024-07-29,Recurring,Active,Mastercard,,ut6k8XAnFSiriR,35.0,2024-08-07,35.0,2024-07-29,,2024-07-29,2024-10-14,420.0,35.0,385.0,Sunshine Coast,Standard
+2024-08-05,2024-07-29,Recurring,Active,Mastercard,,ut6k8XAnFSiriR,35.0,2024-08-12,35.0,2024-08-07,,2024-07-29,2024-10-21,455.0,70.0,385.0,Sunshine Coast,Standard
+2024-08-07,2024-08-05,Recurring,In transit,Visa,,NhShzGjbHLecsK,70.0,2024-08-08,0.0,,,2024-08-08,2025-01-09,840.0,0.0,840.0,Sunshine Coast,Other
