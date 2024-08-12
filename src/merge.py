@@ -209,8 +209,13 @@ merged_df['STATUS'] = merged_df['STATUS'].str.strip().str.capitalize()
 
 merged_df.drop(columns=['CUSTOMER_NAME', 'INTERVAL', 'MERCHANT', 'REFERENCE'], inplace=True)
 
+# Groupby operation to count unique members by 'Name'
+# unique_members_df = merged_df.groupby('CUSTOMER').first().reset_index()
+
 # save the concatenated and imputed DataFrame to a new CSV file
+# unique_members_df.to_csv("merged_data.csv", index=False)
 merged_df.to_csv("merged_data.csv", index=False)
+
 
 # display the concatenated DataFrame
 print(merged_df.head())
