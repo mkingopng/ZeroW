@@ -18,7 +18,7 @@ merged_df['STATUS'] = merged_df['STATUS'].str.strip().str.capitalize()
 # Filter out the records where STATUS is 'Cancelled' or 'Canceled'
 merged_df = merged_df[~merged_df['STATUS'].isin(['Cancelled', 'Canceled'])]
 
-# Convert date columns to datetime
+# Convert date columns to datetime (no need to specify dayfirst=False since it's the default)
 merged_df['AGREED_DATE'] = pd.to_datetime(merged_df['AGREED_DATE'], errors='coerce')
 merged_df['CANCEL_DATE'] = pd.to_datetime(merged_df['CANCEL_DATE'], errors='coerce')
 
