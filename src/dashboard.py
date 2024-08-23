@@ -182,3 +182,4 @@ if __name__ == '__main__':
 # todo: whats wrong with the cairns data?
 # todo: dict of locations and colours
 # todo: update data
+# https://meet.google.com/bsz-xkfp-fpz
