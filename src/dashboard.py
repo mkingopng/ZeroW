@@ -6,15 +6,16 @@ from dash.dependencies import Input, Output
 from dash import dash_table
 import plotly.express as px
 
+# Load the pre-processed merged DataFrame
 merged_df = pd.read_excel("merged_data.xlsx", sheet_name="merged_data")
 
-# normalize STATUS values
+# Normalize STATUS values
 merged_df['STATUS'] = merged_df['STATUS'].str.strip().str.capitalize()
 
-# filter out the records where STATUS is 'Cancelled' or 'Canceled'
+# Filter out the records where STATUS is 'Cancelled' or 'Canceled'
 merged_df = merged_df[~merged_df['STATUS'].isin(['Cancelled', 'Canceled'])]
 
-# convert date columns to datetime
+# Convert date columns to datetime
 merged_df['AGREED_DATE'] = pd.to_datetime(merged_df['AGREED_DATE'], errors='coerce')
 merged_df['CANCEL_DATE'] = pd.to_datetime(merged_df['CANCEL_DATE'], errors='coerce')
 
@@ -32,12 +33,12 @@ def filter_data(location, days):
         filtered_df = merged_df
     else:
         filtered_df = merged_df[merged_df['Location'] == location]
-    old_members_df = filtered_df[filtered_df['AGREED_DATE'] < one_week_ago]  # transactions from more than one week ago
-    active_members_df = filtered_df[filtered_df['STATUS'] != 'Paused']  # exclude paused memberships from the total members count
+    old_members_df = filtered_df[filtered_df['AGREED_DATE'] < one_week_ago]  # Transactions from more than one week ago
+    active_members_df = filtered_df[filtered_df['STATUS'] != 'Paused']  # Exclude paused memberships from the total members count
     total_members = active_members_df['CUSTOMER_NAME'].nunique()
-    new_members = filtered_df[filtered_df['AGREED_DATE'] >= one_week_ago]['CUSTOMER_NAME'].nunique()  # calculate unique new members
-    cancelled_members = filtered_df[filtered_df['CANCEL_DATE'] >= one_week_ago]['CUSTOMER_NAME'].nunique()  # calculate cancelled unique members
-    net_movement = new_members - cancelled_members  # calculate net movement
+    new_members = filtered_df[filtered_df['AGREED_DATE'] >= one_week_ago]['CUSTOMER_NAME'].nunique()  # Calculate unique new members
+    cancelled_members = filtered_df[filtered_df['CANCEL_DATE'] >= one_week_ago]['CUSTOMER_NAME'].nunique()  # Calculate cancelled unique members
+    net_movement = new_members - cancelled_members  # Calculate net movement
     return filtered_df, new_members, cancelled_members, net_movement, total_members
 
 
@@ -58,7 +59,7 @@ app.layout = html.Div([
             {'label': '21 Days', 'value': 21},
             {'label': '28 Days', 'value': 28}
         ],
-        value=7  # default value
+        value=7  # Default value
     ),
     html.Div([
         html.Div([
@@ -68,10 +69,10 @@ app.layout = html.Div([
 
         html.Div([
             html.H2("Net Movement in the Last Week"),
-            html.P(id='new-members'),
-            html.P(id='cancelled-members'),
-            html.P(id='net-movement'),
-            html.P(id='total-members')
+            html.P(id='new-members', style={'cursor': 'pointer'}),
+            html.P(id='cancelled-members', style={'cursor': 'pointer'}),
+            html.P(id='net-movement', style={'cursor': 'pointer'}),
+            html.P(id='total-members', style={'cursor': 'pointer'})
         ], style={'grid-area': 'top-right'}),
 
         html.Div([
@@ -120,7 +121,7 @@ def update_dashboard(selected_location, selected_days):
     """
     filtered_df, new_unique_members, cancelled_unique_members, net_movement, total_members = filter_data(selected_location, selected_days)
 
-    # number of members figure
+    # Number of members figure
     status_count = filtered_df['STATUS'].value_counts()
     number_of_members_figure = {
         'data': [{'x': status_count.index,
@@ -133,7 +134,7 @@ def update_dashboard(selected_location, selected_days):
     net_movement_text = f"Net members movement: {net_movement}"
     total_members_text = f"Total members: {total_members}"
 
-    # mix of membership types by location
+    # Mix of membership types by location
     membership_type_mix = filtered_df.groupby('Location')['MEMBERSHIP_TYPE'].value_counts().unstack().fillna(0)
     membership_type_mix_figure = px.bar(
         membership_type_mix,
@@ -142,7 +143,7 @@ def update_dashboard(selected_location, selected_days):
         barmode='stack'
     )
 
-    # distribution of membership types by location
+    # Distribution of membership types by location
     membership_type_distribution = filtered_df['MEMBERSHIP_TYPE'].value_counts(normalize=True).reset_index()
     membership_type_distribution.columns = ['MEMBERSHIP_TYPE', 'Percentage']
     membership_type_distribution['Count'] = filtered_df['MEMBERSHIP_TYPE'].value_counts().values
@@ -172,40 +173,54 @@ def update_dashboard(selected_location, selected_days):
 @app.callback(
     Output('details-table', 'columns'),
     Output('details-table', 'data'),
-    [Input('membership-type-mix', 'clickData'),
-     Input('membership-type-distribution', 'clickData'),
-     Input('location-dropdown', 'value'),
+    [Input('new-members', 'n_clicks'),
+     Input('cancelled-members', 'n_clicks'),
+     Input('net-movement', 'n_clicks'),
+     Input('total-members', 'n_clicks')],
+    [Input('location-dropdown', 'value'),
      Input('date-range-dropdown', 'value')]
 )
-def display_detailed_info(mix_click, distribution_click, selected_location, selected_days):
+def display_detailed_info(new_clicks, cancelled_clicks, net_movement_clicks, total_clicks, selected_location, selected_days):
     """
-    Display detailed information based on user interaction with the charts.
-    :param mix_click: Click data from the membership type mix chart
-    :param distribution_click: Click data from the membership type distribution chart
+    Display detailed information based on clicks on the summary statistics.
+    :param new_clicks: Clicks on new members count
+    :param cancelled_clicks: Clicks on cancelled members count
+    :param net_movement_clicks: Clicks on net movement count
+    :param total_clicks: Clicks on total members count
     :param selected_location: Selected location
     :param selected_days: Selected date range
     :return: columns, data for the DataTable
     """
-    filtered_df, _, _, _, _ = filter_data(selected_location, selected_days)
+    filtered_df, new_unique_members, cancelled_unique_members, net_movement, total_members = filter_data(selected_location, selected_days)
 
-    if mix_click:
-        # extract membership type from the bar chart click
-        membership_type = mix_click['points'][0]['y']
-        filtered_df = filtered_df[filtered_df['MEMBERSHIP_TYPE'] == membership_type]
-
-    elif distribution_click:
-        # extract membership type from the pie chart click
-        membership_type = distribution_click['points'][0]['label']
-        filtered_df = filtered_df[filtered_df['MEMBERSHIP_TYPE'] == membership_type]
-
+    ctx = dash.callback_context
     columns = [{"name": i, "id": i} for i in filtered_df.columns]
-    data = filtered_df.to_dict('records')
+    data = []
+
+    if not ctx.triggered:
+        return columns, data
+
+    triggered_id = ctx.triggered[0]['prop_id'].split('.')[0]
+
+    if triggered_id == 'new-members':
+        data = filtered_df[filtered_df['AGREED_DATE'] >= datetime.now() - timedelta(days=selected_days)].to_dict('records')
+
+    elif triggered_id == 'cancelled-members':
+        data = filtered_df[filtered_df['CANCEL_DATE'] >= datetime.now() - timedelta(days=selected_days)].to_dict('records')
+
+    elif triggered_id == 'net-movement':
+        # Optionally, you could add logic here to show net movement data
+        pass
+
+    elif triggered_id == 'total-members':
+        data = filtered_df[filtered_df['STATUS'] != 'Paused'].to_dict('records')
 
     return columns, data
 
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+
 
 
 # todo: dict of locations and colours, dict of contractors
